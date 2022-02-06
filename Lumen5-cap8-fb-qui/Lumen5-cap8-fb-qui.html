@@ -1,0 +1,2738 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body-book">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    8
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Isomeria espacial
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/ID002-F001-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">Cartelas de remédios industrializados.
+                        </p>
+                        <p class="img-credit">Fahroni/iStockphoto.com
+
+                        </p>
+                        <p class="quote">[...]</p>
+                        <p class="quote">Entre os fármacos à venda nas farmácias do nosso país, existem alguns que apresentam uma particularidade em sua estrutura, que é de fundamental importância para a atividade biológica.</p>
+                        <p class="quote">Alguns desses fármacos são quirais ou têm quiralidade, ou seja, têm em sua estrutura um ou mais átomos (na maioria das vezes carbono) que têm a sua orientação tridimensional muito bem definida. A modificação dessa orientação pode
+                            levar à diminuição do efeito biológico, à sua total supressão ou ao aparecimento de um efeito biológico adverso.</p>
+                        <p class="quote">Convém deixar claro que a quiralidade não é condição para que uma substância apresente efeito farmacológico, entretanto se a estrutura tiver um centro quiral é importante saber qual a orientação espacial responsável pela atividade.
+                            [...]
+                        </p>
+                        <p class="quote">Por exemplo, a talidomida é um sedativo leve e pode ser utilizado no tratamento de náuseas, muito comum no período inicial da gravidez. Quando foi lançado era considerado seguro para o uso de grávidas, sendo administrado como uma
+                            mistura racêmica, ou seja, uma mistura composta pelos seus dois enantiômeros, em partes iguais.</p>
+                        <p class="quote">Entretanto, uma coisa que não se sabia na época é que o enantiômero S [...] levava à má-formação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas do bebê. O uso indiscriminado desse fármaco levou
+                            ao nascimento de milhares de pessoas com gravíssimos defeitos físicos [...].</p>
+                        <p class="quote-source">
+                            COELHO, Fernando A. S. “Fármacos e quiralidade”.
+                            <i>Cadernos Temáticos de Química Nova na escola</i> . [s.
+                            <i>L</i> .], n. 3, maio 2001. Disponível em: &lt;http://qnesc.sbq.org.br/online/cadernos/03/quiral.pdf&gt;. Acesso em: 2 set. 2021.
+                        </p>
+
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Qual é a importância de lermos as bulas de remédios?
+                                </li>
+                                <li class="general-text">
+                                    A assimetria de uma molécula será um critério determinante neste capítulo. Antes de pensarmos nas moléculas, você conseguiria mencionar dois objetos classificados como assimétricos?
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT201
+                                </span> ,
+                                <span class='boxe-06-texto'>
+                                  EM13CNT304
+                                </span>e<span class='boxe-06-texto'>
+                                  EM13CNT307
+                                </span>.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">O conceito de isomeria espacial</h3>
+                        </div>
+
+                        <p class="general-text">Compostos nos quais os átomos estão ligados em uma mesma ordem, porém com arranjos tridimensionais no espaço diferentes, são denominados isômeros espaciais ou estereoisômeros.</p>
+                        <p class="general-text">Diferentemente do que ocorria com os isômeros constitucionais, os isômeros espaciais não são distinguidos apenas ao se observar suas propriedades macroscópicas à temperatura ambiente.</p>
+                        <p class="general-text">
+                            Os isômeros espaciais são classificados em
+                            <b>isômeros geométricos</b> e
+                            <b>isômeros ópticos</b> .
+                        </p>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Isomeria geométrica ou cis-trans</h3>
+                        </div>
+                        <p class="general-text">Esse tipo de isomeria ocorre em cadeias abertas e em cadeiasfechadas.</p>
+                        <h3 class="titulo2">Para cadeias abertas</h3>
+                        <p class="general-text">Quando analisamos as ligações simples, como C — C, não existe uma restrição quanto à rotação no eixo da ligação. No entanto, para ligações duplas, como C = C, a rotação no eixo da ligação é impedida, uma vez que é necessário o
+                            rompimento de uma ligação p, o que requer altas temperaturas.</p>
+                        <p class="general-text">Como analogia, imagine duas tábuas presas por um prego. Existe a possibilidade de girá-las livremente ao redor do prego. Agora imagine que dois pregos atravessam as tábuas. O movimento não ocorre.</p>
+                        <img src="./assets/img/ID003-I001-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Observe as fórmulas estruturais abaixo: elas representam estruturas distintas (isômeros) ou apenas duas representações diferentes para a mesma molécula?</p>
+                        <img src="./assets/img/ID004-I002-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Você acertou caso tenha respondido que são duas representações diferentes para a mesma molécula. Isso ocorre pois o eixo formado pela ligação C — C apresenta rotação livre. Veja:</p>
+                        <img src="./assets/img/ID005-I003-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Assim, os dois átomos de bromo podem estar representados na figura no mesmo lado do eixo da ligação ou em lados opostos; ou seja, todas as representações são equivalentes.</p>
+                        <p class="general-text">O mesmo ocorre para as fórmulas estruturais apresentadas abaixo?</p>
+                        <img src="./assets/img/ID006-I004-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Você acertou caso tenha respondido não. Nesse caso, temos uma ligação C = C que impede a rotação livre – os dois lados da molécula devem girar juntos. Para que haja rotação é necessário que a ligação dupla seja rompida, o que requer
+                            o fornecimento de 270 kJ/mol de energia. Veja:</p>
+                        <img src="./assets/img/ID007-I005-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Assim, cada uma das estruturas representa uma substância diferente, mas com as mesmas fórmulas moleculares; nesse caso, temos um par de isômeros geométricos chamados de
+                            <b>isômeros</b>
+                            <b><i>cis-trans</i></b> .
+                        </p>
+                        <p class="general-text">
+                            Traçando uma linha imaginária acompanhando a ligação C = C (neste exemplo, na horizontal) que irá cortar a molécula em duas partes, quando os
+                            <a href="#lúmen" class="tooltip left" data-title="Ligantes: átomos ou grupos de 
+                            átomos que se ligam a um átomo 
+                            central. Os ligantes do carbono 
+                            são os grupos diferentes do 
+                            hidrogênio.">
+                                <b>ligantes</b>
+                            </a>
+                            iguais estão do mesmo lado em relação à linha imaginária, teremos o
+                            <b>isômero</b>
+                            <b><i>cis</i></b> (do latim , que significa “mesmo lado”, “próximo a”); quando os ligantes iguais estiverem de lados opostos, teremos o
+                            <b>isômero</b>
+                            <b><i>trans</i></b> (do latim , que significa “lados diferentes”, “através de”). Sua nomenclatura é a mesma estudada até o momento, acrescentando apenas o termo
+                            <i>cis</i> ou
+                            <i>trans</i> antes do nome da molécula.
+                        </p>
+                        <img src="./assets/img/ID008-I006-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Os ligantes de cada carbono devem ser diferentes entre si, pois, caso sejam iguais, não teremos isômeros, mas sim a mesma molécula. Esquematicamente, teremos:</p>
+                        <img src="./assets/img/ID009-I007-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Observe os compostos abaixo:</p>
+                        <img src="./assets/img/ID010-I008-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID0111-I009-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Quando temos alcenos com mais de dois ligantes diferentes, não é recomendado utilizar o sistema de nomenclatura “
+                            <i>cis-trans</i> ”, pois ele pode trazer ambiguidades. Veja o exemplo a seguir, com três ligantes diferentes (flúor, cloro e bromo):
+                        </p>
+                        <img src="./assets/img/ID012-I010-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            A molécula apresenta isômeros geométricos, uma vez que os ligantes de cada carbono são diferentes entre si; porém, eles não serão identificados por meio da nomenclatura “
+                            <i>cis-trans</i> ”. Nesses casos, utilizaremos o sistema de nomenclatura
+                            <b><i>Z-E</i></b> , sendo
+                            <b>Z</b> (do alemão
+                            <i>zusammen</i> 5 juntos) a atribuição dada quando os ligantes de maior número atômico (Z) para cada um dos átomos de carbono da ligação dupla estiverem do mesmo lado da linha imaginária e
+                            <b>E</b> (do alemão
+                            <i>entgegen</i> 5 opostos) a atribuição dada quando os ligantes de maior número atômico (Z) para cada um dos átomos de carbono da ligação dupla estiverem de lados contrários da linha imaginária. Esquematicamente, teremos:
+                        </p>
+                        <img src="./assets/img/ID0131-I011-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Retomando a cadeia anterior, teremos:</p>
+                        <img src="./assets/img/ID014-I012-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <h3 class="titulo2">Para cadeias fechadas</h3>
+                        <p class="general-text">
+                            Verificamos a presença de isômeros
+                            <i>cis-trans</i> em cadeias fechadas quando:
+                        </p>
+                        <ol class="questao-alternativas ml" type="1">
+                            <li>não há ligação dupla no ciclo, pois, tendo a ligação dupla, haveria apenas um ligante para cada carbono que realiza a ligação dupla;</li>
+                            <li>dois átomos de carbono do ciclo (sendo estes vizinhos ou não) devem apresentar ligantes diferentes entre si, pois assim como no caso da ligação C = C, a rotação em torno do eixo da ligação entre os átomos de carbono não é possível
+                                devido à estrutura cíclica.</li>
+                        </ol>
+
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-7' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-7' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Caso os dois átomos ligados diretamente ao carbono da ligação dupla forem os mesmos, analisaremos o próximo átomo; caso esse também seja igual, analisaremos o próximo, um de cada vez, até que seja encontrada uma diferença. Esta regra é chamada de
+                                                    <b>regra do primeiro ponto de diferença</b> .
+                                                </p>
+                                                <p class='chapter-description general-text'>Veja:</p>
+                                                <img src="./assets/img/ID015-I013-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <p class="general-text">
+                            Veja o exemplo:
+                        </p>
+                        <img src="./assets/img/ID017-I015-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+
+
+                        <div class="wrap-collabsible">
+                            <input id="collapsible-mat" class="toggle-mat" type="checkbox">
+                            <label for="collapsible-mat" class="lbl-toggle-mat">
+                                <div class="flex-icon">
+                                  <img src="./assets/icons/06_BOXE_08_CT.svg" class="icon-boxe">
+                                  <p class="collapsible-title">
+                                    Em Biologia, vemos que...
+                                  </p>
+                                </div>
+                                <div class="flex-icon">
+                                  <img src="./assets/icons/arrow-down.svg" class="icon ion-md-add">
+                                  <img src="./assets/icons/arrow-up.svg" class="icon ion-md-remove">
+                                </div>
+                              </label>
+                            <div class="collapsible-content-mat">
+                                <div class="content-inner">
+                                    <div class="text-content-area">
+                                        <p class="general-text">A acetilcolina (abreviada como ACh) é encontrada no sistema nervoso do corpo humano e possui um importante papel na transmissão de impulsos nervosos. [...]</p>
+                                        <p class="general-text">A ACh dispara os impulsos nervosos ao se ligar a dois tipos diferentes de receptores conhecidos como
+                                            <i> receptor muscarínico e receptor nicotínico</i> . Ao se ligarem com a ACh, os receptores muscarínico e nicotínico exercem efeitos biológicos diferentes no organismo. Principalmente, o ritmo cardíaco aumenta
+                                            ou diminui dependendo se a ACh se liga aos receptores muscarínico ou nicotínico. Mas como a ACh pode se ligar a dois receptores que têm formas diferentes?</p>
+                                        <p class="general-text">A resposta reside na habilidade da ACh em adotar diferentes conformações pela rotação em torno da ligação C – C central [...]. As posições relativas do íon amônio quaternário e éster modifica a rotação da ligação
+                                            C – C, e isso é importante porque esses grupos formam ligações não covalentes com os receptores muscarínico e nicotínico. [...]</p>
+                                        <img src="./assets/img/ID019-I016-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                                        <p class="general-text">Mas qual é a conformação da ACh que se liga ao receptor muscarínico e qual é aquela que se liga ao receptor nicotínico? Para responder a essa questão, os bioquímicos prepararam em laboratório análogos conformacionalmente
+                                            rígidos da ACh. Essas moléculas têm os mesmos grupos funcionais da ACh, ou grupos semelhantes, mas que só podem adotar uma única conformação, pois a ligação central C – C é parte de um anel. [...]</p>
+                                        <p class="general-text">Por exemplo, nos derivados do
+                                            <i>cis- e</i> do
+                                            <i>trans</i> -ciclopropano, representados a seguir, um grupo CH2 se liga à ligação C – C na ACh, e isso impede a rotação da ligação. [...] Embora menos potentedo que a ACh, o trans-ciclopropano produz o mesmo
+                                            tipo de resposta que a ACh,enquanto o
+                                            <i>cis</i> -ciclopropano é essencialmente inativo. [...]</p>
+                                        <img src="./assets/img/ID020-I017-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                                        <p class="quote-source">
+                                            BURROWS, Andrews
+                                            <i>et al. Química³: introdução à Química Inorgânica, Orgânica e Físico-Química</i> . SILVA, Edilson Clemente da (Trad.). Rio de Janeiro: LTC, 2012. v. 2. p. 52-3.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Isomeria óptica</h3>
+                        </div>
+                        <p class="general-text">
+                            A isomeria óptica ocorre com
+                            <b>moléculas assimétricas</b> , nas quais os isômeros diferem no desvio da luz polarizada.
+                        </p>
+                        <p class="general-text">Primeiramente, vamos analisar alguns exemplos de objetos simétricos e assimétricos para depois pensarmos nesses conceitos relacionados às moléculas orgânicas. Analise as figuras abaixo:</p>
+
+                        <img src="./assets/img/p158_fig01.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Os
+                            <b>objetos simétricos</b> apresentam pelo menos um plano de simetria: sua imagem no espelho será igual a ele (
+                            <b>objeto e imagem são iguais, ou seja, são sobreponíveis</b> ). Já os
+                            <b>objetos assimétricos</b> não apresentam plano de simetria: sua imagem no espelho será diferente do objeto (
+                            <b>objeto e imagem não são iguais, ou seja, não são sobreponíveis</b> ).
+                        </p>
+                        <img src="./assets/img/ID027-I018-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            A isomeria óptica está associada ao comportamento das substâncias assimétricas quando submetidas a um feixe de luz polarizada (que tem um só plano de vibração, como o
+                            <i>laser</i> ). A luz polarizada é um tipo de luz obtida quando a luz natural, não polarizada (infinitos planos de vibração, como a luz do sol ou de uma lâmpada) atravessa um polarizador.
+                        </p>
+
+                        <div class="wrap-collabsible">
+                            <input id="collapsible-fis" class="toggle-mat" type="checkbox">
+                            <label for="collapsible-fis" class="lbl-toggle-mat">
+                                <div class="flex-icon">
+                                  <img src="./assets/icons/06_BOXE_06_CT.svg" class="icon-boxe">
+                                  <p class="collapsible-title">
+                                    Em Física, vemos que...
+                                  </p>
+                                </div>
+                                <div class="flex-icon">
+                                  <img src="./assets/icons/arrow-down.svg" class="icon ion-md-add">
+                                  <img src="./assets/icons/arrow-up.svg" class="icon ion-md-remove">
+                                </div>
+                              </label>
+                            <div class="collapsible-content-mat">
+                                <div class="content-inner">
+                                    <div class="text-content-area">
+                                        <p class="general-text">...A luz é uma onda eletromagnética que provém de oscilações elétricas e oscilações magnéticas, podendo se propagar em meios materiais e no vácuo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="./assets/img/ID029-I019-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Observe que a luz comum se propaga com seus componentes verticais e horizontais até atingir o filtro polarizador vertical, pelo qual passam somente ondas luminosas na posição vertical.</p>
+                        <p class="general-text">Esse fenômeno também acontece com moléculas; logo, existem moléculas simétricas e assimétricas. Quando uma molécula é simétrica, sua imagem no espelho é igual a ela (são sobreponíveis); já quando a molécula é assimétrica, sua imagem
+                            no espelho é diferente dela (não são sobreponíveis). Veja:</p>
+
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/ID030-I020-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/ID031-I021-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                            </div>
+                        </div>
+                        <p class="general-text">Dizemos que as moléculas assimétricas apresentam isomeria óptica, uma vez que têm a mesma fórmula molecular e diferentes organização dos átomos no espaço, o que resulta em características diferentes.</p>
+                        <p class="general-text">Um exemplo de composto orgânico que apresenta isomeria óptica é o ácido lático (com nome IUPAC ácido 2-hidroxipropanoico): um de seus isômeros é responsável pela fadiga muscular; o outro, pelo azedamento do leite.</p>
+                        <h3 class="titulo2">Carbono assimétrico ou quiral</h3>
+                        <p class="general-text">
+                            Existe uma técnica que auxilia na identificação de uma molécula assimétrica: a existência de pelo menos um
+                            <b>carbono assimétrico ou quiral </b> (do grego
+                            <i>cheiral</i> 5 mão) em sua estrutura. O carbono quiral é um carbono saturado que apresenta os quatro ligantes diferentes entre si.
+                        </p>
+                        <img src="./assets/img/ID034-I023-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-2' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-2' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Ao longo do estudo de isomeria óptica, alguns termos importantes serão utilizados. Veja alguns deles e seus significados:
+                                                    <b>Antípodas ópticos</b> : isômeros ópticos.
+                                                </p>
+                                                <p class='chapter-description general-text'>
+                                                    <b>Enantiômeros</b> : do grego
+                                                    <b>enantio</b> 5 oposto;
+                                                    <b>mero</b> 5 parte.
+                                                    <b>Enantiomorfos:</b> do grego
+                                                    <b>morphos</b> 5 forma; são isômeros ópticos que têm entre si a relação de objeto-imagem.
+                                                </p>
+                                                <p class='chapter-description general-text'>
+                                                    <b>Estereoisômeros:</b> do grego
+                                                    <b>stereo</b> 5 três dimensões no espaço; são isômeros assimétricos (não sobreponíveis).
+                                                </p>
+                                                <p class='chapter-description general-text'>
+                                                    <b>Diasteroisômeros</b> : são estereoisômeros com mais de um centro de quiralidade que não são imagens especulares; são simétricos (superponíveis).
+                                                </p>
+                                                <p class='chapter-description general-text'>
+                                                    <b>Mistura racêmica</b> : opticamente inativa, ocorre quando misturamos enantiômeros em partes iguais.
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="general-text">Vamos analisar novamente o ácido lático:</p>
+
+                        <img src="./assets/img/ID035-I024-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Podemos observar que todos os ligantes do carbono central são diferentes entre si; logo, existe um carbono assimétrico na molécula do ácido lático, comumente identificado por um asterisco. Moléculas com carbono quiral apresentam um
+                            <b>estereoisômero</b> que corresponde à sua imagem especular. Veja a comparação com as mãos de uma pessoa:
+                        </p>
+                        <img src="./assets/img/ID036-I025-2020-EM-QUI-2SL3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Objeto e imagem de moléculas assimétricas têm comportamento diferente quando expostos à luz plano-polarizada. Quando em solução aquosa, um isômero desvia a luz para a direita e o outro, para a esquerda; por isso, são consideradas
+                            substâncias opticamente ativas. O ângulo de desvio da luz polarizada pode ser medido com o auxílio de um polarímetro. Veja:</p>
+                        <img src="./assets/img/ID037-I026-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">Uma luz não polarizada é emitida por uma lâmpada de sódio e passa pelo polarizador. O feixe plano-polarizado entra no tubo que contém uma solução da substância opticamente ativa, que desvia o plano da luz para a direita ou para
+                            a esquerda. Um analisador (nome dado a um segundo polarizador) com escala de rotação em graus é girado, fazendo com que a luz volte a passar, permitindo que o observador determine o ângulo de desvio. </p>
+                        <p class="general-text">
+                            Quando o desvio da luz plano-polarizada for para a direita (sentido horário), o isômero será chamado
+                            <b>dextrogiro</b> (do latim
+                            <i>dexter</i> 5 direita); utilizamos o
+                            <b>símbolo</b>
+                            <b><i>d</i></b> ou 1 antes do nome do isômero para identificá-lo. Quando o desvio da luz plano-polarizada for para a esquerda (sentido anti-horário), o isômero será chamado
+                            <b>levogiro</b> (do latim
+                            <i>laevus</i> 5 esquerda); utilizamos o
+                            <b>símbolo</b> L ou – antes do nome do isômero para identificá-lo.
+                        </p>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-3' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-3' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Os isômeros
+                                                    <i>d</i> e &#8467; também podem ser representados por
+                                                    <i>R</i> e
+                                                    <i>S</i> , respectivamente, uma forma de nomenclatura alternativa. Do latim,
+                                                    <i>rectus</i> = direita e
+                                                    <i>sinister</i> = esquerda.
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="general-text">
+                            Os enantiômeros giram o plano de luz de um mesmo valor, mas em sentidos opostos. Assim, misturas que apresentam quantidade equimolares de um par de enantiômeros são opticamente inativas, sendo chamadas de
+                            <b>misturas racêmicas</b> , do latim
+                            <i>racemus</i> , que significa cacho de uva.
+                        </p>
+                        <p class="general-text">O cientista que observou essa mudança de ângulo de desvio dos isômeros pela primeira vez foi o químico francês Louis Pasteur (1822-1895).</p>
+                        <br><br><br>
+
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>1</b></p>
+                                <p class="exercicio-text"><b>Unesp 2019</b> A vitamina D3 é lipossolúvel e opticamente ativa. Certo laboratório produz e comercializa suplementos dessa vitamina na forma de cápsulas contendo diferentes quantidades de colecalciferol. Essas quantidades
+                                    são comumente indicadas por Unidades Internacionais (U.I.) de vitamina D3, que têm sua equivalência em unidades de massa. A tabela foi construída com base em informações da bula desse suplemento, que deve ser usado
+                                    somente com indicação de profissional de saúde.</p>
+                            </div>
+
+                            <img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q1_unesp 2019.png" alt="imagem" class="img-md">
+                            <img src="./assets/img/p161_fig01.png" alt="imagem" class="img-md">
+
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>A partir dos dados da tabela, calcule quanto vale cada U.I. de vitamina D3, em mg de colecalciferol. Indique, na fórmula do colecalciferol reproduzida abaixo, um átomo de carbono quiral responsável pela atividade óptica
+                                    observada na molécula.</li>
+                                <img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q1_unesp 2019_a.png" alt="imagem" class="img-md">
+                                <li>Qual é a função orgânica oxigenada presente na estrutura da vitamina D3? Justifique, com base na estrutura molecular do colecalciferol, por que essa vitamina é lipossolúvel.</li>
+                            </ol>
+                            <p class="exercicio-text ml"><b>Resolução:</b></p>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>Cálculo de quanto vale cada U.I. de vitamina D3 em mg de colecalciferol:</li>
+                                <img src="./assets/img/2020-EM-QUI-2S-L1-FB-U5-C14.png" alt="imagem" class="img-md">
+                                <p class="exercicio-text ml">Indicação de um átomo de carbono quiral responsável pela atividade óptica observada na molécula (pode-se escolher um entre os cinco marcados com um círculo na figura a seguir):</p>
+                                <img src="./assets/img/ID043-I028-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                                <li>A função orgânica oxigenada presente na estrutura da vitamina D3 (colecalciferol) é a função álcool. A vitamina é classificada como lipossolúvel, pois sua estrutura é predominantemente apolar (mistura de hidrocarbonetos).</li>
+                                <img src="./assets/img/ID044-I029-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                            </ol>
+
+                        </div>
+
+
+                        <h3 class="titulo2">Moléculas com mais de um carbono quiral e isômeros opticamente ativos</h3>
+                        <p class="general-text">Considere como exemplo o composto 2-cloro-3-iodobutano, cuja fórmula estrutural está representada abaixo:</p>
+                        <img src="./assets/img/ID045-I030-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="" class="img-md">
+                        <p class="general-text">
+                            Os carbonos 2 e 3 são quirais, sendo possível prever a existência de quatro isômeros ópticos representados pela
+                            <a href="#lúmen" class="tooltip left" data-title="Projeção de Fischer: fórmula estrutural de um composto 
+                            orgânico numa representação 
+                            bidimensional, na qual as linhas 
+                            verticais representam ligações 
+                            que ocorrem atrás do plano, e as 
+                            linhas horizontais representam 
+                            ligações que ocorrem na frente 
+                            do plano.">
+                                <b>projeção de Fischer</b>
+                            </a>
+                            abaixo:
+                        </p>
+                        <img src="./assets/img/ID046-I031-2020-EM-QUI-2├ƒ-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Comparando a molécula I com a molécula III, podemos observar que foram trocadas as posições de dois ligantes (hidrogênio e cloro), e a mudança gerou isômeros ópticos uns dos outros, mas nem todos são enantiômeros (relação objeto-imagem). Assim, os pares
+                            I/II e III/IV são enantiômeros ou
+                            <b>enantiomorfos</b> , enquanto os pares I/III, I/IV, II/III e II/IV são
+                            <b>diasteroisômeros</b> (não há relação objeto-imagem). Então, temos quatro
+                        </p>
+                        <p class="general-text">isômeros ópticos, sendo dois dextrogiros e dois levogiros, e duas misturas racêmicas. O número de misturas racêmicas será sempre a metade do número de isômeros ópticos.</p>
+                        <p class="general-text">Para calcularmos a quantidade de isômeros ópticos (diasteroisômeros e enantiômeros) e de misturas racêmicas para um composto, devemos primeiramente verificar a quantidade de carbonos quirais (representada por “n”) presentes na
+                            molécula; em seguida, devemos aplicar as fórmulas propostas por Van’t Hoff:</p>
+                        <p class="general-text">Existe um caso especial de isomeria óptica quando os carbonos quirais apresentam ligantes iguais. Observe a molécula do ácido tartárico (ácido 2,3-di-hidroxibutanodioico):</p>
+                        <img src="./assets/img/ID047-I032-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Note que os carbonos 2 e 3 são quirais (os quatro ligantes são diferentes entre si), mas seus substituintes são iguais; logo, terão o mesmo ângulo de desvio. Em casos como esse, não podemos usar a fórmula proposta por Van’t Hoff, pois um dos isômeros
+                            espaciais será inativo em razão de uma compensação interna (um carbono quiral irá compensar o desvio do outro). O ácido tartárico apresenta apenas um isômero dextrogiro, um levogiro e um tipo de isômero inativo (que não desvia
+                            o plano de luz polarizada) chamado
+                            <b>isômero meso</b> .
+                        </p>
+                        <img src="./assets/img/ID048-I033-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+
+                        <h3 class="titulo2">Propriedades biológicas dos enantiômeros</h3>
+                        <p class="general-text">Os enantiômeros têm propriedades físicas e químicas idênticas, mas apresentam propriedade biológicas distintas. Isso ocorre pois nosso organismo é extremamente seletivo: nele acontecem diversas reações químicas; quando ingerimos
+                            um alimento, uma bebida ou ainda um medicamento, essas reações podem sofrer alterações. Fazendo uma analogia simplista, assim como uma luva direita se ajusta na mão direita, mas não se ajusta na mão esquerda, quando substâncias
+                            assimétricas são ingeridas, elas podem ou não interagir com substâncias do nosso organismo. Observa-se também que um dos isômeros ópticos pode ter a reação mais acelerada enquanto o outro pode nem mesmo reagir – ou, ainda,
+                            um isômero pode ter efeito terapêutico enquanto o outro pode ser tóxico.</p>
+                        <img src="./assets/img/ID049-I034-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Alusão a interação do fármaco quiral com o nosso corpo.</p>
+                        <p class="general-text">Um exemplo famoso é o medicamento talidomida. Lançada no final dos anos 1950 como um sedativo considerado seguro, a talidomida foi prescrita para mulheres grávidas no intuito de combater enjoos matinais e insônia. Descobriu-se
+                            posteriormente que o medicamento causava malformações nos bebês.</p>
+                        <img src="./assets/img/ID050-I035-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            <a href="#lúmen" class="tooltip left" data-title="Teratogênico:
+                              do grego
+                              terás
+                              = monstro;
+                              gene
+                            = origem. Refere-se a tudo aquilo que muda o curso natural das coisas e leva à malformação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas dos bebês. Na Medicina, a teratologia é a especialidade médica que se dedica ao estudo das anomalias e malformações ligadas a uma perturbação do desenvolvimento embrionário ou fetal.">
+                                <b>Teratogênico:</b>
+                            </a>
+                        </p>
+                        <p class="general-text">A talidomida era vendida como uma mistura racêmica dos enantiômeros, e não se conheciam até então os diferentes efeitos causados no organismo. A tragédia levou a mudanças na legislação sobre testes de medicamentos: todas as formas
+                            quirais de um medicamento devem ser testadas rigorosamente antes da aprovação.</p>
+
+                    </div>
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe">Aplicando conhecimentos
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text">s compostos but-1-eno e but-2-eno apresentam isomeria
+                                <i>cis-trans</i> ? Justifique.</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text">Diferencie o(s) composto(s) que apresenta(m) isomeria
+                                <i>cis-trans</i> do exercício 1 quanto à polaridade e à temperatura de ebulição.</p>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text">Para o 1,2-dimetilciclopentano, escreva seus isômeros
+                                <i>cis-trans</i> .
+                            </p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">O que é um carbono assimétrico?</p>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text">Qual é o número de carbonos assimétricos (quirais) no composto a seguir?</p>
+                        </div>
+                        <img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q5.png" alt="imagem" class="img-md">
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"> Qual é o número de isômeros opticamente ativos para o composto 3-metil-hexano?</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>Enem</b> A talidomida é um sedativo leve e foi muito utilizado no tratamento de náuseas, comuns no início da gravidez. Quando foi lançada, era considerada segura para o uso de grávidas, sendo administrada como uma mistura
+                                racêmica composta pelos seus dois enantiômeros (R e S). Entretanto, não se sabia, na época, que o enantiômero S leva à malformação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas do bebê.</p>
+                        </div>
+                        <p class="quote-source">
+                            COELHO, F. A. S. “Fármacos e quiralidade”.
+                            <i>Cadernos Temáticos de Química Nova na Escola</i> ,São Paulo, n. 3, maio 2001 (adaptado).
+                        </p>
+                        <p class="exercicio-text ml">Essa malformação congênita ocorre porque esses enantiômeros:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> reagem entre si.</li>
+                            <li> não podem ser separados.</li>
+                            <li>não estão presentes em partes iguais.</li>
+                            <li> interagem de maneira distinta com o organismo.</li>
+                            <li> são estruturas com diferentes grupos funcionais.</li>
+                        </ol>
+
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> <b>UFRGS 2018</b> Considere a representação tridimensional da molécula orgânica mostrada abaixo.</p>
+                        </div>
+                        <img src="./assets/img/ID058-Q003-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Sobre essa molécula, é correto afirmar que:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>é um hidrocarboneto saturado de cadeia homogênea e ramificada.</li>
+                            <li>possui todos os átomos de carbono com geometria trigonal plana.</li>
+                            <li> tem, na nomenclatura oficial IUPAC, o nome 2-metilbut-1-eno.</li>
+                            <li> apresenta isomeria geométrica.</li>
+                            <li>possui fórmula molecular C5H12.</li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>Uerj 2019</b> Observe a seguir as fórmulas estruturais espaciais dos principais compostos do óleo de citronela, produto empregado como repelente de mosquitos.</p>
+                        </div>
+                        <img src="./assets/img/ID059-Q004-2020-EM-QUI-2S-L3-FB-U5-C14_a.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID059-Q004-2020-EM-QUI-2S-L3-FB-U5-C14_b.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considerando essas fórmulas estruturais, a quantidade de compostos que apresentam isômeros espaciais geométricos é igual a:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>Unesp 2018</b> Examine as estruturas do ortocresol e do álcool benzílico.</p>
+                        </div>
+                        <img src="./assets/img/ID060-Q005-2020-EM-QUI-2S-L3-FB-U5-C1.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">O ortocresol e o álcool benzílico:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> apresentam a mesma função orgânica.</li>
+                            <li>são isômeros.</li>
+                            <li> são compostos alifáticos.</li>
+                            <li> apresentam heteroátomo.</li>
+                            <li>apresentam carbono quiral.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>UFSM-RS</b> Cientistas brasileiros definem como transgênico um &quot;organismo cujo genoma foi alterado pela introdução de DNA exógeno, que pode ser derivado de outros indivíduos da mesma espécie, de uma espécie completamente
+                                diferente ou até mesmo de uma construção gênica sintética&quot;. A tecnologia de produção de alimentos transgênicos começou com o desenvolvimento de técnicas de engenharia genética que visavam a um melhoramento genético
+                                que pudesse promover a resistência de vegetais a doenças e insetos, sua adaptação aos estresses ambientais e melhoria da qualidade nutricional. Porém, a busca por maior produtividade e maior variabilidade levou ao desenvolvimento
+                                da clonagem de genes. Essa técnica tornou possível isolar um gene de um organismo e introduzi-lo em outro como, por exemplo, uma planta que, ao expressar esse gene, manifestará a característica que ele determina.</p>
+                        </div>
+                        <p class="exercicio-text ml">Uma das bases constituintes do DNA é a citosina.</p>
+                        <img src="./assets/img/ID061-I039-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">No processo químico mostrado acima, a substância A é um ________________ da citosina.</p>
+                        <p class="exercicio-text ml">O termo que preenche, corretamente, a lacuna é o:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>metâmero.</li>
+                            <li> isômero de posição.</li>
+                            <li>enantiômero.</li>
+                            <li> isômero geométrico.</li>
+                            <li> tautômero.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>PUC-SP 2016</b> O eugenol e o anetol são substâncias aromáticas presentes em óleos essenciais, com aplicações nas indústrias de cosméticos e farmacêutica. O eugenol está presente principalmente nos óleos de cravo, canela
+                                e sassafrás, já o anetol é encontrado nos óleos essenciais de anis e anis-estrelado.</p>
+                        </div>
+                        <img src="./assets/img/ID062-I040-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Sobre esses compostos foram feitas as seguintes afirmações.</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>Ambos apresentam isomeria geométrica.</li>
+                            <li>O eugenol apresenta funções fenol e éter, enquanto que o anetol apresenta função éter.</li>
+                            <li> A fórmula molecular do eugenol é C10H12O2, enquanto que o anetol apresenta fórmula molecular C<sup>10</sup>H<sup>12</sup>O.</li>
+                            <li>O anetol apresenta temperatura de ebulição maior do que o eugenol.</li>
+                        </ol>
+                        <p class="exercicio-text ml"> Estão corretas
+                            <b>APENAS</b> as afirmações:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> I e II.</li>
+                            <li>I e IV.</li>
+                            <li>II e III.</li>
+                            <li> III e IV.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>UEPG-PR SSA 2021</b> Sobre o ácido lático (ácido 2-hidroxipropanoico), assinale o que for correto.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>01.</b></p>
+                            <p class="exercicio-text"> Existe a forma levorrotatória e dextrorrotatória para esse composto.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>02.</b></p>
+                            <p class="exercicio-text">Sua fórmula molecular é C3H6O3.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>04.</b></p>
+                            <p class="exercicio-text">O isômero D-ácido é oticamente ativo.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>08.</b></p>
+                            <p class="exercicio-text">A mistura racêmica de seus isômeros, D e L, é oticamente inativa.</p>
+                        </div>
+                        <div class="align-horizontal ml margin-top-1">
+                            <b>Soma:</b> <span class="fake-input-model"></span>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"> <b>Uerj 2017</b> O ácido linoleico, essencial à dieta humana, apresenta a seguinte fórmula estrutural espacial:</p>
+                        </div>
+                        <img src="./assets/img/ID063-Q006-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Como é possível observar, as ligações duplas presentes nos átomos de carbono 9 e 12 afetam o formato espacial da molécula.</p>
+                        <p class="exercicio-text ml">As conformações espaciais nessas ligações duplas são denominadas, respectivamente:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> <i>cis e cis</i> .
+                            </li>
+                            <li><i>cis e trans</i> .
+                            </li>
+                            <li> <i>trans e cis</i> .
+                            </li>
+                            <li><i>trans e trans</i> .
+                            </li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"> <b>FMJ-SP 2021</b> Uma pesquisa desenvolvida pelo Instituto de Química da Universidade de São Paulo está utilizando o ácido betalâmico, um derivado da betanina, corante extraído da beterraba, para produzir um pigmento de cor
+                                azul chamado BeetBlue. A figura apresenta a fórmula estrutural do ácido betalâmico e o corante BeetBlue.</p>
+                        </div>
+                        <img src="./assets/img/lumen_2022_3s_l5_qui_fb_u3_cap8_q009.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Cite o nome das funções oxigenadas existentes em uma molécula de ácido betalâmico.</li>
+                            <li>Assinale, na estrutura existente, o carbono assimétrico presente na molécula do ácido betalâmico. Escreva a fórmula estrutural do isômero geométrico do ácido betalâmico.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>9</b></p>
+                            <p class="exercicio-text"> <b>UFRGS 2017</b> O Prêmio Nobel de Química de 2016 foi concedido aos cientistas Jean-Pierre Sauvage, Sir J. Fraser Stoddart e Bernard L. Feringa que desenvolveram máquinas moleculares. Essas moléculas, em função de estímulos
+                                externos, realizam movimentos controlados que poderão levar, no futuro, à execução de tarefas de uma máquina na escala nanométrica (10–9 m).Abaixo está mostrada uma molécula na qual, pela irradiação de luz (fotoestimulação),
+                                o isômero A é convertido no isômero B. Sob aquecimento (termo-estimulação), o isômero B novamente se converte no isômero A.</p>
+                        </div>
+                        <img src="./assets/img/ID065-I042-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">A respeito disso, considere as seguintes afirmações</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>A e B são isômeros geométricos em que os substituintes na ligação N 5 N estão em lados opostos no isômero A e, no mesmo lado, no isômero B.</li>
+                            <li>A interação do grupo –1NH3 com o heterociclo, no isômero B, é do tipo ligação de hidrogênio.</li>
+                            <li>Todos os nitrogênios presentes nos dois isômeros apresentam uma estrutura tetraédrica.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Quais estão corretas?</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Apenas I.</li>
+                            <li>Apenas III.</li>
+                            <li>Apenas I e II.</li>
+                            <li>Apenas II e III.</li>
+                            <li> I, II e III.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>10</b></p>
+                            <p class="exercicio-text"><b>UEMG 2017</b> Observe o composto orgânico abaixo e as afirmações a seu respeito.</p>
+                        </div>
+                        <img src="./assets/img/ID066-I043-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>É um álcool insaturado.</li>
+                            <li>É um isômero
+                                <i>cis-trans</i> .
+                            </li>
+                            <li>Apresenta 18 hidrogênios.</li>
+                            <li> Apresenta 3 ramificações.</li>
+                        </ol>
+                        <p class="exercicio-text ml">O número de afirmação(ões) correta(s) é igual a:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>11</b></p>
+                            <p class="exercicio-text"><b>Unifesp 2017</b> Considere a fórmula estrutural do anestésico geral halotano (massa molar aproximada 200 g/mol).</p>
+                        </div>
+                        <img src="./assets/img/ID096-Q014-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Escreva a fórmula molecular do halotano e calcule a porcentagem em massa de flúor nesse anestésico. Apresente os cálculos.</li>
+                            <li>O halotano deve apresentar isomeria geométrica (
+                                <i>cis-trans</i> )? E isomeria óptica? Justifique suas respostas.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>12</b></p>
+                            <p class="exercicio-text"><b>Famema-SP 2017</b> A fórmula representa a estrutura da leucina, um dos aminoácidos formadores de proteínas no organismo humano.</p>
+                        </div>
+                        <img src="./assets/img/" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Dê o número de átomos de carbono e de hidrogênio presentes em cada molécula de leucina.</li>
+                            <li>Na fórmula da leucina, indique o átomo de carbono assimétrico e o átomo de carbono terciário.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>13</b></p>
+                            <p class="exercicio-text"><b>Uerj 2018</b> A dopamina e a adrenalina são neurotransmissores que, apesar da semelhança em sua composição química, geram sensações diferentes nos seres humanos. Observe as informações da tabela:</p>
+                        </div>
+                        <img src="./assets/img/p167_fig01.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Indique a função química que difere a dopamina da adrenalina e nomeie a sensação gerada pelo neurotransmissor que apresenta menor massa molecular.Identifique, ainda, o neurotransmissor com isomeria óptica e escreva sua fórmula
+                            molecular.
+                        </p>
+                        <p class="exercicio-text ml">Dados: C = 12; H = 1; O = 16.</p>
+
+                    </div>
+
+                    <div class="text-content-area">
+                        <div class="flex-icon enem">
+                            <img src="./assets/icons/07_SECAO_05.svg" class="icon-boxe"> No enem é assim
+                        </div>
+                        <p class="general-text">As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</p>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> <b>Enem 2018</b> As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido
+                                9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para
+                                perceber a diferença. Pode-se dizer que veem por meio da química.</p>
+                        </div>
+                        <p class="quote-source">
+                            LE COUTEUR, P.; BURRESON, J.
+                            <i>Os botões de Napoleão: as 17 moléculas que mudaram a história.</i> Rio de Janeiro: Jorge Zahar, 2006 (adaptado).
+                        </p>
+                        <p class="exercicio-text ml">As moléculas dos sinalizadores químicos produzidas pelas abelhas-rainhas e operária possuem diferença na:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>fórmula estrutural.</li>
+                            <li>fórmula molecular.</li>
+                            <li>identificação dos tipos de ligação.</li>
+                            <li> contagem do número de carbonos.</li>
+                            <li> identificação dos grupos funcionais.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text">Unesp 2021 Certa vitamina apresenta as seguintes características:/p>
+                        </div>
+                        <ul class="questao-alternativas ml">
+                            <li>hidrossolubilidade;</li>
+                            <li> insaturação entre átomos de carbono;</li>
+                            <li>presença da função álcool;</li>
+                            <li>presença de átomo de carbono quiral.</li>
+                            <li>Essa vitamina é:</li>
+                        </ul>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/lumen_2022_3s_l5_qui_fb_u3_cap8_q010.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/lumen_2022_3s_l5_qui_fb_u3_cap8_q011.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/lumen_2022_3s_l5_qui_fb_u3_cap8_q012.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/lumen_2022_3s_l5_qui_fb_u3_cap8_q013.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/lumen_2022_3s_l5_qui_fb_u3_cap8_q014.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>Mackenzie-SP 2018</b> O butanoato de metila é um flavorizante de frutas utilizado na indústria alimentícia. A sua fórmula estrutural está representada abaixo.</p>
+                        </div>
+                        <img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q3_mackenzie-sp 2018.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Analise a fórmula do butanoato de metila e assinale a alternativa que traz, respectivamente, um isômero de compensação e um de função desse flavorizante.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q3_mackenzie-sp 2018_a.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q3_mackenzie-sp 2018_b.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q3_mackenzie-sp 2018_c.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q3_mackenzie-sp 2018_d.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/em_disciplinar_5v_qui_u3_fb_cap8_q3_mackenzie-sp 2018_e.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"> <b>UFJF-MG 2020</b> As fórmulas moleculares descrevem precisamente a composição química de um composto puro em função do tipo e número de átomos presentes. Apesar disto, diferenças na conectividade entre os átomos da molécula
+                                podem resultar em diversos isômeros funcionais. Considere a fórmula molecular C3H6O e desenhe as fórmulas estruturais de:</p>
+                        </div>
+                        <p class="exercicio-text ml"><b>uma cetona, um aldeído, dois éteres e um álcool secundário cíclico.</b> Inclua todos os átomos e ligações nos desenhos.</p>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"> <b>Enem 2018</b> Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter aplicações em tecnologias futuras, substituindo micromotores, sem a necessidade de componentes
+                                mecânicos. Exemplo de movimento molecular induzido pela luz pode ser observado pela flexão de uma lâmina delgada de silício, ligado a um polímero de azobenzeno e a um material suporte, em dois comprimentos de onda, conforme
+                                ilustrado na figura. Com a aplicação de luz ocorrem reações reversíveis da cadeia do polímero, que promovem o movimento observado.</p>
+                        </div>
+                        <img src="./assets/img/ID0114-Q031-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="quote-source">
+                            TOMA, H. E. A nanotecnologia das moléculas.
+                            <i>Química Nova na Escola</i> , n. 21, maio 2005 (adaptado).
+                        </p>
+
+                        <p class="exercicio-text ml">O fenômeno de movimento molecular, promovido pela incidência de luz, decorre do(a):</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>movimento vibracional dos átomos, que leva ao encurtamento e à relaxação das ligações.</li>
+                            <li> isomerização das ligações N 5 N, sendo a forma cis do polímero mais compacta que a
+                                <i>trans</i> .
+                            </li>
+                            <li> tautomerização das unidades monoméricas do polímero, que leva a um composto mais compacto.</li>
+                            <li>ressonância entre os elétrons p do grupo azo e os do anel aromático que encurta as ligações duplas.</li>
+                            <li>variação conformacional das ligações N 5 N, que resulta em estruturas com diferentes áreas de superfície.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Uerj 2020</b> Em uma unidade industrial, emprega-se uma mistura líquida formada por solventes orgânicos que apresentam a fórmula molecular C2H6O.</p>
+                        </div>
+                        <p class="exercicio-text ml">Entre os componentes da mistura, ocorre isomeria plana do seguinte tipo:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> cadeia.</li>
+                            <li>função.</li>
+                            <li> posição.</li>
+                            <li>compensação.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>Enem PPL 2017</b> Em algumas regiões brasileiras, é comum se encontrar um animal com odor característico, o zorrilho. Esse odor serve para proteção desse animal, afastando seus predadores. Um dos feromônios responsáveis
+                                por esse odor é uma substância que apresenta isomeria trans e um grupo tiol ligado à sua cadeia.</p>
+                        </div>
+                        <p class="exercicio-text ml">A estrutura desse feromônio, que ajuda na proteção do zorrilho, é:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/ID0116-I068-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0117-I069-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0118-I070-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0119-I071-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0120-I072-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"><b>Enem PPL 2016</b> A busca por substâncias capazes de minimizar a ação do inseto que ataca as plantações de tomate no Brasil levou à síntese e ao emprego de um feromônio sexual com a seguinte fórmula estrutural:</p>
+                        </div>
+                        <img src="./assets/img/ID0121-Q032-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Uma indústria agroquímica necessita sintetizar um derivado com maior eficácia. Para tanto, o potencial substituto deverá preservar as seguintes propriedades estruturais do feromônio sexual: função orgânica, cadeia normal e isomeria
+                            geométrica original.</p>
+                        <p class="exercicio-text ml">A fórmula estrutural do substituto adequado ao feromônio sexual obtido industrialmente é:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/ID0122-Q033-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0123-Q034-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0124-Q035-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0125-Q036-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID0126-Q037-2020-EM-QUI-2S-L3-FB-U5-C14.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

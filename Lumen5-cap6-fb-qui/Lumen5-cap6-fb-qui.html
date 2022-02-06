@@ -1,0 +1,2783 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body-book">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    6
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Nitrilas, nitrocompostose outras funções
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/ID001-F001-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">Aplicação manual de agrotóxico.
+                        </p>
+                        <p class="img-credit">Alf Ribeiro/Shutterstock.com
+
+                        </p>
+                        <p class="general-text">Em 2011, o mundo ultrapassou a expressiva marca de 7 bilhões de habitantes e, segundo estimativas da Organização das Nações Unidas (ONU), esse número chegará a 9,3 bilhões em 2050. Diante desse cenário, uma questão é causa de grande
+                            preocupação para os países: como produzir alimentos para tanta gente?</p>
+                        <p class="general-text">Uma das medidas mais defendidas consiste em melhorar a eficiência da produção agrícola, empregando técnicas e tecnologias, como os agrotóxicos. Porém, o uso de agrotóxicos, também chamados de ­defensivos agrícolas, sempre foi um
+                            tema de muita discussão. De um lado, agricultores convencionais defendem o seu uso, alegando o aumento da produtividade e, consequentemente, a melhora da economia e da disponibilidade de alimentos. Do outro lado, defensores
+                            ambientais o condenam em razão dos malefícios ao meio ambiente e à saúde de pessoas e animais, os quais são causados por substâncias presentes nos compostos, muitas delas pertencentes a diversas funções orgânicas.</p>
+                        <p class="general-text">O Brasil, por ser um grande produtor agrícola, é um dos maiores consumidores de agrotóxicos no mundo e, infelizmente, ainda permite o uso de dezenas de substâncias que já foram proibidas em outros países. É imprescindível uma discussão
+                            séria sobre os prós e os contras do uso desses produtos, de modo que a saúde da população não seja colocada em risco, e que se continuem a buscar alternativas para o aumento da produção de alimentos. Afinal, comer é um direito
+                            de todos.</p>
+
+
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Agrotóxicos ou defensivos agrícolas: existe um termo correto?
+                                </li>
+                                <li class="general-text">
+                                    Como um gambá espanta seus predadores?
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT104
+                                </span> ,
+                                <span class='boxe-06-texto'>
+                                  EM13CNT205
+                                </span>,<span class='boxe-06-texto'>
+                                  EM13CNT301
+                                </span>,<span class='boxe-06-texto'>
+                                  EM13CNT304
+                                </span>,<span class='boxe-06-texto'>
+                                  EM13CNT306
+                                </span>,<span class='boxe-06-texto'>
+                                  EM13CNT307
+                                </span>e<span class='boxe-06-texto'>
+                                  EM13CNT310
+                                </span>.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Nitrilas</h3>
+                        </div>
+                        <p class="general-text">
+                            São compostos que apresentam o grupo
+                            <b>nitrila</b> (—C ≡ N), ou
+                            <b>cianeto</b> , ligado pelo carbono a outro carbono. Em geral, pode-se considerar que as nitrilas são obtidas pela substituição do hidrogênio do ácido cianídrico (
+                            <b>H</b> CN) por um radical orgânico (
+                            <b>R</b> ). Esquematicamente, as nitrilas podem ser representadas por:
+                        </p>
+                        <img src="./assets/img/ID002-I001-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Grupo funcional das nitrilas.</p>
+                        <p class="general-text">A etanonitrila, mais conhecida como acetonitrila, é a nitrila mais simples. Em temperatura ambiente, ela é líquida, incolor, com leve odor e solúvel em água. Ela é um solvente orgânico, utilizado para extrair pesticidas em amostras
+                            de plantas e sementes. Dessa maneira, é possível identificar quais foram os pesticidas utilizados.</p>
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/ID003-I002-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/ID004-F002-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                                <p class="img-credit">smereka/iStockphoto.com</p>
+                                <p class="img-subtitle">Acetonitrila, usada como solvente orgânico.</p>
+                            </div>
+                        </div>
+
+
+                        <h3 class="titulo2">Nomenclatura das nitrilas</h3>
+                        <h3 class="titulo3">Nomenclatura IUPAC </h3>
+                        <p class="general-text">Para nomearmos uma nitrila, devemos seguir as regras de nomenclatura da IUPAC:</p>
+                        <img src="./assets/img/ID005-I003-2020-EM-QUI-2S-L1-FB-U4-C12 Compor esquema conforme referencia.png" alt="imagem" class="img-md">
+                        <p class="general-text">Para as nitrilas, o grupo funcional tem prioridade na numeração da cadeia principal, mas não é necessário indicar sua posição, pois ele sempre estará no carbono da extremidade da cadeia. Caso exista insaturação, a posição dela
+                            deve ser mencionada antes do infixo que a representa (“en” para a ligação dupla e “in” para a ligação tripla).</p>
+                        <p class="general-text">Veja alguns exemplos: </p>
+                        <img src="./assets/img/ID006-I004-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Observe que, entre o infixo e o sufixo, devemos colocar a vogal “o” para melhorar a sonoridade da palavra.</p>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-1' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-1' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Observe que o carbono ligado ao nitrogênio, caracterizando a função nitrila,
+                                                    <b>não é considerado na contagem dos carbono</b> s que identificam o grupo substituinte, uma vez que ele já foi contado quando mencionamos o termo “cianeto”, característico para essa função.
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="titulo3">Nomenclatura semissistemática (da classe funcional)</h3>
+                        <p class="general-text">Para nomearmos uma nitrila dessa forma, iniciamos o nome do composto com o termo “cianeto de” e, em seguida, acrescentamos o nome do grupo substituinte que está ligado à função, no feminino.</p>
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID007-I005-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Algumas nitrilas apresentam ainda nomes triviais, como acetonitrila, para o cianeto de metila, e acrilonitrila, para o cianeto de vinila. A acrilonitrila é utilizada na produção de polímeros sintéticos, como o poliacrilonitrila,
+                            empregado na fabricação de fibras têxteis, em especial o orlon.</p>
+                        <img src="./assets/img/ID008-F003-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-credit">hanif66/Shutterstock.com</p>
+                        <p class="img-subtitle">Acrilonitrila é uma nitrila utilizada na fabricação do orlon, uma fibra têxtil.</p>
+
+                        <h3 class="titulo2">Propriedades físicas das nitrilas</h3>
+                        <p class="general-text">Encontramos nitrilas líquidas à temperatura ambiente quando suas cadeias apresentam até 14 átomos de carbono. Nessas condições, elas são classificadas como compostos insolúveis em água.</p>
+                        <p class="general-text">As nitrilas com 15 ou mais átomos de carbono são encontradas sólidas à temperatura ambiente e são solúveis em água.</p>
+                        <p class="general-text">Nitrilas são compostos que têm alto teor de toxidade e altas temperaturas de fusão e de ebulição.</p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Nitrocompostos</h3>
+                        </div>
+                        <p class="general-text">
+                            São compostos que apresentam o grupo
+                            <b>nitro</b> (–NO2) ligado a um carbono de cadeia alifática ou aromática, representada por R, esquematicamente:
+                        </p>
+                        <img src="./assets/img/ID009-I006-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Grupo funcional característico dos nitrocompostos.</p>
+                        <p class="general-text">Os nitrocompostos (R—NO2) são derivados do ácido nítrico (HNO3), quando este reage com um grupo orgânico R presente em um hidrocarboneto e resulta, também, na eliminação de uma molécula de água. Veja:</p>
+                        <img src="./assets/img/ID142-I099-2020-EM-QUI-2S-L3-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Um nitrocomposto bastante conhecido é o trinitrotolueno (TNT). Trata-se de um sólido amarelo cristalino, que funde a 81 °C e que tem um imenso potencial explosivo. Por isso, ele é muito utilizado em implosões de prédios e outras
+                            edificações.
+                        </p>
+
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/ID010-I007-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/ID011-F004-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                                <p class="img-credit">Luke Schmidt/Shutterstock.com</p>
+                                <p class="img-subtitle">Implosão de um prédio utilizando TNT.</p>
+                            </div>
+                        </div>
+
+                        <h3 class="titulo3">Nomenclatura dos nitrocompostos</h3>
+
+                        <p class="general-text">Para nomearmos um nitrocomposto, devemos seguir as regras de nomenclatura da IUPAC:</p>
+                        <img src="./assets/img/ID012-I008-2020-EM-QUI-2S-L1-FB-U4-C12 Compor esquema conforme referencia.png" alt="imagem" class="img-md">
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID013-I009-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Assim como nas demais funções orgânicas estudadas, o grupo funcional tem prioridade na numeração da cadeia principal e, caso exista insaturação, sua posição deve ser mencionada antes do infixo que a representa (“en” para a ligação
+                            dupla e “in” para a ligação tripla). </p>
+                        <p class="general-text">
+                            Note que o nitrocomposto aromático conhecido como
+                            <b>TNT</b> (2,4,6-trinitrotolueno) não segue a regra da nomenclatura IUPAC quanto à numeração da cadeia principal. Em vez de iniciar a numeração pelo grupo nitro, começa-se pelo radical metil, pois no benzeno já havia sido
+                            realizada a substituição de um átomo de hidrogênio por um grupo substituinte metil, formando o composto (de nome IUPAC) metilbenzeno, cujo nome semissistemático é tolueno.
+                        </p>
+                        <h3 class="titulo2">Propriedades físicas dos nitrocompostos</h3>
+                        <p class="general-text">A maioria dos nitrocompostos são encontrados na forma de um líquido viscoso à temperatura ambiente. Porém, é possível encontrar alguns de baixa massa molar na forma líquida e mais fluida, os quais são compostos solúveis em água.
+                            Em outras condições, os nitrocompostos são insolúveis em água e são densos.</p>
+                        <p class="general-text">Os nitrocompostos aromáticos são muito reativos, por isso são utilizados em explosivos. Quanto maior o número de grupos nitro em um composto, mais reativo e, consequentemente, mais explosivo ele se torna.</p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Haletos orgânicos</h3>
+                        </div>
+                        <p class="general-text">
+                            São compostos com ao menos um
+                            <b>halogênio</b> (elemento químico da família VIIA ou grupo 17 da tabela periódica: flúor, cloro, bromo ou iodo) ligado a um carbono. Esquematicamente, podem ser representados por
+                            <b>R – X</b> ou
+                            <b>Ar – X</b> , em que
+                            <b>R</b> é um composto alifático,
+                            <b>Ar</b> é um composto aromático e X é um halogênio (F, CL, Br ou I).
+                        </p>
+                        <img src="./assets/img/ID014-I010-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Grupo funcional dos haletos de ácidos.</p>
+                        <p class="general-text">O triclorometano, popularmente conhecido como clorofórmio, é um líquido incolor e volátil à temperatura ambiente. Ele é um anestésico externo, pois absorve calor da pele, deixando os nervos sensitivos (que enviam a informação para
+                            o cérebro) inativos e, consequentemente, diminuindo a sensação de dor. É tóxico quando ingerido ou inalado.</p>
+                        <h3 class="titulo2">Classificação dos haletos orgânicos</h3>
+                        <p class="general-text">Haletos podem ser classificados de acordo com o tipo de cadeia ao qual o carbono a que ele está ligado pertence.</p>
+                        <ul class="questao-alternativas ml">
+                            <li> <b>Haleto de alquila:</b> halogênio ligado a um carbono saturado de um hidrocarboneto de cadeia alifática (R – X). </li>
+                            <p class="general-text">Exemplos: <img src="./assets/img/ID016-I012-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></p>
+                            <li> <b>Haleto de arila:</b> halogênio ligado diretamente a um carbono aromático (Ar – X).</li>
+                            <p class="general-text">Exemplos: <img src="./assets/img/ID017-I012-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></p>
+                        </ul>
+
+                        <h3 class="titulo2">Nomenclatura dos haletos orgânicos</h3>
+                        <h3 class="titulo3">Nomenclatura IUPAC </h3>
+                        <p class="general-text">Para nomearmos um haleto orgânico, devemos seguir as regras de nomenclatura da IUPAC:</p>
+                        <img src="./assets/img/ID018-I013-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">A cadeia principal é aquela com a maior sequência de carbonos e que tem halogênios ligados aos carbonos. Como nas demais funções orgânicas estudadas, o grupo funcional tem prioridade na numeração da cadeia principal. A posição
+                            do grupo funcional haleto orgânico é informada apenas quando existe mais de uma possibilidade de localização. Para cadeias com mais de um tipo de halogênio, devemos citá-los utilizando a ordem alfabética. </p>
+
+
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-2' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-2' class='lbl-toggle-mat'>
+                              <div class='flex-icon'>
+                                  <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                                  <p class='collapsible-title'>Fique ligado!</p>
+                              </div>
+                              <div class='flex-icon'>
+                                  <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                                  <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                              </div>
+                          </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Diversas cadeias carbônicas são formadas por mais de uma função orgânica. Dessa forma, sempre haverá uma função com prioridade na numeração da cadeia principal e na composição do seu nome. As demais funções aparecerão como grupos substituintes. A ordem
+                                                    decrescente de prioridade das principais funções é: ácido carboxílico, éster, amida, nitrila, aldeído, cetona, álcool, amina, alqueno, alquino, alcano, éter e halogenoalcano. Veja alguns exemplos:
+                                                </p>
+                                                <img src="./assets/img/ID060-I048-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <p class="general-text">Veja alguns exemplos:</p>
+
+                        <img src="./assets/img/ID019-I014-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID020-I015-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID021-I016-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID022-I017-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID023-I018-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+
+                        <h3 class="titulo3">Nomenclatura semissistemática</h3>
+                        <p class="general-text">Os nomes dos ânions dos halogênios derivam dos hidrácidos de origem, que sofrem ionização quando em solução aquosa. Veja:</p>
+                        <img src="./assets/img/p128_fig01.png" alt="imagem" class="img-md">
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID025-I020-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <h3 class="titulo2">Propriedades físicas dos haletos orgânicos</h3>
+                        <p class="general-text">A eletronegatividade dos halogênios é maior que a do átomo de carbono, do que inferimos a existência de uma ligação covalente polar e de uma molécula polar. No entanto, a solubilidade dos haletos orgânicos em água é muito baixa,
+                            porque eles não fazem ligação de hidrogênio com a água. Além disso, a sua temperatura de ebulição é maior que a de alcanos de massa molar próxima.</p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Haletos de ácidos</h3>
+                        </div>
+                        <p class="general-text">
+                            São compostos
+                            <a href="#lúmen" class="tooltip left" data-title="Análogo: semelhante. Em 
+                            Química Orgânica, o termo 
+                            refere-se a uma substância 
+                            com estrutura similar a outra.
+                            ">
+                                <b>análogos</b>
+                            </a>
+                            aos ácidos carboxílicos, porém, nos haletos, a hidroxila é substituída por um halogênio. A seguir, vemos a representação de um haleto de ácido, em que
+                            <b>R</b> pode ser um grupo substituinte alifático ou um hidrogênio;
+                            <b>Ar</b> , um grupo substituinte aromático; e
+                            <b>X</b> , um dos halogênios: F, CL, Br ou I.
+                        </p>
+                        <img src="./assets/img/ID026-I021-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Grupo funcional dos haletos de ácidos.</p>
+                        p class="general-text"> O cloreto de etanoíla (cloreto de acetila) é um líquido claro e incolor à temperatura e pressão ambiente. É usado como reagente em reações químicas de acilação (reações que introduzem um
+                        <a href="#lúmen" class="tooltip left" data-title="Grupo acila: em Química Orgânica, um grupo acila é um grupo 
+                        derivado de um ácido carboxílico, 
+                        após ser eliminado dele um grupo 
+                        hidroxila">
+                            <b>grupo acila</b>
+                        </a>
+                        em um composto orgânico).
+                        </p>
+                        <img src="./assets/img/ID027-F006-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-credit">LEDOMSTOCK/Shutterstock.com</p>
+                        <p class="img-subtitle">Cloretos de ácidos são muito utilizados nas sínteses orgânicas, ou seja, na formação de novos compostos orgânicos.</p>
+                        <h3 class="titulo2">Nomenclatura dos haletos de ácidos</h3>
+                        <p class="general-text">Para nomearmos um haleto de ácido, devemos seguir as regras de nomenclatura da IUPAC:</p>
+                        <img src="./assets/img/ID028-I022-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID029-I023-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID030-I024-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID031-I025-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <h3 class="titulo2">Propriedades físicas dos haletos orgânicos</h3>
+                        <p class="general-text">São compostos polares por causa da diferença de polaridade entre a carbonila e o átomo do halogênio, presente na extremidade da cadeia, mas não apresentam boa solubilidade em água, sendo mais solúveis em solventes orgânicos. Sua
+                            densidade é maior do que a da água. </p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Tióis</h3>
+                        </div>
+                        <p class="general-text">Na tabela periódica, o enxofre (S) está na mesma coluna do oxigênio, o que significa que os dois elementos químicos apresentam o mesmo número de elétrons na camada de valência. Na Química Orgânica, muitas substâncias com oxigênio
+                            na sua composição têm análogos de enxofre e resultam em novas funções orgânicas.</p>
+                        <p class="general-text">
+                            Um
+                            <b>tiol</b> (—SH) é um composto orgânico com um ou mais átomos de enxofre, por isso ele também é chamado de composto sulfurado – do latim
+                            <i>sulphur</i> , que significa “enxofre”. O termo “tio” vem do grego
+                            <i>theion</i> , mas significa “enxofre” também. O tiol se assemelha ao grupo funcional álcool, porém, diferente deste, o tiol tem um átomo de enxofre no lugar do átomo de oxigênio (presente no álcool), ou seja, o átomo de enxofre
+                            deve estar ligado a um carbono saturado.
+                        </p>
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID032-I026-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Os tióis mais conhecidos apresentam odores desagradáveis. Gambás emitem uma mistura, com cheiro forte e desagradável para afastar predadores, composta por tióis. O metanotiol (CH3SH) é adicionado ao gás natural para que vazamentos
+                            possam ser detectados com mais facilidade, uma vez que o gás natural é inodoro.</p>
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/ID033-I027-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/ID034-F007-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                                <p class="img-credit">praphab louilarpprasert/Shutterstock.com</p>
+                                <p class="img-subtitle">Metanotiol, por ter odor desagradável, é adicionado ao gás natural para facilitar a detecção de vazamentos.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-3' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-3' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    A IUPAC abandonou a terminologia “mercapto” há várias décadas. No entanto, muitos químicos ainda se referem aos tióis como
+                                                    <b>mercaptanos</b> .
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h3 class="titulo2">Nomenclatura dos tióis</h3>
+
+                        <p class="general-text">Para nomearmos um tiol, devemos seguir as regras de nomenclatura da IUPAC para álcoois, substituindo o sufixo “ol” por “tiol”:</p>
+                        <img src="./assets/img/ID035-I028-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID036-I029-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">A cadeia principal é a maior sequência de carbonos que inclui o carbono saturado ligado ao átomo de enxofre. Como nas demais funções orgânicas estudadas, o grupo funcional tem prioridade na numeração da cadeia principal, mas, no
+                            caso do tiol, sua posição é informada apenas quando existe mais de uma possibilidade de localização, que pode ser na extremidade de uma cadeia, ou não. As insaturações e grupos substituintes são numerados e nomeados de acordo
+                            com as regras de nomenclatura já estudadas. Observe que mantemos o “o” antes do sufixo “tiol” para preservar a sonoridade da palavra. </p>
+
+                        <h3 class="titulo2">Propriedades físicas dos tióis</h3>
+                        <p class="general-text">
+                            São compostos
+                            <b>polares</b> , cuja temperatura de ebulição e solubilidade em água são menores do que as de álcoois de igual massa molar. A maioria dos tióis tem odor forte e desagradável, por isso o composto é utilizado como odorante em
+                            processos que envolvem vazamento de gás. Tanto o gás natural quanto o gás liquefeito de petróleo – mistura formada pelos hidrocarbonetos propano e butano, utilizada como gás de cozinha – são incolores e inodoros. Então, ao
+                            adicionar-lhes o tiol, o cheiro característico dele indica se há vazamento de gás. A adição de tióis começou a ser feita após um grave acidente de vazamento de gás natural, em 18 de março de 1937, na New London School, no Texas.
+                        </p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Sulfetos</h3>
+                        </div>
+                        <p class="general-text">
+                            Os
+                            <b>sulfetos</b> se assemelham ao grupo funcional éter, porém eles têm um átomo de enxofre no lugar do átomo de oxigênio presente nos éteres – ou seja, o átomo de enxofre deve estar ligado a dois átomos de carbono. O grupo característico
+                            de um sulfeto é chamado de grupo
+                            <b>alquiltio</b> (R – S – R’), em que R e R’ podem ser iguais ou diferentes. Veja:
+                        </p>
+                        <img src="./assets/img/ID037-I030-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Um exemplo de composto pertencente a essa função é o sulfeto de dimetila, que está associado ao mau hálito de origem sistêmica. O composto é transportado no sangue, de outras partes do corpo – como do fígado, em casos de cirrose
+                            hepática – até o ar do pulmão, e sai no ar expirado pela boca e pelo nariz. </p>
+
+                        <div class="boxe-06-02-cie">
+                            <header>
+                                <img src="assets/icons/06_BOXE_02.svg" alt="Icone">
+                                <strong>Mais</strong>
+                            </header>
+
+                            <section>
+                                <h4 class="boxe-02-titulo1">
+                                    Hálito: passo a passo para um hálito agradável
+                                </h4>
+                                <h5 class="boxe-02-titulo2">
+                                    Paulo Nadanovsky e Silvia Britto. Rio de Janeiro: E-papers, 2007.
+                                </h5>
+                                <p class="general-text">
+                                    No livro de Nadanovsky e de Britto, em especial no capítulo 4, podemos acompanhar a causa do mau hálito, relacionando os aspectos bioquímicos envolvidos. Vale a pena a leitura!
+                                </p>
+
+                            </section>
+                        </div>
+
+
+                        <h3 class="titulo2">Nomenclatura dos sulfetos</h3>
+                        <p class="general-text">Para nomearmos um sulfeto, devemos seguir as regras de nomenclatura para éteres, substituindo o termo “éter” por “sulfeto”:</p>
+                        <p class="general-text">Veja alguns exemplos:</p>
+                        <img src="./assets/img/ID040-I032-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Observe que, assim como nos éteres, os grupos substituintes são nomeados por ordem alfabética. </p>
+                        <h3 class="titulo2">Propriedades físicas dos sulfetos</h3>
+                        <p class="general-text">São compostos polares, com temperatura de ebulição e solubilidade na água menores do que as dos éteres de igual massa molar. À temperatura ambiente, os sulfetos cujas cadeias têm poucos átomos de carbono são encontrados na forma
+                            líquida; porém, com o aumento da cadeia carbônica, os sulfetos podem ser encontrados na forma gasosa.</p>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Ácidos sulfônicos</h3>
+                        </div>
+                        <p class="general-text">
+                            São compostos derivados do ácido sulfúrico (H2SO4) pela substituição de uma hidroxila (–OH) por um grupo orgânico substituinte (R), esquematicamente representado por
+                            <b>–SO3H</b> .
+                        </p>
+                        <img src="./assets/img/ID041-I033-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Grupo funcional do ácido sulfônico.</p>
+                        <p class="general-text">A principal aplicação de um ácido sulfônico é para a obtenção de espumas, presentes em xampus e detergentes. Um exemplo seria o sal sulfato de sódio e laurila (H<sup>3</sup>C[CH<sup>2</sup>]<sup>10</sup>CH<sup>2</sup>OSO<sup>3</sup>Na).</p>
+
+                        <img src="./assets/img/ID042-F009-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-credit">Vitalinka/Shutterstock.com</p>
+                        <p class="img-subtitle">O sulfato de sódio e laurila é um dos responsáveis pela espuma dos xampus.</p>
+
+                        <h3 class="titulo2">Nomenclatura dos ácidos sulfônicos</h3>
+                        <p class="general-text">A nomenclatura de um ácido sulfônico é semelhante à de um ácido carboxílico, substituindo-se o infixo “oico” por “sulfônico”. Veja:</p>
+                        <img src="./assets/img/ID043-I034-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID044-I035-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="general-text">Observe nos exemplos anteriores que, em razão de sonoridade, mantemos a vogal “o”, característica dos hidrocarbonetos, e duplicamos o “s” do sufixo quando este estiver na extremidade da cadeia principal.</p>
+                        <h3 class="titulo2">Propriedades físicas dos sulfetos</h3>
+                        <p class="general-text">São compostos polares, solúveis em água. À temperatura ambiente, são encontrados na forma líquida, com uma cor marrom característica.</p>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Anidridos ácidos</h3>
+                        </div>
+                        <p class="general-text">São compostos análogos aos ácidos carboxílicos. Dois ácidos carboxílicos iguais ou diferentes sofrem desidratação, perdem uma molécula de água e, então, formam seu anidrido. Esquematicamente, podem ser representados por:</p>
+                        <img src="./assets/img/ID045-I036-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Grupo funcional dos anidridos ácidos.</p>
+                        <p class="general-text">Um exemplo de composto que apresenta essa função é o anidrido etanoico, utilizado como matéria-prima para a produção de filmes fotográficos.</p>
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/ID046-I037-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/ID047-F010-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            </div>
+                        </div>
+
+                        <p class="img-credit">woottigon/Shutterstock.com</p>
+                        <p class="img-subtitle">Filme fotográfico à base de anidrido etanoico.</p>
+
+                        <h3 class="titulo2">Nomenclatura dos anidridos ácidos</h3>
+                        <p class="general-text">A nomenclatura de um anidrido depende dos ácidos carboxílicos de origem, que podem ser iguais ou diferentes.</p>
+                        <ul class="questao-alternativas ml">
+                            <li>Ácidos carboxílicos iguais</li>
+                            <img src="./assets/img/ID048-I038-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            <li>Ácidos carboxílicos diferentes</li>
+                            <img src="./assets/img/ID049-I039-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            <img src="./assets/img/ID050-I040-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        </ul>
+
+
+                        <h3 class="titulo2">Propriedades físicas dos anidridos ácidos</h3>
+                        <p class="general-text">São compostos polares, pouco solúveis em água. São encontrados no estado líquido à temperatura ambiente quando apresentam cadeias de baixa massa molar. </p>
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Compostos de Grignard</h3>
+                        </div>
+                        <p class="general-text">
+                            São compostos que apresentam um átomo de
+                            <b>magnésio</b> ligado a um grupo substituinte (R) e a um
+                            <b>halogênio</b> (X). Recebem esse nome para homenagear o químico francês François Auguste Victor Grignard (1871-1935), ganhador do Prêmio Nobel de Química. Esquematicamente, o grupo funcional pode ser representado por RMgX.
+                        </p>
+                        <p class="general-text">Os reagentes de Grignard são uma classe de compostos químicos extremamente reativos e instáveis, utilizados para sintetizar álcoois, ácidos carboxílicos, hidrocarbonetos e outros compostos, o que levou a um vasto leque de desenvolvimentos
+                            em síntese orgânica.</p>
+
+                        <h3 class="titulo2">Nomenclatura dos compostos de Grignard</h3>
+                        <img src="./assets/img/ID051-I041-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>1</b></p>
+                                <p class="exercicio-text"><b>Fuvest-SP</b> Em 1912, François Auguste Victor Grignard recebeu o prêmio Nobel de Química pela preparação de uma nova classe de compostos contendo, além de carbono e hidrogênio, magnésio e um halogênio – os quais passaram
+                                    a ser denominados “compostos de Grignard”. Tais compostos podem ser preparados pela reação de um haleto de alquila com magnésio em solvente adequado.</p>
+                            </div>
+                            <img src="./assets/img/001.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Os compostos de Grignard reagem com compostos carbonílicos (aldeídos e cetonas), formando álcoois. Nessa reação, forma-se um composto intermediário que, reagindo com água, produz o álcool.</p>
+                            <img src="./assets/img/Questao resolvida_1.png" alt="imagem" class="img-md">
+                            <img src="./assets/img/Questao resolvida_2.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Por esse método, para preparar o álcool terciário</p>
+                            <img src="./assets/img/Questao resolvida_3.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">há duas possibilidades de escolha dos reagentes. Preencha a tabela a seguir para cada uma delas.</p>
+                            <img src="./assets/img/p135_fig01.png" alt="imagem" class="img-md">
+                            <h4 class="titulo4">Resolução:</h4>
+                            <p class="exercicio-text ml">Tabela preenchida:</p>
+                            <img src="./assets/img/p135_fig02.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Possibilidade 1:</p>
+                            <img src="./assets/img/ID058-I046-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Possibilidade 2:</p>
+                            <img src="./assets/img/ID059-I047-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text">Escreva o nome das nitrilas a seguir:</p>
+                        </div>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/ID061-I049-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID062-I050-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></li>
+
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text">Escreva o nome dos compostos a seguir:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/ID063-I051-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID064-I052-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text">Escreva o nome dos compostos:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/ID065-I053-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/ID066-I054-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">Bombas de gás lacrimogêneo são agentes incapacitantes, utilizados para dispersar multidões. Analise a fórmula a seguir, característica de um composto presente na bomba, e identifique as funções orgânicas presentes.</p>
+                        </div>
+                        <img src="./assets/img/ID071-I059-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>UFSC 2016</b></p>
+                        </div>
+                        <p class="quote-title">Agrotóxicos proibidos em vários países são usados no Brasil</p>
+                        <p class="quote">O Brasil é o maior consumidor mundial de agrotóxicos e estudos científicos mostram uma relação clara entre o uso do veneno e o aparecimento de câncer. </p>
+                        <p class="quote">Pesquisas recentes realizadas pela IARC (Agência Internacional de Pesquisas em Câncer) revelam que os agrotóxicos utilizados no Brasil apresentam enorme potencial de desenvolvimento de câncer em seres humanos. Dentre os agrotóxicos
+                            classificados como carcinógenos humanos pode-se citar o glifosato, o herbicida2,4-D e o malation (utilizado em campanhas de saúde pública no combate ao mosquito da dengue). </p>
+                        <p class="quote-source">Disponível em: &lt;http://cartamaior.com.br/?/Editoria/Meio-Ambiente/Agrotoxicos-proibidos-em-varios-paises-sao-usados-no-Brasil/3/34320&gt;. Acesso em: 27 ago. 2015. (Adaptado)</p>
+
+                        <p class="exercicio-text ml">Seguem abaixo as fórmulas estruturais dos agrotóxicos glifosato, herbicida 2,4-D e malation.</p>
+                        <img src="./assets/img/em_disciplinar_5v_qui_u2_fb_cap6_q5_ufsc_2016.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml"> Sobre o assunto tratado acima, é
+                            <b>CORRETO</b> afirmar que:</p>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>01.</b></p>
+                            <p class="exercicio-text"> as moléculas de I e de II apresentam a função orgânica aldeído.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>02.</b></p>
+                            <p class="exercicio-text"> a molécula de III apresenta a função orgânica cetona.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>04.</b></p>
+                            <p class="exercicio-text"> a molécula de I possui, em sua estrutura, um grupo classificado como amina secundária.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>08.</b></p>
+                            <p class="exercicio-text"> o átomo de fósforo apresenta três elétrons na camada de valência.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>16.</b></p>
+                            <p class="exercicio-text">cada uma das moléculas de I e de II apresenta um grupo carboxila.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>32.</b></p>
+                            <p class="exercicio-text"> as moléculas de I, II e III são apolares e pouco solúveis em água.</p>
+                        </div>
+                        <div class="align-horizontal ml margin-top-1">
+                            <b>Soma:</b> <span class="fake-input-model"></span>
+                        </div>
+
+
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"><b>PUC-Minas</b> A estrutura do cloranfenicol, antibiótico de elevado espectro de ação, encontra-se apresentada abaixo:</p>
+                        </div>
+                        <img src="./assets/img/ID081-Q007-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Sobre o cloranfenicol, fazem-se as seguintes afirmativas:</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>Apresenta 6 carbonos sp2 e 4 carbonos sp3.</li>
+                            <li>Possui a função amida em sua estrutura.</li>
+                            <li>Sua fórmula molecular é C<sup>11</sup>H<sup>12</sup>O<sup>5</sup>N<sup>2</sup>C&#8467;<sup>2</sup>.</li>
+                            <li>É um hidrocarboneto alifático e ramificado.</li>
+                            <li> Possui a função nitrila em sua estrutura.</li>
+                        </ol>
+                        <p class="exercicio-text ml">São
+                            <b>INCORRETAS</b> as afirmativas:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>I, III, IV e V</li>
+                            <li> II, III, IV e V</li>
+                            <li> I, IV e V, apenas</li>
+                            <li> II, III e IV, apenas</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>FMP-RJ 2018</b> Tramadol é um opiácio usado como analgésico para o tratamento de dores de intensidade moderada a severa, atuando sobre células nervosas específicas da medula espinhal e do cérebro. O metronidazol possui atividade
+                                antiprotozoária e antibacteriana contra os bacilos gram-negativos anaeróbios, contra os bacilos gram-positivos esporulados e os cocos anaeróbios, presentes na cavidade oral.</p>
+                        </div>
+                        <img src="./assets/img/ID082-Q008-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">O tramadol e o metronidazol apresentam em comum as funções orgânicas: </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> amina e nitrode­rivado.</li>
+                            <li> fenol e nitrila.</li>
+                            <li> álcool e éter.</li>
+                            <li>álcool e amina.</li>
+                            <li>fenol e nitroderivado.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>UEL-PR 2017 (Adapt.)</b> Estimulantes do grupo da anfetamina (ATS,
+                                <i>amphetamine-type stimulants</i> ) sãoconsumidos em todo o mundo como droga recreativa. Dessa classe, o MDMA, conhecido como ecstasy, é o segundo alucinógeno mais usado no Brasil. Em alguns casos, outras substâncias,
+                                como cetamina, mefedrona, mCPP, são comercializadas como
+                                <i>ecstasy</i> . Assim, um dos desafios da perícia policial é não apenas confirmar a presença de MDMA nas amostras apreendidas, mas também identificar sua composição, que pode incluir novas drogas ainda não classificadas.</p>
+                        </div>
+                        <p class="exercicio-text ml">As fórmulas estruturais das drogas citadas são apresentadas a seguir.</p>
+                        <img src="./assets/img/exerc 5 uel pr 2017.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Sobre as funções orgânicas nessas moléculas, assinale a alternativa correta.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Em todas as moléculas existe a função amida.</li>
+                            <li>Na molécula MDMA existe a função éster.</li>
+                            <li>Na molécula cetamina existe a função cetona.</li>
+                            <li>Na molécula mefedrona existe a função aldeído.</li>
+                            <li>Na molécula mCPP existe a função amida ligada ao grupo benzílico.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>Famerp-SP 2017</b> A fórmula corresponde à estrutura do antisséptico cloreto de benzetônio.</p>
+                        </div>
+                        <img src="./assets/img/ID084-Q010-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">De acordo com a fórmula apresentada, é correto afirmar que o cloreto de benzetônio é: </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>um sal de amônio quaternário, que apresenta a função álcool.</li>
+                            <li> um sal de amônio quaternário, que apresenta a função éter.</li>
+                            <li>uma amida, que apresenta a função éter.</li>
+                            <li> uma amida, que apresenta a função álcool.</li>
+                            <li>um sal de amônio quaternário, que apresenta a função éster.</li>
+
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>Uece</b> Com relação às funções orgânicas, assinale a afirmação verdadeira.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Os álcoois são compostos que apresentam grupos oxidrila (OH) ligados a átomos de carbonosaturados com hibridização sp2, enquanto os fenóis são compostos que apresentam grupos oxidrila (OH) ligados ao anel aromático.</li>
+                            <li> O éter é uma substância que tem dois grupos orgânicos ligados ao mesmo átomo de oxigênio, R – O – R1. Os grupos orgânicos podem ser alquila ou arila, e o átomo de oxigênio só pode fazer parte de uma cadeia fechada.</li>
+                            <li> Os ésteres são compostos formados pela troca do hidrogênio presente na carboxila dos ácidos carboxílicos por um grupo alquila ou arila.</li>
+                            <li>Os tióis (R – S – H) e os sulfetos (R – S – R1) são análogos sulfurados de álcoois e ésteres.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"> <b>UEPG-PR 2016</b> Dentre os compostos relacionados abaixo, identifique aqueles que se caracterizam por serem insolúveis em água e assinale o que for correto.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>01.</b></p>
+                            <p class="exercicio-text">Tetracloreto de carbono</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>02.</b></p>
+                            <p class="exercicio-text">Metanol</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>04.</b></p>
+                            <p class="exercicio-text">Acetileno</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>08.</b></p>
+                            <p class="exercicio-text"> Éter dimetílico</p>
+                        </div>
+                        <div class="align-horizontal ml margin-top-1">
+                            <b>Soma:</b> <span class="fake-input-model"></span>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>EsPCEx-SP 2019</b> Na ração operacional do Exército Brasileiro, é fornecida uma cartela contendo cinco comprimidos do composto dicloro isocianurato de sódio, também denominado de dicloro-s-triazinotriona de sódio ou trocloseno
+                                de sódio, dentre outros. Essa substância possui a função de desinfecção da água, visando a potabilizá-la. Instruções na embalagem informam que se deve adicionar um comprimido para cada 1 L água a ser potabilizada, aguardando-se
+                                o tempo de 30 minutos para o consumo.</p>
+                        </div>
+                        <p class="exercicio-text ml">A estrutura do dicloro isocianurato de sódio é representada a seguir:</p>
+                        <img src="./assets/img/exerc 11 espcex sp 2019.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considerando a estrutura apresentada e o texto, são feitas as seguintes afirmativas:</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li> Em sua estrutura encontra-se o grupo funcional representativo da função nitrocomposto.</li>
+                            <li> Todos os carbonos apresentados na estrutura possuem hibridização sp2.</li>
+                            <li>Sua fórmula molecular é C3CL2N3NaO3.</li>
+                            <li>Considerando-se um cantil operacional contendo 1 000 mL de água, será necessário mais que uma unidade do comprimido para desinfecção completa dessa água.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Das afirmativas feitas estão corretas apenas:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>I e II.</li>
+                            <li>III e IV.</li>
+                            <li>II e III.</li>
+                            <li> I, III e IV.</li>
+                            <li>I, II e III.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"><b>PUC-Rio 2017</b> A substância química representada a seguir é utilizada na fabricação de espumas, por conta de seu efeito de retardar a propagação de chamas.</p>
+                        </div>
+                        <img src="./assets/img/ID086-Q012-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Nessa substância, está presente a função orgânica:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>amina.</li>
+                            <li>aldeído.</li>
+                            <li> cetona.</li>
+                            <li>ácido carboxílico.</li>
+                            <li> haleto orgânico.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>9</b></p>
+                            <p class="exercicio-text"><b>Mackenzie-SP</b></p>
+                        </div>
+                        <p class="quote-title"><b>ORGANOCLORADOS</b></p>
+                        <p class="quote">Defensivos agrícolas para as indústrias. Agrotóxicos para os defensores da natureza. Pontos de vista diferentes sobre substâncias usadas para controlar ou matar determinadas pragas. Sua utilização pode oferecer ou não perigo para
+                            o homem, dependendo da toxicidade do composto, do tempo de contato com ele e do grau de contaminação que pode ocorrer. Insolúveis em água, possuem efeito cumulativo, chegando a permanecer por mais de 30 anos no solo. Um dos
+                            mais tóxicos e já há algum tempo proibido, o DDT, virou verbo: dedetizar. Do texto, depreende-se que os defensivos agrícolas:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>nunca oferecem perigo para o homem.</li>
+                            <li>não contaminam o solo, pois são insolúveis em água.</li>
+                            <li>são substâncias totalmente diferentes daquelas chamadas de agrotóxicos.</li>
+                            <li>se usados corretamente, trazem benefícios.</li>
+                            <li>têm vida residual curta.</li>
+                        </ol>
+                    </div>
+
+                    <div class="text-content-area">
+                        <div class="flex-icon enem">
+                            <img src="./assets/icons/07_SECAO_05.svg" class="icon-boxe"> No enem é assim
+                        </div>
+                        <p class="general-text">As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</p>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> <b>Enem 2017</b> Plantas apresentam substâncias utilizadas para diversos fins. A morfina, por exemplo, extraída da flor da papoula, é utilizada como medicamento para aliviar dores intensas. Já a coniina é um dos componentes
+                                da cicuta, considerada uma planta venenosa. Suas estruturas moleculares são apresentadas na figura.</p>
+                        </div>
+                        <img src="./assets/img/ID091-Q017-2020-EM-QUI-2S-L1-FB-U4-C12_a.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ID091-Q017-2020-EM-QUI-2S-L1-FB-U4-C12_b.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">O grupo funcional comum a esses fitoquímicos é o(a):</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>éter.</li>
+                            <li>éster.</li>
+                            <li>fenol.</li>
+                            <li> álcool.</li>
+                            <li>amina.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>IME-RJ</b> A eritromicina é uma substância antibacteriana do grupo dos macrolídeos muito utilizada no tratamento de diversas infecções. Dada a estrutura da eritromicina abaixo, assinale a alternativa que corresponde às funções
+                                orgânicas presentes.</p>
+                        </div>
+                        <img src="./assets/img/ID092-Q018-2020-EM-QUI-2S-L1-FB-U4-C12.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Álcool, nitrila, amida, ácido carboxílico.</li>
+                            <li>Álcool, cetona, éter, aldeído, amina.</li>
+                            <li>Amina, éter, éster, ácido carboxílico, álcool.</li>
+                            <li>Éter, éster, cetona, amina, álcool.</li>
+                            <li>Aldeído, éster, cetona, amida, éter.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>UEL-PR 2018</b> Leia o texto a seguir.</p>
+                        </div>
+                        <p class="quote">Durante a vida e após a morte, o corpo humano serve de abrigo e alimento para diversos tipos de bactérias que produzem compostos químicos, como a cadaverina e a putrescina. Essas moléculas se formam da decomposição de proteínas,
+                            sendo responsáveis, em parte, pelo cheiro de fluidos corporais nos organismos vivos e que também estão associadas ao mau odor característico dos cadáveres no processo de putrefação.</p>
+                        <p class="quote-source">Disponível em: &lt;http://qnint.sbq.org.br/novo/index.php?hash=molecula.248&gt;. Acesso em: 22 maio 2017.</p>
+                        <p class="exercicio-text ml">As fórmulas estruturais da cadaverina e da putrescina são apresentadas a seguir.</p>
+                        <img src="./assets/img/em_disciplinar_5v_qui_u2_fb_cap6_q4_uel_pr_2018.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Com base nos conhecimentos sobre funções orgânicas e propriedades de compostos orgânicos, assinale a alternativa que apresenta, corretamente, a característica dessas moléculas.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Apresentam caráter ácido.</li>
+                            <li>Contém grupo funcional amida.</li>
+                            <li>Possuem cadeia carbônica heterogênea.</li>
+                            <li>Pertencem às aminas primárias.</li>
+                            <li> Classificam-se como apolares.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>Uefs-BA 2016</b></p>
+                        </div>
+
+                        <img src="./assets/img/exerc 5 Uefs-BA 2016.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">A icaridina, representada pela estrutura química e com massa molar 229 g · mol–1, é uma substância química derivada da pimenta que atua como repelente de insetos, como o
+                            <i>Aedes aegypti</i> , transmissor da dengue, da febre chikungunya e do zika vírus. O repelente que apresenta a concentração de icaridina entre 20% e 25% na sua composição possui ação de longa duração.</p>
+                        <p class="exercicio-text ml">Considerando-se essas informações, a estrutura química da icaridina e as propriedades dos compostos orgânicos, é correto afirmar:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> O grupo funcional das aminas é responsável pela atuação da icaridina como repelente.</li>
+                            <li>O tipo de orbital híbrido utilizado pelos átomos de carbono constituintes do hexágono é sp2.</li>
+                            <li> A porcentagem de oxigênio, em massa, presente na icaridina é de, aproximadamente, 14,0%.</li>
+                            <li>A estrutura química da icaridina apresenta o grupo funcional da classe dos álcoois.</li>
+                            <li>O grupo derivado de hidrocarbonetos e ligado diretamente ao oxigênio é representado por – CH2CH(CH3)2.</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>Uepa</b> A imensa flora das Américas deu significativas contribuições à terapêutica, como a descoberta da lobelina (figura abaixo), molécula polifuncionalizada isolada da planta
+                                <i>Lobelianicotinaefolia</i> e usada por tribos indígenas que fumavam suas folhas secas para aliviar os sintomas da asma.</p>
+                        </div>
+                        <img src="./assets/img/em_disciplinar_5v_qui_u2_fb_cap6_q6_uepa_2015.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Sobre a estrutura química da lobelina, é correto afirmar que:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>possui uma amina terciária.</li>
+                            <li>possui um aldeído.</li>
+                            <li>possui um carbono primário.</li>
+                            <li> possui uma amida.</li>
+                            <li> possui um fenol.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Enem</b> Pesticidas são substâncias utilizadas para promover o controle de pragas. No entanto, após sua aplicação em ambientes abertos, alguns pesticidas organoclorados são arrastados pela água até lagos e rios e, ao passar
+                                pelas guelras dos peixes, podem difundir-se para seus tecidos lipídicos e lá se acumularem.</p>
+                        </div>
+                        <p class="exercicio-text ml">A característica desses compostos responsável pelo processo descrito no texto é o(a):</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>baixa polaridade.</li>
+                            <li>baixa massa molecular.</li>
+                            <li>ocorrência de halogênios.</li>
+                            <li> tamanho pequeno das moléculas.</li>
+                            <li>presença de hidroxilas nas cadeias.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"> <b>Fuvest-SP 2019</b> O gráfico a seguir indica a temperatura de ebulição de bromoalcanos CnH2n11Br para diferentes tamanhos de cadeia carbônica.</p>
+                        </div>
+                        <img src="./assets/img/exerc 9 Fuvest-SP 2019_1.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml"> Considerando as propriedades periódicas dos halogênios, a alternativa que descreve adequadamente o comportamento expresso no gráfico de temperaturas de ebulição
+                            <i>versus</i> tamanho de cadeia carbônica para CnH2n11F(☐) e CnH2n 1 1l (●) é:</p>
+                        <p class="exercicio-text ml"><b>Note e adote:</b></p>
+                        <p class="exercicio-text ml">P.E. = ponto de ebulição </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/exerc 9 Fuvest-SP 2019_2.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/exerc 9 Fuvest-SP 2019_3.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/exerc 9 Fuvest-SP 2019_4.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/exerc 9 Fuvest-SP 2019_5.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/exerc 9 Fuvest-SP 2019_6.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

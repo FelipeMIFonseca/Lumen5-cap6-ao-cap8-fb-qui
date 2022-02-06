@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg153>
+    <TITULO_CAP>8</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Isomeria espacial</TITULO_CAP_TEXTO>
+    <imagem>LUMEN_V5_C08_QUIM_001</imagem>
+    <p class="img-credit">Fahroni/iStockphoto.com</p>
+    <p class="img-subtitle">Cartelas de remédios industrializados.</p>
+    <p class="quote">
+      <p class="quote">[...]</p>
+      <p class="quote">Entre os fármacos à venda nas farmácias do nosso país, existem alguns que apresentam uma particularidade em sua estrutura, que é de fundamental importância para a atividade biológica.</p>
+      <p class="quote">Alguns desses fármacos são quirais ou têm quiralidade, ou seja, têm em sua estrutura um ou mais átomos (na maioria das vezes carbono) que têm a sua orientação tridimensional muito bem definida. A modificação dessa orientação pode levar à diminuição do efeito biológico, à sua total supressão ou ao aparecimento de um efeito biológico adverso.</p>
+      <p class="quote">Convém deixar claro que a quiralidade não é condição para que uma substância apresente efeito farmacológico, entretanto se a estrutura tiver um centro quiral é importante saber qual a orientação espacial responsável pela atividade. [...]</p>
+      <p class="quote">Por exemplo, a talidomida é um sedativo leve e pode ser utilizado no tratamento de náuseas, muito comum no período inicial da gravidez. Quando foi lançado era considerado seguro para o uso de grávidas, sendo administrado como uma mistura racêmica, ou seja, uma mistura composta pelos seus dois enantiômeros, em partes iguais.</p>
+      <p class="quote">Entretanto, uma coisa que não se sabia na época é que o enantiômero S [...] levava à má-formação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas do bebê. O uso indiscriminado desse fármaco levou ao nascimento de milhares de pessoas com gravíssimos defeitos físicos [...].</p>
+      <p class="quote-source">
+        COELHO, Fernando A. S. “Fármacos e quiralidade”.
+        <i>Cadernos Temáticos de Química Nova na escola</i>
+        . [s.
+        <i>L</i>
+        .], n. 3, maio 2001. Disponível em: &lt;http://qnesc.sbq.org.br/online/cadernos/03/quiral.pdf&gt;. Acesso em: 2 set. 2021.
+      </p>
+    </p>
+    <boxe_01>
+      <texto_lista_bullets>•	Qual é a importância de lermos as bulas de remédios?</texto_lista_bullets>
+      <texto_lista_bullets>•	A assimetria de uma molécula será um critério determinante neste capítulo. Antes de pensarmos nas moléculas, você conseguiria mencionar dois objetos classificados como assimétricos?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      Neste capítulo, serão abordadas as habilidades EM13CNT201 ,EM13CNT304 e EM13CNT307
+    </p>
+  </pg153>
+  <pg153-164>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>O conceito de isomeria espacial</titulo1>
+      <p class="general-text">Compostos nos quais os átomos estão ligados em uma mesma ordem, porém com arranjos tridimensionais no espaço diferentes, são denominados isômeros espaciais ou estereoisômeros.</p>
+      <p class="general-text">Diferentemente do que ocorria com os isômeros constitucionais, os isômeros espaciais não são distinguidos apenas ao se observar suas propriedades macroscópicas à temperatura ambiente.</p>
+      <p class="general-text">
+        Os isômeros espaciais são classificados em
+        <b>isômeros geométricos</b>
+        e
+        <b>isômeros ópticos</b>
+        .
+      </p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>
+        Isomeria geométrica ou
+        <b><i>cis-trans</i></b>
+      </titulo1>
+      <p class="general-text">Esse tipo de isomeria ocorre em cadeias abertas e em cadeiasfechadas.</p>
+      <titulo2>Para cadeias abertas</titulo2>
+      <p class="general-text">Quando analisamos as ligações simples, como C — C, não existe uma restrição quanto à rotação no eixo da ligação. No entanto, para ligações duplas, como C = C, a rotação no eixo da ligação é impedida, uma vez que é necessário o rompimento de uma ligação p, o que requer altas temperaturas</p>
+      .
+      <p class="general-text">Como analogia, imagine duas tábuas presas por um prego. Existe a possibilidade de girá-las livremente ao redor do prego. Agora imagine que dois pregos atravessam as tábuas. O movimento não ocorre.</p>
+      <imagem>LUMEN_V5_C08_QUIM_002</imagem>
+      <p class="general-text">Observe as fórmulas estruturais abaixo: elas representam estruturas distintas (isômeros) ou apenas duas representações diferentes para a mesma molécula?</p>
+      <imagem>LUMEN_V5_C08_QUIM_003</imagem>
+      <p class="general-text">Você acertou caso tenha respondido que são duas representações diferentes para a mesma molécula. Isso ocorre pois o eixo formado pela ligação C — C apresenta rotação livre. Veja:</p>
+      <imagem>LUMEN_V5_C08_QUIM_004</imagem>
+      <p class="general-text">Assim, os dois átomos de bromo podem estar representados na figura no mesmo lado do eixo da ligação ou em lados opostos; ou seja, todas as representações são equivalentes.</p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">O mesmo ocorre para as fórmulas estruturais apresentadas abaixo?</p>
+      <imagem>LUMEN_V5_C08_QUIM_005</imagem>
+      <p class="general-text">Você acertou caso tenha respondido não. Nesse caso, temos uma ligação C = C que impede a rotação livre – os dois lados da molécula devem girar juntos. Para que haja rotação é necessário que a ligação dupla seja rompida, o que requer o fornecimento de 270 kJ/mol de energia. Veja:</p>
+      <imagem>LUMEN_V5_C08_QUIM_006</imagem>
+      <p class="general-text">
+        Assim, cada uma das estruturas representa uma substância diferente, mas com as mesmas fórmulas moleculares; nesse caso, temos um par de isômeros geométricos chamados de
+        <b>isômeros</b>
+        <b><i>cis-trans</i></b>
+        .
+      </p>
+      <p class="general-text">
+        Traçando uma linha imaginária acompanhando a ligação C = C (neste exemplo, na horizontal) que irá cortar a molécula em duas partes, quando os
+        <glossario>ligantes</glossario>
+        iguais estão do mesmo lado em relação à linha imaginária, teremos o
+        <b>isômero</b>
+        <b><i>cis</i></b>
+        (do latim , que significa “mesmo lado”, “próximo a”); quando os ligantes iguais estiverem de lados opostos, teremos o
+        <b>isômero</b>
+        <b><i>trans</i></b>
+        (do latim , que significa “lados diferentes”, “através de”). Sua nomenclatura é a mesma estudada até o momento, acrescentando apenas o termo
+        <i>cis</i>
+        ou
+        <i>trans</i>
+        antes do nome da molécula.
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_007</imagem>
+      <p class="general-text">Os ligantes de cada carbono devem ser diferentes entre si, pois, caso sejam iguais, não teremos isômeros, mas sim a mesma molécula. Esquematicamente, teremos:</p>
+      <imagem>LUMEN_V5_C08_QUIM_008</imagem>
+      <p class="general-text">Observe os compostos abaixo:</p>
+      <imagem>LUMEN_V5_C08_QUIM_009</imagem>
+    </p>
+    <glossario>
+      <b>Ligantes:</b>
+      <glossario_palavra>átomos ou grupos de átomos que se ligam a um átomo central. Os ligantes do carbono são os grupos diferentes do hidrogênio.</glossario_palavra>
+    </glossario>
+    <p class="general-text">
+      <imagem>LUMEN_V5_C08_QUIM_010</imagem>
+      <p class="general-text">
+        Quando temos alcenos com mais de dois ligantes diferentes, não é recomendado utilizar o sistema de nomenclatura “
+        <i>cis-trans</i>
+        ”, pois ele pode trazer ambiguidades. Veja o exemplo a seguir, com três ligantes diferentes (flúor, cloro e bromo):
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_011</imagem>
+      <p class="general-text">
+        A molécula apresenta isômeros geométricos, uma vez que os ligantes de cada carbono são diferentes entre si; porém, eles não serão identificados por meio da nomenclatura “
+        <i>cis-trans</i>
+        ”. Nesses casos, utilizaremos o sistema de nomenclatura
+        <b><i>Z-E</i></b>
+        , sendo
+        <b>Z</b>
+        (do alemão
+        <i>zusammen</i>
+        5 juntos) a atribuição dada quando os ligantes de maior número atômico (Z) para cada um dos átomos de carbono da ligação dupla estiverem do mesmo lado da linha imaginária e
+        <b>E</b>
+        (do alemão
+        <i>entgegen</i>
+        5 opostos) a atribuição dada quando os ligantes de maior número atômico (Z) para cada um dos átomos de carbono da ligação dupla estiverem de lados contrários da linha imaginária. Esquematicamente, teremos:
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_012</imagem>
+      <p class="general-text">Retomando a cadeia anterior, teremos:</p>
+      <imagem>LUMEN_V5_C08_QUIM_013</imagem>
+      <titulo2>Para cadeias fechadas</titulo2>
+      <p class="general-text">
+        Verificamos a presença de isômeros
+        <i>cis-trans</i>
+        em cadeias fechadas quando:
+      </p>
+      <texto_lista_numero>1)	não há ligação dupla no ciclo, pois, tendo a ligação dupla, haveria apenas um ligante para cada carbono que realiza a ligação dupla;</texto_lista_numero>
+      <texto_lista_numero>2)	dois átomos de carbono do ciclo (sendo estes vizinhos ou não) devem apresentar ligantes diferentes entre si, pois assim como no caso da ligação C = C, a rotação em torno do eixo da ligação entre os átomos de carbono não é possível devido à estrutura cíclica.</texto_lista_numero>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>
+        Caso os dois átomos ligados diretamente ao carbono da ligação dupla forem os mesmos, analisaremos o próximo átomo; caso esse também seja igual, analisaremos o próximo, um de cada vez, até que seja encontrada uma diferença. Esta regra é chamada de
+        <b>regra do primeiro ponto de diferença</b>
+        .
+      </boxe_17_texto>
+      <boxe_17_texto>Veja:</boxe_17_texto>
+      <imagem>LUMEN_V5_C08_QUIM_014</imagem>
+    </boxe_17>
+    <p class="general-text">
+      Veja o exemplo:
+      <imagem>LUMEN_V5_C08_QUIM_016</imagem>
+    </p>
+    <boxe_08>
+      <imagem_inline>06_BOXE_08_CT</imagem_inline>
+      <boxe_08_titulo1>Em Biologia vemos que...</boxe_08_titulo1>
+      <boxe_08_texto>A acetilcolina (abreviada como ACh) é encontrada no sistema nervoso do corpo humano e possui um importante papel na transmissão de impulsos nervosos. [...]</boxe_08_texto>
+      <boxe_08_texto>
+        A ACh dispara os impulsos nervosos ao se ligar a dois tipos diferentes de receptores conhecidos como
+        <i> receptor muscarínico e receptor nicotínico</i>
+        . Ao se ligarem com a ACh, os receptores muscarínico e nicotínico exercem efeitos biológicos diferentes no organismo. Principalmente, o ritmo cardíaco aumenta ou diminui dependendo se a ACh se liga aos receptores muscarínico ou nicotínico. Mas como a ACh pode se ligar a dois receptores que têm formas diferentes?
+      </boxe_08_texto>
+      <boxe_08_texto>A resposta reside na habilidade da ACh em adotar diferentes conformações pela rotação em torno da ligação C – C central [...]. As posições relativas do íon amônio quaternário e éster modifica a rotação da ligação C – C, e isso é importante porque esses grupos formam ligações não covalentes com os receptores muscarínico e nicotínico. [...]</boxe_08_texto>
+      <imagem>LUMEN_V5_C08_QUIM_017</imagem>
+      <boxe_08_texto>Mas qual é a conformação da ACh que se liga ao receptor muscarínico e qual é aquela que se liga ao receptor nicotínico? Para responder a essa questão, os bioquímicos prepararam em laboratório análogos conformacionalmente rígidos da ACh. Essas moléculas têm os mesmos grupos funcionais da ACh, ou grupos semelhantes, mas que só podem adotar uma única conformação, pois a ligação central C – C é parte de um anel. [...]</boxe_08_texto>
+      <boxe_08_texto>
+        Por exemplo, nos derivados do
+        <i>cis- e</i>
+        do
+        <i>trans</i>
+        -ciclopropano, representados a seguir, um grupo CH2 se liga à ligação C – C na ACh, e isso impede a rotação da ligação. [...] Embora menos potentedo que a ACh, o trans-ciclopropano produz o mesmo tipo de resposta que a ACh,enquanto o
+        <i>cis</i>
+        -ciclopropano é essencialmente inativo. [...]
+      </boxe_08_texto>
+      <imagem>LUMEN_V5_C08_QUIM_018</imagem>
+      <p class="quote-source">
+        BURROWS, Andrews
+        <i>et al. Química³: introdução à Química Inorgânica, Orgânica e Físico-Química</i>
+        . SILVA, Edilson Clemente da (Trad.). Rio de Janeiro: LTC, 2012. v. 2. p. 52-3.
+      </p>
+    </boxe_08>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Isomeria óptica</titulo1>
+      <p class="general-text">
+        A isomeria óptica ocorre com
+        <b>moléculas assimétricas</b>
+        , nas quais os isômeros diferem no desvio da luz polarizada.
+      </p>
+      <p class="general-text">Primeiramente, vamos analisar alguns exemplos de objetos simétricos e assimétricos para depois pensarmos nesses conceitos relacionados às moléculas orgânicas. Analise as figuras abaixo:</p>
+      <tabela>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="3" aid:ccolwidth="312.7916408328563">
+            <b>Objetos simétricos</b>
+          </tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.84931644830203">
+            <imagem>LUMEN_V5_C08_QUIM_019</imagem>
+            <p class="img-credit">dimair/Shutterstock.com</p>
+            <p class="img-subtitle">Bola de bilhar.</p>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="105.72972595935738">
+            <imagem>LUMEN_V5_C08_QUIM_020</imagem>
+            supachai sumrubsuk/Shutterstock.comCadeado.
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="99.21259842519686">
+            <imagem>LUMEN_V5_C08_QUIM_021</imagem>
+            <p class="img-credit">studiovin/Shutterstock.com</p>
+            <p class="img-subtitle">Garfo.</p>
+          </tabela_texto_geral>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="3" aid:ccolwidth="312.7916408328563">
+            <b>Objetos assimétricos</b>
+          </tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.84931644830203">
+            <imagem>LUMEN_V5_C08_QUIM_022</imagem>
+            <p class="img-credit">Marco Govel/Shutterstock.com</p>
+            <p class="img-subtitle">Mão.</p>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="105.72972595935738">
+            <imagem>LUMEN_V5_C08_QUIM_023</imagem>
+            <p class="img-credit">levkr/iStockphoto.com</p>
+            <p class="img-subtitle">Bule.</p>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="99.21259842519686">
+            <imagem>LUMEN_V5_C08_QUIM_024</imagem>
+            <p class="img-credit">Paperkites/iStockphoto.com</p>
+            <p class="img-subtitle">Sapato.</p>
+          </tabela_texto_geral>
+        </Table>
+      </tabela>
+      <p class="general-text">
+        Os
+        <b>objetos simétricos</b>
+        apresentam pelo menos um plano de simetria: sua imagem no espelho será igual a ele (
+        <b>objeto e imagem são iguais, ou seja, são sobreponíveis</b>
+        ). Já os
+        <b>objetos assimétricos</b>
+        não apresentam plano de simetria: sua imagem no espelho será diferente do objeto (
+        <b>objeto e imagem não são iguais, ou seja, não são sobreponíveis</b>
+        ).
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_025</imagem>
+      <p class="general-text">
+        A isomeria óptica está associada ao comportamento das substâncias assimétricas quando submetidas a um feixe de luz polarizada (que tem um só plano de vibração, como o
+        <i>laser</i>
+        ). A luz polarizada é um tipo de luz obtida quando a luz natural, não polarizada (infinitos planos de vibração, como a luz do sol ou de uma lâmpada) atravessa um polarizador.
+      </p>
+    </p>
+    <boxe_06>
+      <imagem_inline>06_BOXE_06_CT</imagem_inline>
+      <boxe_06_titulo1>Em Física vemos que...</boxe_06_titulo1>
+      <boxe_06_texto>...A luz é uma onda eletromagnética que provém de oscilações elétricas e oscilações magnéticas, podendo se propagar em meios materiais e no vácuo.</boxe_06_texto>
+    </boxe_06>
+    <p class="general-text">
+      <imagem>LUMEN_V5_C08_QUIM_026</imagem>
+      <p class="general-text">Observe que a luz comum se propaga com seus componentes verticais e horizontais até atingir o filtro polarizador vertical, pelo qual passam somente ondas luminosas na posição vertical.</p>
+      <p class="general-text">Esse fenômeno também acontece com moléculas; logo, existem moléculas simétricas e assimétricas. Quando uma molécula é simétrica, sua imagem no espelho é igual a ela (são sobreponíveis); já quando a molécula é assimétrica, sua imagem no espelho é diferente dela (não são sobreponíveis). Veja:</p>
+      <imagem>LUMEN_V5_C08_QUIM_027</imagem>
+      <imagem>LUMEN_V5_C08_QUIM_028</imagem>
+      <p class="general-text">Dizemos que as moléculas assimétricas apresentam isomeria óptica, uma vez que têm a mesma fórmula molecular e diferentes organização dos átomos no espaço, o que resulta em características diferentes.</p>
+      <p class="general-text">Um exemplo de composto orgânico que apresenta isomeria óptica é o ácido lático (com nome IUPAC ácido 2-hidroxipropanoico): um de seus isômeros é responsável pela fadiga muscular; o outro, pelo azedamento do leite.</p>
+      <titulo2>Carbono assimétrico ou quiral</titulo2>
+      <p class="general-text">
+        Existe uma técnica que auxilia na identificação de uma molécula assimétrica: a existência de pelo menos um
+        <b>carbono assimétrico ou quiral </b>
+        (do grego
+        <i>cheiral</i>
+        5 mão) em sua estrutura. O carbono quiral é um carbono saturado que apresenta os quatro ligantes diferentes entre si.
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_029</imagem>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>
+        Ao longo do estudo de isomeria óptica, alguns termos importantes serão utilizados. Veja alguns deles e seus significados:
+        <b>Antípodas ópticos</b>
+        : isômeros ópticos.
+      </boxe_17_texto>
+      <boxe_17_texto>
+        <b>Enantiômeros</b>
+        : do grego
+        <b>enantio</b>
+        5 oposto;
+        <b>mero</b>
+        5 parte.
+        <b>Enantiomorfos:</b>
+        do grego
+        <b>morphos</b>
+        5 forma; são isômeros ópticos que têm entre si a relação de objeto-imagem.
+      </boxe_17_texto>
+      <boxe_17_texto>
+        <b>Estereoisômeros:</b>
+        do grego
+        <b>stereo</b>
+        5 três dimensões no espaço; são isômeros assimétricos (não sobreponíveis).
+      </boxe_17_texto>
+      <boxe_17_texto>
+        <b>Diasteroisômeros</b>
+        : são estereoisômeros com mais de um centro de quiralidade que não são imagens especulares; são simétricos (superponíveis).
+      </boxe_17_texto>
+      <boxe_17_texto>
+        <b>Mistura racêmica</b>
+        : opticamente inativa, ocorre quando misturamos enantiômeros em partes iguais.
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">Vamos analisar novamente o ácido lático:</p>
+      <imagem>LUMEN_V5_C08_QUIM_030</imagem>
+      <p class="general-text">
+        Podemos observar que todos os ligantes do carbono central são diferentes entre si; logo, existe um carbono assimétrico na molécula do ácido lático, comumente identificado por um asterisco. Moléculas com carbono quiral apresentam um
+        <b>estereoisômero</b>
+        que corresponde à sua imagem especular. Veja a comparação com as mãos de uma pessoa:
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_031</imagem>
+      <p class="general-text">Objeto e imagem de moléculas assimétricas têm comportamento diferente quando expostos à luz plano-polarizada. Quando em solução aquosa, um isômero desvia a luz para a direita e o outro, para a esquerda; por isso, são consideradas substâncias opticamente ativas. O ângulo de desvio da luz polarizada pode ser medido com o auxílio de um polarímetro. Veja:</p>
+      <imagem>LUMEN_V5_C08_QUIM_032</imagem>
+      <p class="general-text">Uma luz não polarizada é emitida por uma lâmpada de sódio e passa pelo polarizador. O feixe plano-polarizado entra no tubo que contém uma solução da substância opticamente ativa, que desvia o plano da luz para a direita ou para a esquerda. Um analisador (nome dado a um segundo polarizador) com escala de rotação em graus é girado, fazendo com que a luz volte a passar, permitindo que o observador determine o ângulo de desvio. </p>
+      <p class="general-text">
+        Quando o desvio da luz plano-polarizada for para a direita (sentido horário), o isômero será chamado
+        <b>dextrogiro</b>
+        (do latim
+        <i>dexter</i>
+        5 direita); utilizamos o
+        <b>símbolo</b>
+        <b><i>d</i></b>
+        ou 1 antes do nome do isômero para identificá-lo. Quando o desvio da luz plano-polarizada for para a esquerda (sentido anti-horário), o isômero será chamado
+        <b>levogiro</b>
+        (do latim
+        <i>laevus</i>
+        5 esquerda); utilizamos o
+        <b>símbolo</b>
+        L ou – antes do nome do isômero para identificá-lo.
+      </p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>
+        Os isômeros
+        <i>d</i>
+        e L também podem ser representados por
+        <i>R</i>
+        e
+        <i>S</i>
+        , respectivamente, uma forma de nomenclatura alternativa. Do latim,
+        <i>rectus</i>
+        5 direita e
+        <i>sinister</i>
+        5 esquerda.
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">
+        Os enantiômeros giram o plano de luz de um mesmo valor, mas em sentidos opostos. Assim, misturas que apresentam quantidade equimolares de um par de enantiômeros são opticamente inativas, sendo chamadas de
+        <b>misturas racêmicas</b>
+        , do latim
+        <i>racemus</i>
+        , que significa cacho de uva.
+      </p>
+      <p class="general-text">O cientista que observou essa mudança de ângulo de desvio dos isômeros pela primeira vez foi o químico francês Louis Pasteur (1822-1895).</p>
+    </p>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Unesp 2019</b>
+        A vitamina D3 é lipossolúvel e opticamente ativa. Certo laboratório produz e comercializa suplementos dessa vitamina na forma de cápsulas contendo diferentes quantidades de colecalciferol. Essas quantidades são comumente indicadas por Unidades Internacionais (U.I.) de vitamina D3, que têm sua equivalência em unidades de massa. A tabela foi construída com base em informações da bula desse suplemento, que deve ser usado somente com indicação de profissional de saúde.
+      </exercicio_enunciado>
+      <tabela>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.04314341774453">
+            <b>Quantidade de vitamina D3(em U.I.)</b>
+          </tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="72.94483072059842">
+            <b>Massa decalciferol(em mg)</b>
+          </tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.04314341774453">
+            <tabela_texto_geral>1 000</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="72.94483072059842">
+            <tabela_texto_geral>1,00</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.04314341774453">
+            <tabela_texto_geral>7 000</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="72.94483072059842">
+            <tabela_texto_geral>7,00</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="74.04314341774453">
+            <tabela_texto_geral>50 000</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="72.94483072059842">
+            <tabela_texto_geral>50,00</tabela_texto_geral>
+          </tabela_texto_geral>
+        </Table>
+      </tabela>
+      <imagem>LUMEN_V5_C08_QUIM_033</imagem>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        A partir dos dados da tabela, calcule quanto vale cada U.I. de vitamina D3, em mg de colecalciferol. Indique, na fórmula do colecalciferol reproduzida abaixo, um átomo de carbono quiral responsável pela atividade óptica observada na molécula.
+      </exercicio_lista_letra>
+      <imagem>LUMEN_V5_C08_QUIM_034</imagem>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Qual é a função orgânica oxigenada presente na estrutura da vitamina D3? Justifique, com base na estrutura molecular do colecalciferol, por que essa vitamina é lipossolúvel.
+      </exercicio_lista_letra>
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Cálculo de quanto vale cada U.I. de vitamina D3 em mg de colecalciferol:
+      </exercicio_lista_letra>
+      <imagem>LUMEN_V5_C08_QUIM_035</imagem>
+      <texto_resolucao>Indicação de um átomo de carbono quiral responsável pela atividade óptica observada na molécula (pode-se escolher um entre os cinco marcados com um círculo na figura a seguir):</texto_resolucao>
+    </secao_01>
+    <secao_01>
+      <imagem>LUMEN_V5_C08_QUIM_036</imagem>
+      <b>b)</b>
+      <exercicio_lista_letra>	A função orgânica oxigenada presente na estrutura da vitamina D3 (colecalciferol) é a função álcool. A vitamina é classificada como lipossolúvel, pois sua estrutura é predominantemente apolar (mistura de hidrocarbonetos).</exercicio_lista_letra>
+      <imagem>LUMEN_V5_C08_QUIM_037</imagem>
+    </secao_01>
+    <p class="general-text">
+      <titulo2>Moléculas com mais de um carbono quiral e isômeros opticamente ativos</titulo2>
+      <p class="general-text">Considere como exemplo o composto 2-cloro-3-iodobutano, cuja fórmula estrutural está representada abaixo:</p>
+      <imagem>LUMEN_V5_C08_QUIM_038</imagem>
+      <p class="general-text">
+        Os carbonos 2 e 3 são quirais, sendo possível prever a existência de quatro isômeros ópticos representados pela
+        <glossario>projeção de Fischer</glossario>
+        abaixo:
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_039</imagem>
+      <p class="general-text">
+        Comparando a molécula I com a molécula III, podemos observar que foram trocadas as posições de dois ligantes (hidrogênio e cloro), e a mudança gerou isômeros ópticos uns dos outros, mas nem todos são enantiômeros (relação objeto-imagem). Assim, os pares I/II e III/IV são enantiômeros ou
+        <b>enantiomorfos</b>
+        , enquanto os pares I/III, I/IV, II/III e II/IV são
+        <b>diasteroisômeros</b>
+        (não há relação objeto-imagem). Então, temos quatro
+      </p>
+    </p>
+    <glossario>
+      <b>Projeção de Fischer:</b>
+      <glossario>fórmula estrutural de um composto orgânico numa representação bidimensional, na qual as linhas verticais representam ligações que ocorrem atrás do plano, e as linhas horizontais representam ligações que ocorrem na frente do plano.</glossario>
+    </glossario>
+    <p class="general-text">
+      <p class="general-text">isômeros ópticos, sendo dois dextrogiros e dois levogiros, e duas misturas racêmicas. O número de misturas racêmicas será sempre a metade do número de isômeros ópticos.</p>
+      <p class="general-text">Para calcularmos a quantidade de isômeros ópticos (diasteroisômeros e enantiômeros) e de misturas racêmicas para um composto, devemos primeiramente verificar a quantidade de carbonos quirais (representada por “n”) presentes na molécula; em seguida, devemos aplicar as fórmulas propostas por Van’t Hoff:</p>
+      <imagem>BOX_001</imagem>
+      <p class="general-text">Existe um caso especial de isomeria óptica quando os carbonos quirais apresentam ligantes iguais. Observe a molécula do ácido tartárico (ácido 2,3-di-hidroxibutanodioico):</p>
+      <imagem>LUMEN_V5_C08_QUIM_040</imagem>
+      <p class="general-text">
+        Note que os carbonos 2 e 3 são quirais (os quatro ligantes são diferentes entre si), mas seus substituintes são iguais; logo, terão o mesmo ângulo de desvio. Em casos como esse, não podemos usar a fórmula proposta por Van’t Hoff, pois um dos isômeros espaciais será inativo em razão de uma compensação interna (um carbono quiral irá compensar o desvio do outro). O ácido tartárico apresenta apenas um isômero dextrogiro, um levogiro e um tipo de isômero inativo (que não desvia o plano de luz polarizada) chamado
+        <b>isômero meso</b>
+        .
+      </p>
+      <imagem>LUMEN_V5_C08_QUIM_041</imagem>
+      <titulo2>Propriedades biológicas dos enantiômeros</titulo2>
+      <p class="general-text">Os enantiômeros têm propriedades físicas e químicas idênticas, mas apresentam propriedade biológicas distintas. Isso ocorre pois nosso organismo é extremamente seletivo: nele acontecem diversas reações químicas; quando ingerimos um alimento, uma bebida ou ainda um medicamento, essas reações podem sofrer alterações. Fazendo uma analogia simplista, assim como uma luva direita se ajusta na mão direita, mas não se ajusta na mão esquerda, quando substâncias assimétricas são ingeridas, elas podem ou não interagir com substâncias do nosso organismo. Observa-se também que um dos isômeros ópticos pode ter a reação mais acelerada enquanto o outro pode nem mesmo reagir – ou, ainda, um isômero pode ter efeito terapêutico enquanto o outro pode ser tóxico.</p>
+      <imagem>LUMEN_V5_C08_QUIM_042</imagem>
+      <p class="img-subtitle">Alusão a interação do fármaco quiral com o nosso corpo.</p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Um exemplo famoso é o medicamento talidomida. Lançada no final dos anos 1950 como um sedativo considerado seguro, a talidomida foi prescrita para mulheres grávidas no intuito de combater enjoos matinais e insônia. Descobriu-se posteriormente que o medicamento causava malformações nos bebês.</p>
+      <imagem>LUMEN_V5_C08_QUIM_043</imagem>
+      <p class="general-text">A talidomida era vendida como uma mistura racêmica dos enantiômeros, e não se conheciam até então os diferentes efeitos causados no organismo. A tragédia levou a mudanças na legislação sobre testes de medicamentos: todas as formas quirais de um medicamento devem ser testadas rigorosamente antes da aprovação.</p>
+    </p>
+    <glossario>
+      <glossario>
+        <b>Teratogênico:</b>
+        do grego
+        <i>terás</i>
+        5 monstro;
+        <i>gene</i>
+        5 origem. Refere-se a tudo aquilo que muda o curso natural das coisas e leva à malformação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas dos bebês.
+      </glossario>
+      <glossario>Na Medicina, a teratologia é a especialidade médica que se dedica ao estudo das anomalias e malformações ligadas a uma perturbação do desenvolvimento embrionário ou fetal.</glossario>
+    </glossario>
+    <secao_02>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        Os compostos but-1-eno e but-2-eno apresentam isomeria
+        <i>cis-trans</i>
+        ? Justifique.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>2</b>
+        Diferencie o(s) composto(s) que apresenta(m) isomeria
+        <i>cis-trans</i>
+        do exercício 1 quanto à polaridade e à temperatura de ebulição.
+      </exercicio_enunciado>
+    </secao_02>
+    <secao_02>
+      <exercicio_enunciado>
+        <b>3</b>
+        Para o 1,2-dimetilciclopentano, escreva seus isômeros
+        <i>cis-trans</i>
+        .
+      </exercicio_enunciado>
+    </secao_02>
+  </pg153-164>
+  <pg165-169>
+    <secao_02>
+      <exercicio_enunciado>
+        <b>4</b>
+        O que é um carbono assimétrico?
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>5</b>
+        Qual é o número de carbonos assimétricos (quirais) no composto a seguir?
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_044</imagem>
+      <exercicio_enunciado>
+        <b>6</b>
+        Qual é o número de isômeros opticamente ativos para o composto 3-metil-hexano?
+      </exercicio_enunciado>
+    </secao_02>
+    <secao_02>
+      <exercicio_citado>
+        <b>7</b>
+        <b>Enem</b>
+        A talidomida é um sedativo leve e foi muito utilizado no tratamento de náuseas, comuns no início da gravidez. Quando foi lançada, era considerada segura para o uso de grávidas, sendo administrada como uma mistura racêmica composta pelos seus dois enantiômeros (R e S). Entretanto, não se sabia, na época, que o enantiômero S leva à malformação congênita, afetando principalmente o desenvolvimento normal dos braços e pernas do bebê.
+      </exercicio_citado>
+      <p class="quote-source">
+        COELHO, F. A. S. “Fármacos e quiralidade”.
+        <i>Cadernos Temáticos de Química Nova na Escola</i>
+        ,São Paulo, n. 3, maio 2001 (adaptado).
+      </p>
+      <texto_geral_exercicio>Essa malformação congênita ocorre porque esses enantiômeros:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        reagem entre si.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        não podem ser separados.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        não estão presentes em partes iguais.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        interagem de maneira distinta com o organismo.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        são estruturas com diferentes grupos funcionais.
+      </exercicio_lista_letra>
+    </secao_02>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>UFRGS 2018</b>
+        Considere a representação tridimensional da molécula orgânica mostrada abaixo.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_045</imagem>
+      <texto_geral_exercicio>Sobre essa molécula, é correto afirmar que:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        é um hidrocarboneto saturado de cadeia homogênea e ramificada.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        possui todos os átomos de carbono com geometria trigonal plana.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        tem, na nomenclatura oficial IUPAC, o nome 2-metilbut-1-eno.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        apresenta isomeria geométrica.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        possui fórmula molecular C5H12.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>Uerj 2019</b>
+        Observe a seguir as fórmulas estruturais espaciais dos principais compostos do óleo de citronela, produto empregado como repelente de mosquitos.
+      </exercicio_enunciado>
+    </secao_03>
+    <secao_03>
+      <imagem>LUMEN_V5_C08_QUIM_046</imagem>
+      <imagem>LUMEN_V5_C08_QUIM_047</imagem>
+      <texto_geral_exercicio>Considerando essas fórmulas estruturais, a quantidade de compostos que apresentam isômeros espaciais geométricos é igual a:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        1
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        2
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        3
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        4
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>Unesp 2018</b>
+        Examine as estruturas do ortocresol e do álcool benzílico.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_048</imagem>
+    </secao_03>
+    <secao_03>
+      <texto_geral_exercicio>O ortocresol e o álcool benzílico:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        apresentam a mesma função orgânica.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        são isômeros.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        são compostos alifáticos.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        apresentam heteroátomo.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        apresentam carbono quiral.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>UFSM-RS</b>
+        Cientistas brasileiros definem como transgênico um &quot;organismo cujo genoma foi alterado pela introdução de DNA exógeno, que pode ser derivado de outros indivíduos da mesma espécie, de uma espécie completamente diferente ou até mesmo de uma construção gênica sintética&quot;. A tecnologia de produção de alimentos transgênicos começou com o desenvolvimento de técnicas de engenharia genética que visavam a um melhoramento genético que pudesse promover a resistência de vegetais a doenças e insetos, sua adaptação aos estresses ambientais e melhoria da qualidade nutricional. Porém, a busca por maior produtividade e maior variabilidade levou ao desenvolvimento da clonagem de genes. Essa técnica tornou possível isolar um gene de um organismo e introduzi-lo em outro como, por exemplo, uma planta que, ao expressar esse gene, manifestará a característica que ele determina.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>Uma das bases constituintes do DNA é a citosina.</texto_geral_exercicio>
+      <imagem>LUMEN_V5_C08_QUIM_049</imagem>
+      <texto_geral_exercicio>No processo químico mostrado acima, a substância A é um ________________ da citosina.</texto_geral_exercicio>
+      <texto_geral_exercicio>O termo que preenche, corretamente, a lacuna é o:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        metâmero.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        isômero de posição.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        enantiômero.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        isômero geométrico.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        tautômero.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>PUC-SP 2016</b>
+        O eugenol e o anetol são substâncias aromáticas presentes em óleos essenciais, com aplicações nas indústrias de cosméticos e farmacêutica. O eugenol está presente principalmente nos óleos de cravo, canela e sassafrás, já o anetol é encontrado nos óleos essenciais de anis e anis-estrelado.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_050</imagem>
+      <texto_geral_exercicio>Sobre esses compostos foram feitas as seguintes afirmações.</texto_geral_exercicio>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        Ambos apresentam isomeria geométrica.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        O eugenol apresenta funções fenol e éter, enquanto que o anetol apresenta função éter.
+      </exercicio_lista_romano>
+    </secao_03>
+    <secao_03>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        A fórmula molecular do eugenol é C10H12O2, enquanto que o anetol apresenta fórmula molecular C10H12O.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+        O anetol apresenta temperatura de ebulição maior do que o eugenol.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>
+        Estão corretas
+        <b>APENAS</b>
+        as afirmações:
+      </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        I e II.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        I e IV.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        II e III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        III e IV.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>UEPG-PR SSA 2021</b>
+        Sobre o ácido lático (ácido 2-hidroxipropanoico), assinale o que for correto.
+      </exercicio_enunciado>
+      <exercicio_lista_questao>
+        <b>01.</b>
+        Existe a forma levorrotatória e dextrorrotatória para esse composto.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>02.</b>
+        Sua fórmula molecular é C3H6O3.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>04.</b>
+        O isômero D-ácido é oticamente ativo.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>08.</b>
+        A mistura racêmica de seus isômeros, D e L, é oticamente inativa.
+      </exercicio_lista_questao>
+      <b>Soma:</b>
+      <imagem>fake_input</imagem>
+      <exercicio_enunciado>
+        <b>7</b>
+        <b>Uerj 2017</b>
+        O ácido linoleico, essencial à dieta humana, apresenta a seguinte fórmula estrutural espacial:
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_051</imagem>
+      <texto_geral_exercicio>Como é possível observar, as ligações duplas presentes nos átomos de carbono 9 e 12 afetam o formato espacial da molécula.</texto_geral_exercicio>
+      <texto_geral_exercicio>As conformações espaciais nessas ligações duplas são denominadas, respectivamente:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <i>cis e cis</i>
+        .
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <i>cis e trans</i>
+        .
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <i>trans e cis</i>
+        .
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <i>trans e trans</i>
+        .
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>8</b>
+        <b>FMJ-SP 2021</b>
+        Uma pesquisa desenvolvida pelo Instituto de Química da Universidade de São Paulo está utilizando o ácido betalâmico, um derivado da betanina, corante extraído da beterraba, para produzir um pigmento de cor azul chamado BeetBlue. A figura apresenta a fórmula estrutural do ácido betalâmico e o corante BeetBlue.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_052</imagem>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Cite o nome das funções oxigenadas existentes em uma molécula de ácido betalâmico.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Assinale, na estrutura existente, o carbono assimétrico presente na molécula do ácido betalâmico. Escreva a fórmula estrutural do isômero geométrico do ácido betalâmico.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>9</b>
+        <b>UFRGS 2017</b>
+        O Prêmio Nobel de Química de 2016 foi concedido aos cientistas Jean-Pierre Sauvage, Sir J. Fraser Stoddart e Bernard L. Feringa que desenvolveram máquinas moleculares. Essas moléculas, em função de estímulos externos, realizam movimentos controlados que poderão levar, no futuro, à execução de tarefas de uma máquina na escala nanométrica (10–9 m).Abaixo está mostrada uma molécula na qual, pela irradiação de luz (fotoestimulação), o isômero A é convertido no isômero B. Sob aquecimento (termo-estimulação), o isômero B novamente se converte no isômero A.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_053</imagem>
+      <texto_geral_exercicio>A respeito disso, considere as seguintes afirmações</texto_geral_exercicio>
+      .
+      <exercicio_lista_romano>
+        <b>I.</b>
+        A e B são isômeros geométricos em que os substituintes na ligação N 5 N estão em lados opostos no isômero A e, no mesmo lado, no isômero B.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        A interação do grupo –1NH3 com o heterociclo, no isômero B, é do tipo ligação de hidrogênio.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        Todos os nitrogênios presentes nos dois isômeros apresentam uma estrutura tetraédrica.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>Quais estão corretas?</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Apenas I.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Apenas III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Apenas I e II.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Apenas II e III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        I, II e III.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>10</b>
+        <b>UEMG 2017</b>
+        Observe o composto orgânico abaixo e as afirmações a seu respeito.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_054</imagem>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        É um álcool insaturado.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        É um isômero
+        <i>cis-trans</i>
+        .
+      </exercicio_lista_romano>
+      <b>III.</b>
+      <exercicio_lista_romano>	Apresenta 18 hidrogênios.</exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+        Apresenta 3 ramificações.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>O número de afirmação(ões) correta(s) é igual a:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        1.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        2.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        3.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        4.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>11</b>
+        <b>Unifesp 2017</b>
+        Considere a fórmula estrutural do anestésico geral halotano (massa molar aproximada 200 g/mol).
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_055</imagem>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Escreva a fórmula molecular do halotano e calcule a porcentagem em massa de flúor nesse anestésico. Apresente os cálculos.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        O halotano deve apresentar isomeria geométrica (
+        <i>cis-trans</i>
+        )? E isomeria óptica? Justifique suas respostas.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>12</b>
+        <b>Famema-SP 2017</b>
+        A fórmula representa a estrutura da leucina, um dos aminoácidos formadores de proteínas no organismo humano.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_056</imagem>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Dê o número de átomos de carbono e de hidrogênio presentes em cada molécula de leucina.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Na fórmula da leucina, indique o átomo de carbono assimétrico e o átomo de carbono terciário.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>13</b>
+        <b>Uerj 2018</b>
+        A dopamina e a adrenalina são neurotransmissores que, apesar da semelhança em sua composição química, geram sensações diferentes nos seres humanos. Observe as informações da tabela:
+      </exercicio_enunciado>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="3">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="48.18897637795275">
+          <b>neurotransmissor</b>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811024">
+          <b>fórmula estrutural</b>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653544">
+          <b>sensação produzida</b>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="48.18897637795275">
+          <tabela_texto_geral>dopamina</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811024">
+          <imagem>LUMEN_V5_C08_QUIM_057</imagem>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653544">
+          <tabela_texto_geral>felicidade</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="48.18897637795275">
+          <tabela_texto_geral>adrenalina</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="127.55905511811024">
+          <imagem>LUMEN_V5_C08_QUIM_058</imagem>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653544">
+          <tabela_texto_geral>medo</tabela_texto_geral>
+        </Cell>
+      </tabela>
+      <texto_geral_exercicio>Indique a função química que difere a dopamina da adrenalina e nomeie a sensação gerada pelo neurotransmissor que apresenta menor massa molecular.Identifique, ainda, o neurotransmissor com isomeria óptica e escreva sua fórmula molecular.</texto_geral_exercicio>
+      <texto_geral_exercicio>Dados: C 5 12; H 5 1; O 5 16.</texto_geral_exercicio>
+    </secao_03>
+    <secao_05>
+      <secao_05_titulo1>No Enem é assim</secao_05_titulo1>
+      <secao_05_texto>As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</secao_05_texto>
+    </secao_05>
+    <secao_05>
+      <exercicio_citado>
+        <b>1</b>
+        <b>Enem 2018</b>
+        As abelhas utilizam a sinalização química para distinguir a abelha-rainha de uma operária, sendo capazes de reconhecer diferenças entre moléculas. A rainha produz o sinalizador químico conhecido como ácido 9-hidroxidec-2-enoico, enquanto as abelhas-operárias produzem ácido 10-hidroxidec-2-enoico. Nós podemos distinguir as abelhas-operárias e rainhas por sua aparência, mas, entre si, elas usam essa sinalização química para perceber a diferença. Pode-se dizer que veem por meio da química.
+      </exercicio_citado>
+      <p class="quote-source">
+        LE COUTEUR, P.; BURRESON, J.
+        <i>Os botões de Napoleão: as 17 moléculas que mudaram a história.</i>
+        Rio de Janeiro: Jorge Zahar, 2006 (adaptado).
+      </p>
+      <texto_geral_exercicio>As moléculas dos sinalizadores químicos produzidas pelas abelhas-rainhas e operária possuem diferença na:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        fórmula estrutural.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        fórmula molecular.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        identificação dos tipos de ligação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        contagem do número de carbonos.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        identificação dos grupos funcionais.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>2	Unesp 2021 Certa vitamina apresenta as seguintes características:</exercicio_enunciado>
+      <exercicio_bullet>•	hidrossolubilidade;</exercicio_bullet>
+      <exercicio_bullet>•	insaturação entre átomos de carbono;</exercicio_bullet>
+      <exercicio_bullet>•	presença da função álcool;</exercicio_bullet>
+      <exercicio_bullet>•	presença de átomo de carbono quiral.</exercicio_bullet>
+      <exercicio_bullet>•	Essa vitamina é:</exercicio_bullet>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>LUMEN_V5_C08_QUIM_059</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>LUMEN_V5_C08_QUIM_060</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <imagem>LUMEN_V5_C08_QUIM_061</imagem>
+      </exercicio_lista_letra>
+    </secao_05>
+    <secao_05>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <imagem>LUMEN_V5_C08_QUIM_062</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        <imagem>LUMEN_V5_C08_QUIM_063</imagem>
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>Mackenzie-SP 2018</b>
+        O butanoato de metila é um flavorizante de frutas utilizado na indústria alimentícia. A sua fórmula estrutural está representada abaixo.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_064</imagem>
+      <texto_geral_exercicio>Analise a fórmula do butanoato de metila e assinale a alternativa que traz, respectivamente, um isômero de compensação e um de função desse flavorizante.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>LUMEN_V5_C08_QUIM_065</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>LUMEN_V5_C08_QUIM_066</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <imagem>LUMEN_V5_C08_QUIM_067</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <imagem>LUMEN_V5_C08_QUIM_068</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        <imagem>LUMEN_V5_C08_QUIM_069</imagem>
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>UFJF-MG 2020</b>
+        As fórmulas moleculares descrevem precisamente a composição química de um composto puro em função do tipo e número de átomos presentes. Apesar disto, diferenças na conectividade entre os átomos da molécula podem resultar em diversos isômeros funcionais. Considere a fórmula molecular C3H6O e desenhe as fórmulas estruturais de:
+      </exercicio_enunciado>
+    </secao_05>
+    <secao_05>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>uma cetona, um aldeído, dois éteres e um álcool secundário cíclico.</b>
+        Inclua todos os átomos e ligações nos desenhos.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>Enem 2018</b>
+        Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter aplicações em tecnologias futuras, substituindo micromotores, sem a necessidade de componentes mecânicos. Exemplo de movimento molecular induzido pela luz pode ser observado pela flexão de uma lâmina delgada de silício, ligado a um polímero de azobenzeno e a um material suporte, em dois comprimentos de onda, conforme ilustrado na figura. Com a aplicação de luz ocorrem reações reversíveis da cadeia do polímero, que promovem o movimento observado.
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_070</imagem>
+      <p class="quote-source">
+        TOMA, H. E. A nanotecnologia das moléculas.
+        <i>Química Nova na Escola</i>
+        , n. 21, maio 2005 (adaptado).
+      </p>
+      <texto_geral_exercicio>O fenômeno de movimento molecular, promovido pela incidência de luz, decorre do(a):</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        movimento vibracional dos átomos, que leva ao encurtamento e à relaxação das ligações.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        isomerização das ligações N 5 N, sendo a forma cis do polímero mais compacta que a
+        <i>trans</i>
+        .
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        tautomerização das unidades monoméricas do polímero, que leva a um composto mais compacto.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        ressonância entre os elétrons p do grupo azo e os do anel aromático que encurta as ligações duplas.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        variação conformacional das ligações N 5 N, que resulta em estruturas com diferentes áreas de superfície.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>7</b>
+        <b>Uerj 2020</b>
+        Em uma unidade industrial, emprega-se uma mistura líquida formada por solventes orgânicos que apresentam a fórmula molecular C2H6O.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>Entre os componentes da mistura, ocorre isomeria plana do seguinte tipo:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        cadeia.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        função.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        posição.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        compensação.
+      </exercicio_lista_letra>
+    </secao_05>
+    <secao_05>
+      <exercicio_enunciado>
+        <b>8</b>
+        <b>Enem PPL 2017</b>
+        Em algumas regiões brasileiras, é comum se encontrar um animal com odor característico, o zorrilho. Esse odor serve para proteção desse animal, afastando seus predadores. Um dos feromônios responsáveis por esse odor é uma substância que apresenta isomeria trans e um grupo tiol ligado à sua cadeia.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>A estrutura desse feromônio, que ajuda na proteção do zorrilho, é:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>LUMEN_V5_C08_QUIM_71</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>LUMEN_V5_C08_QUIM_072</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <imagem>LUMEN_V5_C08_QUIM_073</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <imagem>LUMEN_V5_C08_QUIM_074</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        <imagem>LUMEN_V5_C08_QUIM_075</imagem>
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>9</b>
+        <b>Enem PPL 2016</b>
+        A busca por substâncias capazes de minimizar a ação do inseto que ataca as plantações de tomate no Brasil levou à síntese e ao emprego de um feromônio sexual com a seguinte fórmula estrutural:
+      </exercicio_enunciado>
+      <imagem>LUMEN_V5_C08_QUIM_076</imagem>
+      <texto_geral_exercicio>Uma indústria agroquímica necessita sintetizar um derivado com maior eficácia. Para tanto, o potencial substituto deverá preservar as seguintes propriedades estruturais do feromônio sexual: função orgânica, cadeia normal e isomeria geométrica original.</texto_geral_exercicio>
+      <texto_geral_exercicio>A fórmula estrutural do substituto adequado ao feromônio sexual obtido industrialmente é:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>LUMEN_V5_C08_QUIM_077</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>LUMEN_V5_C08_QUIM_078</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <imagem>LUMEN_V5_C08_QUIM_079</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <imagem>LUMEN_V5_C08_QUIM_080</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        <imagem>LUMEN_V5_C08_QUIM_081</imagem>
+      </exercicio_lista_letra>
+    </secao_05>
+  </pg165-169>
+</Root>

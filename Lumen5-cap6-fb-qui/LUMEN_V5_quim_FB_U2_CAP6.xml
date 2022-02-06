@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg123>
+    <TITULO_CAP>6</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Nitrilas, nitrocompostose outras funções</TITULO_CAP_TEXTO>
+    <imagem>ID001-F001-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    <p class="img-credit">Alf Ribeiro/Shutterstock.com</p>
+    <p class="img-subtitle">Aplicação manual de agrotóxico.</p>
+    <p class="general-text">
+      <p class="general-text">Em 2011, o mundo ultrapassou a expressiva marca de 7 bilhões de habitantes e, segundo estimativas da Organização das Nações Unidas (ONU), esse número chegará a 9,3 bilhões em 2050. Diante desse cenário, uma questão é causa de grande preocupação para os países: como produzir alimentos para tanta gente?</p>
+      <p class="general-text">Uma das medidas mais defendidas consiste em melhorar a eficiência da produção agrícola, empregando técnicas e tecnologias, como os agrotóxicos. Porém, o uso de agrotóxicos, também chamados de ­defensivos agrícolas, sempre foi um tema de muita discussão. De um lado, agricultores convencionais defendem o seu uso, alegando o aumento da produtividade e, consequentemente, a melhora da economia e da disponibilidade de alimentos. Do outro lado, defensores ambientais o condenam em razão dos malefícios ao meio ambiente e à saúde de pessoas e animais, os quais são causados por substâncias presentes nos compostos, muitas delas pertencentes a diversas funções orgânicas.</p>
+      <p class="general-text">O Brasil, por ser um grande produtor agrícola, é um dos maiores consumidores de agrotóxicos no mundo e, infelizmente, ainda permite o uso de dezenas de substâncias que já foram proibidas em outros países. É imprescindível uma discussão séria sobre os prós e os contras do uso desses produtos, de modo que a saúde da população não seja colocada em risco, e que se continuem a buscar alternativas para o aumento da produção de alimentos. Afinal, comer é um direito de todos.</p>
+    </p>
+    <boxe_01>
+      <texto_lista_bullets>•	Agrotóxicos ou defensivos agrícolas: existe um termo correto?</texto_lista_bullets>
+      <texto_lista_bullets>•	Como um gambá espanta seus predadores?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      Neste capítulo, serão abordadas as habilidades EM13CNT104, EM13CNT205, EM13CNT301, EM13CNT304, EM13CNT306, EM13CNT307 e EM13CNT310.
+    </p>
+  </pg123>
+  <pg124-136>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Nitrilas</titulo1>
+      <p class="general-text">
+        São compostos que apresentam o grupo
+        <b>nitrila</b>
+        (—C  N), ou
+        <b>cianeto</b>
+        , ligado pelo carbono a outro carbono. Em geral, pode-se considerar que as nitrilas são obtidas pela substituição do hidrogênio do ácido cianídrico (
+        <b>H</b>
+        CN) por um radical orgânico (
+        <b>R</b>
+        ). Esquematicamente, as nitrilas podem ser representadas por:
+      </p>
+      <imagem>ID002-I001-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-subtitle">Grupo funcional das nitrilas.</p>
+      <p class="general-text">A etanonitrila, mais conhecida como acetonitrila, é a nitrila mais simples. Em temperatura ambiente, ela é líquida, incolor, com leve odor e solúvel em água. Ela é um solvente orgânico, utilizado para extrair pesticidas em amostras de plantas e sementes. Dessa maneira, é possível identificar quais foram os pesticidas utilizados.</p>
+      <imagem>ID003-I002-2020-EM-QUI-2S-L1-FB-U4-C12.png ID004-F002-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-credit">smereka/iStockphoto.com</p>
+      <p class="img-subtitle">Acetonitrila, usada como solvente orgânico.</p>
+      <titulo2>Nomenclatura das nitrilas</titulo2>
+      <titulo3>Nomenclatura IUPAC </titulo3>
+      <p class="general-text">Para nomearmos uma nitrila, devemos seguir as regras de nomenclatura da IUPAC:</p>
+      <imagem>ID005-I003-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Para as nitrilas, o grupo funcional tem prioridade na numeração da cadeia principal, mas não é necessário indicar sua posição, pois ele sempre estará no carbono da extremidade da cadeia. Caso exista insaturação, a posição dela deve ser mencionada antes do infixo que a representa (“en” para a ligação dupla e “in” para a ligação tripla).</p>
+      <p class="general-text">Veja alguns exemplos: </p>
+      <imagem>ID006-I004-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Observe que, entre o infixo e o sufixo, devemos colocar a vogal “o” para melhorar a sonoridade da palavra.</p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>
+        Observe que o carbono ligado ao nitrogênio, caracterizando a função nitrila,
+        <b>não é considerado na contagem dos carbono</b>
+        s que identificam o grupo substituinte, uma vez que ele já foi contado quando mencionamos o termo “cianeto”, característico para essa função.
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <titulo3>Nomenclatura semissistemática (da classe funcional)</titulo3>
+      <p class="general-text">Para nomearmos uma nitrila dessa forma, iniciamos o nome do composto com o termo “cianeto de” e, em seguida, acrescentamos o nome do grupo substituinte que está ligado à função, no feminino.</p>
+      <imagem>BOX_001</imagem>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID007-I005-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Algumas nitrilas apresentam ainda nomes triviais, como acetonitrila, para o cianeto de metila, e acrilonitrila, para o cianeto de vinila. A acrilonitrila é utilizada na produção de polímeros sintéticos, como o poliacrilonitrila, empregado na fabricação de fibras têxteis, em especial o orlon.</p>
+      <imagem>ID008-F003-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-credit">hanif66/Shutterstock.com</p>
+      <p class="img-subtitle">Acrilonitrila é uma nitrila utilizada na fabricação do orlon, uma fibra têxtil.</p>
+      <titulo2>Propriedades físicas das nitrilas</titulo2>
+      <p class="general-text">Encontramos nitrilas líquidas à temperatura ambiente quando suas cadeias apresentam até 14 átomos de carbono. Nessas condições, elas são classificadas como compostos insolúveis em água.</p>
+      <p class="general-text">As nitrilas com 15 ou mais átomos de carbono são encontradas sólidas à temperatura ambiente e são solúveis em água.</p>
+      <p class="general-text">Nitrilas são compostos que têm alto teor de toxidade e altas temperaturas de fusão e de ebulição.</p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Nitrocompostos</titulo1>
+      <p class="general-text">
+        São compostos que apresentam o grupo
+        <b>nitro</b>
+        (–NO2) ligado a um carbono de cadeia alifática ou aromática, representada por R, esquematicamente:
+      </p>
+      <imagem>ID009-I006-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-subtitle">Grupo funcional característico dos nitrocompostos.</p>
+      <p class="general-text">Os nitrocompostos (R—NO2) são derivados do ácido nítrico (HNO3), quando este reage com um grupo orgânico R presente em um hidrocarboneto e resulta, também, na eliminação de uma molécula de água. Veja</p>
+      :
+      <imagem>ID142-I099-2020-EM-QUI-2S-L3-FB-U4-C12.png</imagem>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Um nitrocomposto bastante conhecido é o trinitrotolueno (TNT). Trata-se de um sólido amarelo cristalino, que funde a 81 °C e que tem um imenso potencial explosivo. Por isso, ele é muito utilizado em implosões de prédios e outras edificações.</p>
+      <imagem>ID010-I007-2020-EM-QUI-2S-L1-FB-U4-C12.png ID011-F004-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-credit">Luke Schmidt/Shutterstock.com</p>
+      <p class="img-subtitle">Implosão de um prédio utilizando TNT.</p>
+      <titulo3>Nomenclatura dos nitrocompostos</titulo3>
+      <p class="general-text">Para nomearmos um nitrocomposto, devemos seguir as regras de nomenclatura da IUPAC:</p>
+      <imagem>ID012-I008-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID013-I009-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Assim como nas demais funções orgânicas estudadas, o grupo funcional tem prioridade na numeração da cadeia principal e, caso exista insaturação, sua posição deve ser mencionada antes do infixo que a representa (“en” para a ligação dupla e “in” para a ligação tripla). </p>
+      <p class="general-text">
+        Note que o nitrocomposto aromático conhecido como
+        <b>TNT</b>
+        (2,4,6-trinitrotolueno) não segue a regra da nomenclatura IUPAC quanto à numeração da cadeia principal. Em vez de iniciar a numeração pelo grupo nitro, começa-se pelo radical metil, pois no benzeno já havia sido realizada a substituição de um átomo de hidrogênio por um grupo substituinte metil, formando o composto (de nome IUPAC) metilbenzeno, cujo nome semissistemático é tolueno.
+      </p>
+      <titulo2>Propriedades físicas dos nitrocompostos</titulo2>
+      <p class="general-text">A maioria dos nitrocompostos são encontrados na forma de um líquido viscoso à temperatura ambiente. Porém, é possível encontrar alguns de baixa massa molar na forma líquida e mais fluida, os quais são compostos solúveis em água. Em outras condições, os nitrocompostos são insolúveis em água e são densos.</p>
+      <p class="general-text">Os nitrocompostos aromáticos são muito reativos, por isso são utilizados em explosivos. Quanto maior o número de grupos nitro em um composto, mais reativo e, consequentemente, mais explosivo ele se torna.</p>
+    </p>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Haletos orgânicos</titulo1>
+      <p class="general-text">
+        São compostos com ao menos um
+        <b>halogênio</b>
+        (elemento químico da família VIIA ou grupo 17 da tabela periódica: flúor, cloro, bromo ou iodo) ligado a um carbono. Esquematicamente, podem ser representados por
+        <b>R – X</b>
+        ou
+        <b>Ar – X</b>
+        , em que
+        <b>R</b>
+        é um composto alifático,
+        <b>Ar</b>
+        é um composto aromático e X é um halogênio (F, CL, Br ou I).
+      </p>
+      <imagem>ID014-I010-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-subtitle">Grupo funcional dos haletos de ácidos.</p>
+      <p class="general-text">O triclorometano, popularmente conhecido como clorofórmio, é um líquido incolor e volátil à temperatura ambiente. Ele é um anestésico externo, pois absorve calor da pele, deixando os nervos sensitivos (que enviam a informação para o cérebro) inativos e, consequentemente, diminuindo a sensação de dor. É tóxico quando ingerido ou inalado.</p>
+      <titulo2>Classificação dos haletos orgânicos</titulo2>
+      <p class="general-text">Haletos podem ser classificados de acordo com o tipo de cadeia ao qual o carbono a que ele está ligado pertence.</p>
+      •
+      <b>Haleto de alquila:</b>
+      halogênio ligado a um carbono saturado de um hidrocarboneto de cadeia alifática (R – X). Exemplos:ID0016-I011-2020-EM-QUI-2S-L1-FB-U4-C12.png
+      <texto_lista_bullets>
+        •
+        <b>Haleto de arila:</b>
+        halogênio ligado diretamente a um carbono aromático (Ar – X). Exemplos:
+      </texto_lista_bullets>
+      <imagem>ID017-I012-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <titulo2>Nomenclatura dos haletos orgânicos</titulo2>
+      <titulo3>Nomenclatura IUPAC </titulo3>
+      <p class="general-text">Para nomearmos um haleto orgânico, devemos seguir as regras de nomenclatura da IUPAC:</p>
+      <imagem>ID018-I013-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">A cadeia principal é aquela com a maior sequência de carbonos e que tem halogênios ligados aos carbonos. Como nas demais funções orgânicas estudadas, o grupo funcional tem prioridade na numeração da cadeia principal. A posição do grupo funcional haleto orgânico é informada apenas quando existe mais de uma possibilidade de localização. Para cadeias com mais de um tipo de halogênio, devemos citá-los utilizando a ordem alfabética. </p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>Diversas cadeias carbônicas são formadas por mais de uma função orgânica. Dessa forma, sempre haverá uma função com prioridade na numeração da cadeia principal e na composição do seu nome. As demais funções aparecerão como grupos substituintes. A ordem decrescente de prioridade das principais funções é: ácido carboxílico, éster, amida, nitrila, aldeído, cetona, álcool, amina, alqueno, alquino, alcano, éter e halogenoalcano. Veja alguns exemplos:</boxe_17_texto>
+      <imagem>ID060-I048-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID019-I014-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <imagem>ID020-I015-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <imagem>ID021-I016-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <imagem>ID022-I017-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <imagem>ID023-I018-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <titulo3>Nomenclatura semissistemática</titulo3>
+      <imagem>BOX_002</imagem>
+      <p class="general-text">Os nomes dos ânions dos halogênios derivam dos hidrácidos de origem, que sofrem ionização quando em solução aquosa. Veja:</p>
+      <tabela>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="4">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937009">
+            <b>Ácido</b>
+          </tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <b>Nome do ácido</b>
+          </tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">
+            <b>Ânion</b>
+          </tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <b>Nome do ânion</b>
+          </tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937009">HF</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">Ácido fluorídrico</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">F–</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">fluoreto</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937009">HCL</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">Ácido clorídrico</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">CL–</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">cloreto</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937009">HBr</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">Ácido bromídrico</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">Br–</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">brometo</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937009">HI</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">Ácido iodídrico</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">I–</tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">iodeto</tabela_texto_geral>
+        </Table>
+      </tabela>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID025-I020-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </p>
+    <p class="general-text">
+      <titulo2>Propriedades físicas dos haletos orgânicos</titulo2>
+      <p class="general-text">A eletronegatividade dos halogênios é maior que a do átomo de carbono, do que inferimos a existência de uma ligação covalente polar e de uma molécula polar. No entanto, a solubilidade dos haletos orgânicos em água é muito baixa, porque eles não fazem ligação de hidrogênio com a água. Além disso, a sua temperatura de ebulição é maior que a de alcanos de massa molar próxima.</p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Haletos de ácidos</titulo1>
+      <p class="general-text">
+        São compostos
+        <glossario>análogos</glossario>
+        aos ácidos carboxílicos, porém, nos haletos, a hidroxila é substituída por um halogênio. A seguir, vemos a representação de um haleto de ácido, em que
+        <b>R</b>
+        pode ser um grupo substituinte alifático ou um hidrogênio;
+        <b>Ar</b>
+        , um grupo substituinte aromático; e
+        <b>X</b>
+        , um dos halogênios: F, CL, Br ou I.
+      </p>
+      <imagem>ID026-I021-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-subtitle">Grupo funcional dos haletos de ácidos.</p>
+      <p class="general-text">
+        O cloreto de etanoíla (cloreto de acetila) é um líquido claro e incolor à temperatura e pressão ambiente. É usado como reagente em reações químicas de acilação (reações que introduzem um
+        <glossario>grupo acila</glossario>
+        em um composto orgânico).
+      </p>
+      <imagem>ID027-F006-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-credit">LEDOMSTOCK/Shutterstock.com</p>
+      <p class="img-subtitle">Cloretos de ácidos são muito utilizados nas sínteses orgânicas, ou seja, na formação de novos compostos orgânicos.</p>
+      <titulo2>Nomenclatura dos haletos de ácidos</titulo2>
+      <p class="general-text">Para nomearmos um haleto de ácido, devemos seguir as regras de nomenclatura da IUPAC:</p>
+      <imagem>ID028-I022-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID029-I023-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </p>
+    <glossario>
+      <b>Análogo:</b>
+      <glossario_descricao>semelhante. Em Química Orgânica, o termo refere-se a uma substância com estrutura similar a outra.</glossario_descricao>
+      <b>Grupo acila:</b>
+      <glossario_descricao>em Química Orgânica, um grupo acila é um grupo derivado de um ácido carboxílico, após ser eliminado dele um grupo hidroxila.</glossario_descricao>
+    </glossario>
+    <p class="general-text">
+      <imagem>ID030-I024-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <imagem>ID031-I025-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <titulo2>Propriedades físicas dos haletos orgânicos</titulo2>
+      <p class="general-text">São compostos polares por causa da diferença de polaridade entre a carbonila e o átomo do halogênio, presente na extremidade da cadeia, mas não apresentam boa solubilidade em água, sendo mais solúveis em solventes orgânicos. Sua densidade é maior do que a da água. </p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Tióis</titulo1>
+      <p class="general-text">Na tabela periódica, o enxofre (S) está na mesma coluna do oxigênio, o que significa que os dois elementos químicos apresentam o mesmo número de elétrons na camada de valência. Na Química Orgânica, muitas substâncias com oxigênio na sua composição têm análogos de enxofre e resultam em novas funções orgânicas.</p>
+      <p class="general-text">
+        Um
+        <b>tiol</b>
+        (—SH) é um composto orgânico com um ou mais átomos de enxofre, por isso ele também é chamado de composto sulfurado – do latim
+        <i>sulphur</i>
+        , que significa “enxofre”. O termo “tio” vem do grego
+        <i>theion</i>
+        , mas significa “enxofre” também. O tiol se assemelha ao grupo funcional álcool, porém, diferente deste, o tiol tem um átomo de enxofre no lugar do átomo de oxigênio (presente no álcool), ou seja, o átomo de enxofre deve estar ligado a um carbono saturado.
+      </p>
+      Veja alguns exemplos:
+      <imagem>ID032-I026-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Os tióis mais conhecidos apresentam odores desagradáveis. Gambás emitem uma mistura, com cheiro forte e desagradável para afastar predadores, composta por tióis. O metanotiol (CH3SH) é adicionado ao gás natural para que vazamentos possam ser detectados com mais facilidade, uma vez que o gás natural é inodoro.</p>
+      <imagem>ID033-I027-2020-EM-QUI-2S-L1-FB-U4-C12.png ID034-F007-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-credit">praphab louilarpprasert/Shutterstock.com</p>
+      <p class="img-subtitle">Metanotiol, por ter odor desagradável, é adicionado ao gás natural para facilitar a detecção de vazamentos.</p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>
+        A IUPAC abandonou a terminologia “mercapto” há várias décadas. No entanto, muitos químicos ainda se referem aos tióis como
+        <b>mercaptanos</b>
+        .
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <titulo2>Nomenclatura dos tióis</titulo2>
+      <p class="general-text">Para nomearmos um tiol, devemos seguir as regras de nomenclatura da IUPAC para álcoois, substituindo o sufixo “ol” por “tiol”:</p>
+      ID035-I028-2020-EM-QUI-2S-L1-FB-U4-C12.png
+      <imagem></imagem>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID036-I029-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">A cadeia principal é a maior sequência de carbonos que inclui o carbono saturado ligado ao átomo de enxofre. Como nas demais funções orgânicas estudadas, o grupo funcional tem prioridade na numeração da cadeia principal, mas, no caso do tiol, sua posição é informada apenas quando existe mais de uma possibilidade de localização, que pode ser na extremidade de uma cadeia, ou não. As insaturações e grupos substituintes são numerados e nomeados de acordo com as regras de nomenclatura já estudadas. Observe que mantemos o “o” antes do sufixo “tiol” para preservar a sonoridade da palavra. </p>
+      <titulo2>Propriedades físicas dos tióis</titulo2>
+      <p class="general-text">
+        São compostos
+        <b>polares</b>
+        , cuja temperatura de ebulição e solubilidade em água são menores do que as de álcoois de igual massa molar. A maioria dos tióis tem odor forte e desagradável, por isso o composto é utilizado como odorante em processos que envolvem vazamento de gás. Tanto o gás natural quanto o gás liquefeito de petróleo – mistura formada pelos hidrocarbonetos propano e butano, utilizada como gás de cozinha – são incolores e inodoros. Então, ao adicionar-lhes o tiol, o cheiro característico dele indica se há vazamento de gás. A adição de tióis começou a ser feita após um grave acidente de vazamento de gás natural, em 18 de março de 1937, na New London School, no Texas.
+      </p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Sulfetos</titulo1>
+      <p class="general-text">
+        Os
+        <b>sulfetos</b>
+        se assemelham ao grupo funcional éter, porém eles têm um átomo de enxofre no lugar do átomo de oxigênio presente nos éteres – ou seja, o átomo de enxofre deve estar ligado a dois átomos de carbono. O grupo característico de um sulfeto é chamado de grupo
+        <b>alquiltio</b>
+        (R – S – R’), em que R e R’ podem ser iguais ou diferentes. Veja:
+      </p>
+      <imagem>ID037-I030-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Um exemplo de composto pertencente a essa função é o sulfeto de dimetila, que está associado ao mau hálito de origem sistêmica. O composto é transportado no sangue, de outras partes do corpo – como do fígado, em casos de cirrose hepática – até o ar do pulmão, e sai no ar expirado pela boca e pelo nariz. </p>
+    </p>
+    <boxe_02>
+      <imagem_inline>06_BOXE_02</imagem_inline>
+      <boxe_02_titulo1>Mais</boxe_02_titulo1>
+      <b_italico>Hálito: passo a passo para um hálito agradável</b_italico>
+      <boxe_02_titulo2>. Paulo Nadanovsky e Silvia Britto. Rio de Janeiro: E-papers, 2007.</boxe_02_titulo2>
+      <boxe_02_texto>No livro de Nadanovsky e de Britto, em especial no capítulo 4, podemos acompanhar a causa do mau hálito, relacionando os aspectos bioquímicos envolvidos. Vale a pena a leitura!</boxe_02_texto>
+    </boxe_02>
+    <p class="general-text">
+      <titulo2>Nomenclatura dos sulfetos</titulo2>
+      <p class="general-text">Para nomearmos um sulfeto, devemos seguir as regras de nomenclatura para éteres, substituindo o termo “éter” por “sulfeto”:</p>
+      <imagem>BOX_003</imagem>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <imagem>ID040-I032-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Observe que, assim como nos éteres, os grupos substituintes são nomeados por ordem alfabética. </p>
+      <titulo2>Propriedades físicas dos sulfetos</titulo2>
+      <p class="general-text">São compostos polares, com temperatura de ebulição e solubilidade na água menores do que as dos éteres de igual massa molar. À temperatura ambiente, os sulfetos cujas cadeias têm poucos átomos de carbono são encontrados na forma líquida; porém, com o aumento da cadeia carbônica, os sulfetos podem ser encontrados na forma gasosa.</p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Ácidos sulfônicos</titulo1>
+      <p class="general-text">
+        São compostos derivados do ácido sulfúrico (H2SO4) pela substituição de uma hidroxila (–OH) por um grupo orgânico substituinte (R), esquematicamente representado por
+        <b>–SO3H</b>
+        .
+      </p>
+      <imagem>ID041-I033-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-subtitle">Grupo funcional do ácido sulfônico.</p>
+      <p class="general-text">A principal aplicação de um ácido sulfônico é para a obtenção de espumas, presentes em xampus e detergentes. Um exemplo seria o sal sulfato de sódio e laurila (H3C[CH2]10CH2OSO3Na).</p>
+      <imagem>ID042-F009-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-credit">Vitalinka/Shutterstock.com</p>
+      <p class="img-subtitle">O sulfato de sódio e laurila é um dos responsáveis pela espuma dos xampus.</p>
+    </p>
+    <p class="general-text">
+      <titulo2>Nomenclatura dos ácidos sulfônicos</titulo2>
+      <p class="general-text">A nomenclatura de um ácido sulfônico é semelhante à de um ácido carboxílico, substituindo-se o infixo “oico” por “sulfônico”. Veja:</p>
+      <imagem>ID043-I034-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <imagem>ID044-I035-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="general-text">Observe nos exemplos anteriores que, em razão de sonoridade, mantemos a vogal “o”, característica dos hidrocarbonetos, e duplicamos o “s” do sufixo quando este estiver na extremidade da cadeia principal.</p>
+      <titulo2>Propriedades físicas dos sulfetos</titulo2>
+      <p class="general-text">São compostos polares, solúveis em água. À temperatura ambiente, são encontrados na forma líquida, com uma cor marrom característica.</p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Anidridos ácidos</titulo1>
+      <p class="general-text">São compostos análogos aos ácidos carboxílicos. Dois ácidos carboxílicos iguais ou diferentes sofrem desidratação, perdem uma molécula de água e, então, formam seu anidrido. Esquematicamente, podem ser representados por:</p>
+      <imagem>ID045-I036-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <p class="img-subtitle">Grupo funcional dos anidridos ácidos.</p>
+      <p class="general-text">Um exemplo de composto que apresenta essa função é o anidrido etanoico, utilizado como matéria-prima para a produção de filmes fotográficos.</p>
+      <imagem>ID046-I037-2020-EM-QUI-2S-L1-FB-U4-C12.png </imagem>
+      ID047-F010-2020-EM-QUI-2S-L1-FB-U4-C12.png
+      <p class="img-credit">woottigon/Shutterstock.com</p>
+      <p class="img-subtitle">Filme fotográfico à base de anidrido etanoico.</p>
+      <titulo2>Nomenclatura dos anidridos ácidos</titulo2>
+      <p class="general-text">A nomenclatura de um anidrido depende dos ácidos carboxílicos de origem, que podem ser iguais ou diferentes.</p>
+    </p>
+    <p class="general-text">
+      <texto_lista_bullets>•	Ácidos carboxílicos iguais</texto_lista_bullets>
+      <imagem>box_004</imagem>
+      <imagem>ID048-I038-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_lista_bullets>•	Ácidos carboxílicos diferentes</texto_lista_bullets>
+      <imagem>ID049-I039-2020-EM-QUI-2S-L1-FB-U4-C12.png ID050-I040-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <titulo2>Propriedades físicas dos anidridos ácidos</titulo2>
+      <p class="general-text">São compostos polares, pouco solúveis em água. São encontrados no estado líquido à temperatura ambiente quando apresentam cadeias de baixa massa molar. </p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Compostos de Grignard</titulo1>
+      <p class="general-text">
+        São compostos que apresentam um átomo de
+        <b>magnésio</b>
+        ligado a um grupo substituinte (R) e a um
+        <b>halogênio</b>
+        (X). Recebem esse nome para homenagear o químico francês François Auguste Victor Grignard (1871-1935), ganhador do Prêmio Nobel de Química. Esquematicamente, o grupo funcional pode ser representado por RMgX.
+      </p>
+      <p class="general-text">Os reagentes de Grignard são uma classe de compostos químicos extremamente reativos e instáveis, utilizados para sintetizar álcoois, ácidos carboxílicos, hidrocarbonetos e outros compostos, o que levou a um vasto leque de desenvolvimentos em síntese orgânica.</p>
+      <titulo2>Nomenclatura dos compostos de Grignard</titulo2>
+      <p class="general-text">A nomenclatura segue a ordem:</p>
+      <imagem>BOX_005</imagem>
+      <imagem>ID051-I041-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </p>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Fuvest-SP</b>
+        Em 1912, François Auguste Victor Grignard recebeu o prêmio Nobel de Química pela preparação de uma nova classe de compostos contendo, além de carbono e hidrogênio, magnésio e um halogênio – os quais passaram a ser denominados “compostos de Grignard”. Tais compostos podem ser preparados pela reação de um haleto de alquila com magnésio em solvente adequado.
+      </exercicio_enunciado>
+      <imagem>equacao_005</imagem>
+      <texto_geral_exercicio>Os compostos de Grignard reagem com compostos carbonílicos (aldeídos e cetonas), formando álcoois. Nessa reação, forma-se um composto intermediário que, reagindo com água, produz o álcool.</texto_geral_exercicio>
+      <imagem>LUMEN_V5_C05_QUIM_041</imagem>
+      <texto_geral_exercicio>Por esse método, para preparar o álcool terciário</texto_geral_exercicio>
+      <imagem>equacao_006</imagem>
+      <texto_geral_exercicio>há duas possibilidades de escolha dos reagentes. Preencha a tabela a seguir para cada uma delas.</texto_geral_exercicio>
+      <tabela>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="4">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <b>Composto carbonílico</b>
+          </tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <b>Reagente de Grignard</b>
+          </tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <b>Haleto de alquila</b>
+          </tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Possibilidade 1</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087"></tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087"></tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087"></tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Possibilidade 2</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087"></tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087"></tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087"></tabela_titulo1>
+        </Table>
+      </tabela>
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <texto_resolucao>Tabela preenchida:</texto_resolucao>
+      <tabela>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="4">
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945"></tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">Composto carbonílico</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">Reagente de Grignard</tabela_titulo1>
+          <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">Haleto de alquila</tabela_titulo1>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+            <tabela_texto_geral>Possibilidade 1</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <imagem>ID057-I045-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <tabela_texto_geral>H3CCH2CH2MgBr</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <tabela_texto_geral>H3CCH2CH2Br</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+            <tabela_texto_geral>Possibilidade 2</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <imagem>ID057-I045-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <tabela_texto_geral>H3CMgBr</tabela_texto_geral>
+          </tabela_texto_geral>
+          <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.71653543307087">
+            <tabela_texto_geral>H3CBr</tabela_texto_geral>
+          </tabela_texto_geral>
+        </Table>
+      </tabela>
+    </secao_01>
+    <secao_01>
+      <texto_resolucao>Possibilidade 1:</texto_resolucao>
+      <imagem>ID058-I046-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_resolucao>Possibilidade 2:</texto_resolucao>
+      <imagem>ID059-I047-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </secao_01>
+    <secao_02>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <exercicio_enunciado>1	Escreva o nome das nitrilas a seguir:</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>ID061-I049-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>ID062-I050-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        Escreva o nome dos compostos a seguir:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>ID063-I051-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>ID064-I052-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      </exercicio_lista_letra>
+    </secao_02>
+    <secao_02>
+      <exercicio_enunciado>
+        <b>3</b>
+        Escreva o nome dos compostos:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>ID065-I053-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>ID066-I054-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        Bombas de gás lacrimogêneo são agentes incapacitantes, utilizados para dispersar multidões. Analise a fórmula a seguir, característica de um composto presente na bomba, e identifique as funções orgânicas presentes.
+      </exercicio_enunciado>
+      <imagem>ID071-I059-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </secao_02>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Fuvest-SP</b>
+        Em 1912, François Auguste Victor Grignard recebeu o prêmio Nobel de Química pela preparação de uma nova classe de compostos contendo, além de carbono e hidrogênio, magnésio e um halogênio – os quais passaram a ser denominados “compostos de Grignard”. Tais compostos podem ser preparados pela reação de um haleto de alquila com magnésio em solvente adequado.
+      </exercicio_enunciado>
+      <imagem>001.png</imagem>
+      <texto_geral_exercicio>Os compostos de Grignard reagem com compostos carbonílicos (aldeídos e cetonas), formando álcoois. Nessa reação, forma-se um composto intermediário que, reagindo com água, produz o álcool.</texto_geral_exercicio>
+      <imagem>Questao resolvida_1.png Questao resolvida_2.png</imagem>
+      <texto_geral_exercicio>Por esse método, para preparar o álcool terciário</texto_geral_exercicio>
+      <imagem>Questao resolvida_3.png</imagem>
+      <texto_geral_exercicio>há duas possibilidades de escolha dos reagentes. Preencha a tabela a seguir para cada uma delas.</texto_geral_exercicio>
+      ﻿
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <texto_resolucao>Tabela preenchida:</texto_resolucao>
+    </secao_01>
+  </pg124-136>
+  <pg137-141>
+    <secao_02>
+      <exercicio_enunciado>
+        <b>5</b>
+        UFSC 2016
+      </exercicio_enunciado>
+      <texto_citado_titulo>Agrotóxicos proibidos em vários países são usados no Brasil</texto_citado_titulo>
+      <texto_citado>O Brasil é o maior consumidor mundial de agrotóxicos e estudos científicos mostram uma relação clara entre o uso do veneno e o aparecimento de câncer. </texto_citado>
+      <texto_citado>Pesquisas recentes realizadas pela IARC (Agência Internacional de Pesquisas em Câncer) revelam que os agrotóxicos utilizados no Brasil apresentam enorme potencial de desenvolvimento de câncer em seres humanos. Dentre os agrotóxicos classificados como carcinógenos humanos pode-se citar o glifosato, o herbicida2,4-D e o malation (utilizado em campanhas de saúde pública no combate ao mosquito da dengue). </texto_citado>
+      <fonte>Disponível em: &lt;http://cartamaior.com.br/?/Editoria/Meio-Ambiente/Agrotoxicos-proibidos-em-varios-paises-sao-usados-no-Brasil/3/34320&gt;. Acesso em: 27 ago. 2015. (Adaptado)</fonte>
+      <texto_geral_exercicio>Seguem abaixo as fórmulas estruturais dos agrotóxicos glifosato, herbicida 2,4-D e malation.</texto_geral_exercicio>
+      <imagem>em_disciplinar_5v_qui_u2_fb_cap6_q5_ufsc_2016.png</imagem>
+      <texto_geral_exercicio>
+        Sobre o assunto tratado acima, é
+        <b>CORRETO</b>
+        afirmar que:
+      </texto_geral_exercicio>
+      <exercicio_lista_questao>
+        <b>01.</b>
+        as moléculas de I e de II apresentam a função orgânica aldeído.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>02.</b>
+        a molécula de III apresenta a função orgânica cetona.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>04.</b>
+        a molécula de I possui, em sua estrutura, um grupo classificado como amina secundária.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>08.</b>
+        o átomo de fósforo apresenta três elétrons na camada de valência.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>16.</b>
+        cada uma das moléculas de I e de II apresenta um grupo carboxila.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>32.</b>
+        as moléculas de I, II e III são apolares e pouco solúveis em água.
+      </exercicio_lista_questao>
+      <b>Soma:</b>
+      <imagem>fake_input</imagem>
+    </secao_02>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>PUC-Minas</b>
+        A estrutura do cloranfenicol, antibiótico de elevado espectro de ação, encontra-se apresentada abaixo:
+      </exercicio_enunciado>
+      <imagem>ID081-Q007-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_geral_exercicio>Sobre o cloranfenicol, fazem-se as seguintes afirmativas:</texto_geral_exercicio>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        Apresenta 6 carbonos sp2 e 4 carbonos sp3.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        Possui a função amida em sua estrutura.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        Sua fórmula molecular é C11H12O5N2CL2.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+        É um hidrocarboneto alifático e ramificado.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>V.</b>
+        Possui a função nitrila em sua estrutura.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>
+        São
+        <b>INCORRETAS</b>
+        as afirmativas:
+      </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        I, III, IV e V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        II, III, IV e V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        I, IV e V, apenas
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        II, III e IV, apenas
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>FMP-RJ 2018</b>
+        Tramadol é um opiácio usado como analgésico para o tratamento de dores de intensidade moderada a severa, atuando sobre células nervosas específicas da medula espinhal e do cérebro. O metronidazol possui atividade antiprotozoária e antibacteriana contra os bacilos gram-negativos anaeróbios, contra os bacilos gram-positivos esporulados e os cocos anaeróbios, presentes na cavidade oral.
+      </exercicio_enunciado>
+      <imagem>ID082-Q008-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_geral_exercicio>O tramadol e o metronidazol apresentam em comum as funções orgânicas: </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        amina e nitrode­rivado.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        fenol e nitrila.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        álcool e éter.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        álcool e amina.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        fenol e nitroderivado.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>UEL-PR 2017 (Adapt.)</b>
+        Estimulantes do grupo da anfetamina (ATS,
+        <i>amphetamine-type stimulants</i>
+        ) sãoconsumidos em todo o mundo como droga recreativa. Dessa classe, o MDMA, conhecido como ecstasy, é o segundo alucinógeno mais usado no Brasil. Em alguns casos, outras substâncias, como cetamina, mefedrona, mCPP, são comercializadas como
+        <i>ecstasy</i>
+        . Assim, um dos desafios da perícia policial é não apenas confirmar a presença de MDMA nas amostras apreendidas, mas também identificar sua composição, que pode incluir novas drogas ainda não classificadas.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>As fórmulas estruturais das drogas citadas são apresentadas a seguir.</texto_geral_exercicio>
+    </secao_03>
+    <secao_03>
+      <imagem>exerc 5 uel pr 2017.png</imagem>
+      <texto_geral_exercicio>Sobre as funções orgânicas nessas moléculas, assinale a alternativa correta.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Em todas as moléculas existe a função amida.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Na molécula MDMA existe a função éster.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Na molécula cetamina existe a função cetona.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Na molécula mefedrona existe a função aldeído.
+      </exercicio_lista_letra>
+      <b>e)</b>
+      <exercicio_lista_letra>	Na molécula mCPP existe a função amida ligada ao grupo benzílico.</exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>Famerp-SP 2017</b>
+        A fórmula corresponde à estrutura do antisséptico cloreto de benzetônio.
+      </exercicio_enunciado>
+      <imagem>ID084-Q010-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_geral_exercicio>De acordo com a fórmula apresentada, é correto afirmar que o cloreto de benzetônio é: </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        um sal de amônio quaternário, que apresenta a função álcool.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        um sal de amônio quaternário, que apresenta a função éter.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        uma amida, que apresenta a função éter.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        uma amida, que apresenta a função álcool.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        um sal de amônio quaternário, que apresenta a função éster.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>Uece</b>
+        Com relação às funções orgânicas, assinale a afirmação verdadeira.
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Os álcoois são compostos que apresentam grupos oxidrila (OH) ligados a átomos de carbonosaturados com hibridização sp2, enquanto os fenóis são compostos que apresentam grupos oxidrila (OH) ligados ao anel aromático.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        O éter é uma substância que tem dois grupos orgânicos ligados ao mesmo átomo de oxigênio, R – O – R1. Os grupos orgânicos podem ser alquila ou arila, e o átomo de oxigênio só pode fazer parte de uma cadeia fechada.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Os ésteres são compostos formados pela troca do hidrogênio presente na carboxila dos ácidos carboxílicos por um grupo alquila ou arila.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Os tióis (R – S – H) e os sulfetos (R – S – R1) são análogos sulfurados de álcoois e ésteres.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>UEPG-PR 2016</b>
+        Dentre os compostos relacionados abaixo, identifique aqueles que se caracterizam por serem insolúveis em água e assinale o que for correto.
+      </exercicio_enunciado>
+      <exercicio_lista_questao>
+        <b>01.</b>
+        Tetracloreto de carbono
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>02.</b>
+        Metanol
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>04.</b>
+        Acetileno
+      </exercicio_lista_questao>
+      <b>08.</b>
+      <exercicio_lista_questao>	Éter dimetílico</exercicio_lista_questao>
+      <b>Soma:</b>
+      <imagem>fake_input</imagem>
+      <exercicio_enunciado>
+        <b>7</b>
+        <b>EsPCEx-SP 2019</b>
+        Na ração operacional do Exército Brasileiro, é fornecida uma cartela contendo cinco comprimidos do composto dicloro isocianurato de sódio, também denominado de dicloro-s-triazinotriona de sódio ou trocloseno de sódio, dentre outros. Essa substância possui a função de desinfecção da água, visando a potabilizá-la. Instruções na embalagem informam que se deve adicionar um comprimido para cada 1 L água a ser potabilizada, aguardando-se o tempo de 30 minutos para o consumo.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>A estrutura do dicloro isocianurato de sódio é representada a seguir:</texto_geral_exercicio>
+      <imagem>exerc 11 espcex sp 2019.png</imagem>
+      <texto_geral_exercicio>Considerando a estrutura apresentada e o texto, são feitas as seguintes afirmativas:</texto_geral_exercicio>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        Em sua estrutura encontra-se o grupo funcional representativo da função nitrocomposto.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        Todos os carbonos apresentados na estrutura possuem hibridização sp2.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        Sua fórmula molecular é C3CL2N3NaO3.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+        Considerando-se um cantil operacional contendo 1 000 mL de água, será necessário mais que uma unidade do comprimido para desinfecção completa dessa água.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>Das afirmativas feitas estão corretas apenas:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        I e II.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        III e IV.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        II e III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        I, III e IV.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        I, II e III.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>8</b>
+        <b>PUC-Rio 2017</b>
+        A substância química representada a seguir é utilizada na fabricação de espumas, por conta de seu efeito de retardar a propagação de chamas.
+      </exercicio_enunciado>
+      <imagem>ID086-Q012-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_geral_exercicio>Nessa substância, está presente a função orgânica:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        amina.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        aldeído.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        cetona.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        ácido carboxílico.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        haleto orgânico.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>9</b>
+        <b>Mackenzie-SP</b>
+      </exercicio_enunciado>
+      <b>ORGANOCLORADOS</b>
+      <texto_geral_exercicio>Defensivos agrícolas para as indústrias. Agrotóxicos para os defensores da natureza. Pontos de vista diferentes sobre substâncias usadas para controlar ou matar determinadas pragas. Sua utilização pode oferecer ou não perigo para o homem, dependendo da toxicidade do composto, do tempo de contato com ele e do grau de contaminação que pode ocorrer. Insolúveis em água, possuem efeito cumulativo, chegando a permanecer por mais de 30 anos no solo. Um dos mais tóxicos e já há algum tempo proibido, o DDT, virou verbo: dedetizar. Do texto, depreende-se que os defensivos agrícolas:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        nunca oferecem perigo para o homem.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        não contaminam o solo, pois são insolúveis em água.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        são substâncias totalmente diferentes daquelas chamadas de agrotóxicos.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        se usados corretamente, trazem benefícios.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        têm vida residual curta.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_05>
+      <secao_05_titulo1>No Enem é assim</secao_05_titulo1>
+      <secao_05_texto>As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</secao_05_texto>
+    </secao_05>
+    <secao_05>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Enem 2017</b>
+        Plantas apresentam substâncias utilizadas para diversos fins. A morfina, por exemplo, extraída da flor da papoula, é utilizada como medicamento para aliviar dores intensas. Já a coniina é um dos componentes da cicuta, considerada uma planta venenosa. Suas estruturas moleculares são apresentadas na figura.
+      </exercicio_enunciado>
+      <imagem>ID091-Q017-2020-EM-QUI-2S-L1-FB-U4-C12.png ID091-Q017-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+      <texto_geral_exercicio>O grupo funcional comum a esses fitoquímicos é o(a):</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        éter.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        éster.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        fenol.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        álcool.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        amina.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>IME-RJ</b>
+        A eritromicina é uma substância antibacteriana do grupo dos macrolídeos muito utilizada no tratamento de diversas infecções. Dada a estrutura da eritromicina abaixo, assinale a alternativa que corresponde às funções orgânicas presentes.
+      </exercicio_enunciado>
+      <imagem>ID092-Q018-2020-EM-QUI-2S-L1-FB-U4-C12.png</imagem>
+    </secao_05>
+    <secao_05>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Álcool, nitrila, amida, ácido carboxílico.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Álcool, cetona, éter, aldeído, amina.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Amina, éter, éster, ácido carboxílico, álcool.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Éter, éster, cetona, amina, álcool.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        Aldeído, éster, cetona, amida, éter.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>UEL-PR 2018</b>
+        Leia o texto a seguir.
+      </exercicio_enunciado>
+      <texto_citado>Durante a vida e após a morte, o corpo humano serve de abrigo e alimento para diversos tipos de bactérias que produzem compostos químicos, como a cadaverina e a putrescina. Essas moléculas se formam da decomposição de proteínas, sendo responsáveis, em parte, pelo cheiro de fluidos corporais nos organismos vivos e que também estão associadas ao mau odor característico dos cadáveres no processo de putrefação.</texto_citado>
+      <fonte>Disponível em: &lt;http://qnint.sbq.org.br/novo/index.php?hash=molecula.248&gt;. Acesso em: 22 maio 2017.</fonte>
+      <texto_geral_exercicio>As fórmulas estruturais da cadaverina e da putrescina são apresentadas a seguir.</texto_geral_exercicio>
+      <imagem>em_disciplinar_5v_qui_u2_fb_cap6_q4_uel_pr_2018.png</imagem>
+      <texto_geral_exercicio>Com base nos conhecimentos sobre funções orgânicas e propriedades de compostos orgânicos, assinale a alternativa que apresenta, corretamente, a característica dessas moléculas.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Apresentam caráter ácido.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Contém grupo funcional amida.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Possuem cadeia carbônica heterogênea.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Pertencem às aminas primárias.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        Classificam-se como apolares.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>Uefs-BA 2016</b>
+      </exercicio_enunciado>
+      <imagem>exerc 5 Uefs-BA 2016.png</imagem>
+      <texto_geral_exercicio>
+        A icaridina, representada pela estrutura química e com massa molar 229 g · mol–1, é uma substância química derivada da pimenta que atua como repelente de insetos, como o
+        <i>Aedes aegypti</i>
+        , transmissor da dengue, da febre chikungunya e do zika vírus. O repelente que apresenta a concentração de icaridina entre 20% e 25% na sua composição possui ação de longa duração.
+      </texto_geral_exercicio>
+    </secao_05>
+    <secao_05>
+      <texto_geral_exercicio>Considerando-se essas informações, a estrutura química da icaridina e as propriedades dos compostos orgânicos, é correto afirmar:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        O grupo funcional das aminas é responsável pela atuação da icaridina como repelente.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        O tipo de orbital híbrido utilizado pelos átomos de carbono constituintes do hexágono é sp2.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        A porcentagem de oxigênio, em massa, presente na icaridina é de, aproximadamente, 14,0%.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>d)	A estrutura química da icaridina apresenta o grupo funcional da classe dos álcoois.</exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        O grupo derivado de hidrocarbonetos e ligado diretamente ao oxigênio é representado por – CH2CH(CH3)2.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Uepa</b>
+        A imensa flora das Américas deu significativas contribuições à terapêutica, como a descoberta da lobelina (figura abaixo), molécula polifuncionalizada isolada da planta
+        <i>Lobelianicotinaefolia</i>
+        e usada por tribos indígenas que fumavam suas folhas secas para aliviar os sintomas da asma.
+      </exercicio_enunciado>
+      <imagem>em_disciplinar_5v_qui_u2_fb_cap6_q6_uepa_2015.png</imagem>
+      <texto_geral_exercicio>Sobre a estrutura química da lobelina, é correto afirmar que:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        possui uma amina terciária.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        possui um aldeído.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        possui um carbono primário.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        possui uma amida.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          possui um fenol.
+        </exercicio_lista_letra>
+        <b>2</b>
+        <b>Enem</b>
+        Pesticidas são substâncias utilizadas para promover o controle de pragas. No entanto, após sua aplicação em ambientes abertos, alguns pesticidas organoclorados são arrastados pela água até lagos e rios e, ao passar pelas guelras dos peixes, podem difundir-se para seus tecidos lipídicos e lá se acumularem.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>A característica desses compostos responsável pelo processo descrito no texto é o(a):</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        baixa polaridade.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        baixa massa molecular.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        ocorrência de halogênios.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        tamanho pequeno das moléculas.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        presença de hidroxilas nas cadeias.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>Fuvest-SP 2019</b>
+        O gráfico a seguir indica a temperatura de ebulição de bromoalcanos CnH2n11Br para diferentes tamanhos de cadeia carbônica.
+      </exercicio_enunciado>
+    </secao_05>
+    <secao_05>
+      <imagem>exerc 9 Fuvest-SP 2019_1.png</imagem>
+      <texto_geral_exercicio>
+        Considerando as propriedades periódicas dos halogênios, a alternativa que descreve adequadamente o comportamento expresso no gráfico de temperaturas de ebulição
+        <i>versus</i>
+        tamanho de cadeia carbônica para CnH2n11F(☐) e CnH2n 1 1l (●) é:
+      </texto_geral_exercicio>
+      <b>Note e adote:</b>
+      <texto_geral_exercicio>P.E. = ponto de ebulição </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>exerc 9 Fuvest-SP 2019_2.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>exerc 9 Fuvest-SP 2019_3.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <imagem>exerc 9 Fuvest-SP 2019_4.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <imagem>exerc 9 Fuvest-SP 2019_5.png</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        <imagem>exerc 9 Fuvest-SP 2019_6.png</imagem>
+      </exercicio_lista_letra>
+    </secao_05>
+  </pg137-141>
+</Root>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg142-144>
+    <imagem>lumen_2022_5v_qui_u3_fb_cap07_f001.png</imagem>
+    <credito>jordisalas.net/Shutterstock.com</credito>
+    <legenda>As indústrias farmacêuticas consideram a isomeria dos compostos orgânicos nos testes de aprovação de novos medicamentos.</legenda>
+    <TITULO_UNID>3</TITULO_UNID>
+    <TITULO_UNID_TEXTO>Isomeria</TITULO_UNID_TEXTO>
+    <p class="general-text">
+      <p class="general-text">Os avanços da Química e da Medicina caminham lado a lado, tanto que, por meio dessa parceria, podemos estudar as partes do corpo humano, como os tecidos, os ossos que dão sustentação, a composição do sangue, entre outros. Com a complexidade do corpo humano, o desenvolvimento da Química é fundamental, sobretudo para as indústrias farmacêuticas cujo objetivo é a saúde da população, agindo seja pelo desenvolvimento de medicamentos e vacinas, seja pela melhoria da alimentação. </p>
+      <p class="general-text">Dentro desse cenário, os compostos quirais são os mais pesquisados, pois cada enantiômero age de forma diferente no organismo. Porém, como é possível que compostos com fórmula molecular igual, como é o caso dos enantiômeros, quanto à fórmula estrutural plana, tenham aplicações e efeitos tão diferentes no organismo? A explicação está na isomeria.</p>
+      <p class="general-text">O estudo desse assunto será dividido em dois capítulos. No capítulo 7, conheceremos o conceito de isomeria e os casos de isomeria constitucional (ou plana). No capítulo 8, veremos a isomeria espacial, que se divide em isomeria geométrica (ou cis-trans) e isomeria óptica.</p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Qual é o fator necessário para classificar uma substância como isômera de outra?</p>
+      <p class="general-text">Como fórmulas moleculares iguais podem gerar substâncias com aplicações tão diferentes?</p>
+    </p>
+    <TITULO_CAP>7</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Isomeria plana ou constitucional</TITULO_CAP_TEXTO>
+    <imagem>ID003-F003-2020-EM-QUI-2S-L3-FB-U5-C13.png</imagem>
+    <credito>Luciana Rinaldi/Shutterstock.com</credito>
+    <imagem>LUMEN_2021_2S_L1_QUI_FB_U5_CAP13_F001.png</imagem>
+    <credito>Maks Narodenko/Shutterstock.com</credito>
+    <legenda>As essências são utilizadas para imitar os sabores das frutas.</legenda>
+    <imagem>ID004-F004-2020-EM-QUI-2S-L3-FB-U5-C13.png</imagem>
+    <credito>Sherhiy Shullye/Shutterstock.com</credito>
+    <p class="general-text">
+      <p class="general-text">Nosso nariz contém detectores sensoriais que transmitem o sabor de um produto para os receptores gustativos da boca. Por isso, o aroma afeta, diretamente, o sabor de um alimento e é um aspecto determinante para o consumo alimentar, em especial para pessoas com o olfato apurado. </p>
+      <p class="general-text">Os aromas são formados pela combinação de substâncias orgânicas, como ésteres, ácidos carboxílicos, cetonas, aldeídos e álcoois. Um exemplo é a função éster, presente em dois compostos, de fórmula molecular C6H12O2, que são usados pelas indústrias de balas e chicletes nas essências com sabores de abacaxi (butanoato de etila) e de framboesa (etanoato de butila). Os dois compostos são isômeros, ou seja, têm a mesma fórmula molecular, mas diferentes fórmulas estruturais, o que resulta na diferença dos sabores notados.</p>
+      <p class="general-text">Se é assim, como um químico deve rotular o conteúdo dos frascos que contêm essência de abacaxi ou de framboesa? Não basta apenas colocar a fórmula molecular. O correto é colocar a fórmula molecular e o nome da substância, ou a fórmula estrutural e o nome da substância, ou apenas o nome da substância.</p>
+    </p>
+    <boxe_01>
+      <texto_lista_bullets>•	Qual é a relação entre o ácido caproico (responsável pelo aroma das cabras) e o butanoato de etila (responsável pelo aroma do abacaxi)?</texto_lista_bullets>
+      <texto_lista_bullets>•	Um hidrocarboneto apresenta isomeria de função?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text"> Neste capítulo, serão abordadas as habilidades EM13CNT201, EM13CNT303  e EM13CNT307</p>
+  </pg142-144>
+  <pg145-149>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1 </imagem_inline>
+      <titulo1>O conceito de isomeria</titulo1>
+      <p class="general-text">
+        Os
+        <b>isômeros</b>
+        – do grego,
+        <i>isos</i>
+        <i>meros</i>
+        que significam, respectivamente, “iguais” e “partes” – são substâncias que têm
+        <b>a mesma fórmula molecular,</b>
+        mas cujos átomos estão arranjados de maneiras diferentes e, consequentemente, apresentam
+        <b>diferentes fórmulas estruturais</b>
+        .
+      </p>
+      <p class="general-text">Na Química Orgânica, a fórmula molecular de uma substância caracteriza-a pouco, uma vez que os compostos podem sofrer isomeria. A tabela, a seguir, mostra o número de isômeros possíveis para alguns alcanos. Note como a quantidade de isômeros varia de composto para composto (de 2 até 62 trilhões de isômeros teoricamente possíveis).</p>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="12" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="312.8130413385827">
+          <b>Número de isômeros teoricamente possíveispara alguns alcanos</b>
+        </Cell>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <b>Fórmula molecular</b>
+        </tabela_titulo2>
+        <tabela_titulo2 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <b>Número de isômeros possíveis</b>
+        </tabela_titulo2>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela>C4H10</tabela>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C5H12</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>3</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C6H14</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>5</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C7H16</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>9</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C8H18</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>18</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C9H20</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>35</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C10H22</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>75</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C15H32</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>4 347</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C20H42</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>336 319</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>C40H82</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="156.40652066929135">
+          <tabela_texto_geral>62 491 178 805 831</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <fonte>
+        CAREY, F. A.
+        <i>Organic Chemistry</i>
+        . 7 ed. Nova York: McGraw-Hill, 2008, p. 70.
+      </fonte>
+      <p class="general-text">Apesar de ter fórmula molecular igual, os isômeros são substâncias diferentes, dotadas de propriedades físicas e químicas diferentes. Sob a fórmula C2H6O, por exemplo, podemos representar dois isômeros:</p>
+      <imagem>ID005-I001-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">O etanol entra em ebulição a 78 °C, enquanto o metoximetano entra em ebulição a 225 °C. A diferença de temperatura de ebulição entre os dois é consequência do tipo de interação entre as moléculas de cada composto. No caso do etanol, o átomo de hidrogênio está ligado diretamente ao átomo de oxigênio, o que é próprio de moléculas que interagem por ligação de hidrogênio, o tipo mais intenso de força intermolecular. Por conseguinte, suas moléculas precisam de temperatura mais elevada para mudar de estado físico. Além disso, o etanol reage com ácidos (conforme reação a seguir), mas o éter não.</p>
+      <imagem>ID006-I002-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Alterações da estrutura molecular geram isômeros planos ou isômeros constitucionais. Esse tipo de isomeria é dividido em cinco classes, detalhadas a seguir.</p>
+      <imagem_inline>01_titulo_1 </imagem_inline>
+      <titulo1>Isomeria constitucional de função</titulo1>
+      <p class="general-text">Duas ou mais substâncias são classificadas como isômeros de função quando apresentam a mesma fórmula molecular, mas diferentes funções orgânicas. O etanol e o metoximetano são um caso de isomeria de função, uma vez que as duas substâncias têm a fórmula molecular C2H6O, mas são de funções orgânicas diferentes: álcool e éter.</p>
+      <imagem>ID007-I003-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">Veja outros pares comuns de isômeros de função:</p>
+      <texto_lista_bullets>•	Éster e ácido carboxílico.</texto_lista_bullets>
+      <imagem>ID008-I004-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <texto_lista_bullets>•	Cetona e aldeído.</texto_lista_bullets>
+      <imagem>ID009-I005-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <texto_lista_bullets>•	Fenol e álcool aromático. </texto_lista_bullets>
+      <imagem>ID010-I006-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+    </p>
+    <boxe_17>
+      <boxe_17_titulo1>
+        <imagem_inline>06_BOXE_17_CT</imagem_inline>
+        Fique ligado
+      </boxe_17_titulo1>
+      <boxe_17_texto>
+        Qualquer isômero de um hidrocarboneto será também um hidrocarboneto, logo
+        <b>hidrocarbonetos</b>
+        não apresentam isomeria constitucional de função.
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1 </imagem_inline>
+      <titulo1>Isomeria constitucional dinâmica ou tautomeria</titulo1>
+      <glossario>Tautomeria </glossario>
+      <p class="general-text">é um caso especial de isomeria de função, no qual notamos um equilíbrio químico dinâmico entre as substâncias isômeras, ou seja, aquelas com a mesma fórmula molecular. Os pares mais comuns desse tipo de isomeria ocorrem entre:</p>
+      <p class="general-text">Enol e aldeído</p>
+      .
+      <imagem>ID011-I007-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">As ligações duplas C 5 C e C 5 O são constantemente rompidas e formadas, em um equilíbrio dinâmico, coexistindo as funções enol e aldeído durante o processo. No entanto, como o enol é uma função instável, o equilíbrio tende a deslocar-se para o sentido de formação de aldeído, o que pode ser observado na dupla seta, mais precisamente na seta de maior tamanho, que aponta para a direita.</p>
+      <p class="general-text">Enol e cetona.</p>
+      <imagem>ID012-I008-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">Assim como observado na isomeria enol-aldeído, as ligações duplas C 5 C e C 5 O são constantemente rompidas e formadas, em um equilíbrio dinâmico, coexistindo as funções enol e cetona durante o processo. Já que o enol é uma função instável, o equilíbrio tende a deslocar-se para o sentido de formação da cetona, o que, na dupla seta, pode ser observado na seta de maior tamanho, que aponta para a direita.</p>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Isomeria constitucional de cadeia ou de núcleo</titulo1>
+      <p class="general-text">Duas ou mais substâncias são classificadas como isômeros de cadeia ou de núcleo quando apresentam a mesma fórmula molecular, a mesma função orgânica, mas diferentes tipos de cadeia.</p>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <b>Exemplo 1:</b>
+      <imagem>ID014-I010-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+    </p>
+    <glossario>
+      <b>Tautomeria:</b>
+      do grego,
+      <i>tauto</i>
+      , “mesmo”, e
+      <i>meros</i>
+      , “parte”. São isômeros que coexistem em equilíbrio dinâmico.
+    </glossario>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>Não confunda enol com álcool. Um álcool apresenta o grupo hidroxila ligado a um carbono saturado, enquanto um enol apresenta um grupo hidroxila ligado a um carbono que faz ligação dupla com o carbono vizinho:</boxe_17_texto>
+      <imagem>ID013-I009-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <legenda>Estrutura de um enol.</legenda>
+    </boxe_17>
+    <p class="general-text">
+      <p class="general-text">
+        Observe que as duas substâncias são hidrocarbonetos de fórmula molecular, mas diferentes cadeias. O pentano tem cadeia aberta, saturada, homogênea e
+        <b>normal</b>
+        , enquanto o metilbutano tem cadeia aberta, saturada, homogênea e
+        <b>ramificada</b>
+        .
+      </p>
+      <b>Exemplo 2:</b>
+      <imagem>ID015-I011-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">
+        As duas substâncias são aminas (primária e secundária, respectivamente) e têm a mesma fórmula molecular, mas diferentes cadeias. A etilamina tem cadeia aberta, saturada,
+        <b>homogênea</b>
+        e normal, enquanto a dimetilamina tem cadeia aberta, saturada,
+        <b>heterogênea</b>
+        e normal.
+      </p>
+      <b>Exemplo 3:</b>
+      <imagem>ID016-I012-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">
+        As duas substâncias são hidrocarbonetos e têm uma fórmula molecular igual, mas diferentes cadeias. O pent-1-eno tem cadeia
+        <b>aberta</b>
+        ,
+        <b>insaturada</b>
+        , homogênea e normal, enquanto o ciclopentano tem cadeia
+        <b>fechada</b>
+        ,
+        <b>saturada</b>
+        , homogênea e normal.
+      </p>
+      <imagem_inline>01_titulo_1 </imagem_inline>
+      <titulo1>Isomeria constitucional de posição</titulo1>
+      <p class="general-text">
+        Duas ou mais substâncias são classificadas como isômeros de posição quando apresentam a mesma fórmula molecular, a mesma função orgânica, o mesmo tipo de cadeia e
+        <b>diferentes posições do grupo funcional</b>
+        ,
+      </p>
+      <b>das insaturações ou dos grupos substituintes.</b>
+      <p class="general-text">Veja alguns exemplos:</p>
+      <b>Exemplo 1:</b>
+      <imagem>ID018-I014-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">
+        Observe que as duas substâncias são álcoois e têm a mesma fórmula molecular, o mesmo tipo de cadeia (aberta, saturada, homogênea e normal), mas
+        <b>diferentes posições do grupo hidroxila</b>
+        , que caracteriza a função álcool.
+      </p>
+    </p>
+    <p class="general-text">
+      <b>Exemplo 2:</b>
+      <imagem>ID019-I015-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <b>
+        As duas substâncias são hidrocarbonetos e têm a mesma fórmula molecular, o mesmo tipo de cadeia (aberta, insaturada, homogênea, normal), mas diferentes
+        <b>posições para a insaturação</b>
+        . No but-1-eno, a ligação dupla está no carbono número 1 e, no but-2-eno, ela está no carbono número 2.
+      </b>
+      <b>Exemplo 3:</b>
+      <imagem>ID020-I016-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">
+        As duas substâncias são hidrocarbonatos, cuja fórmula molecular e tipo de cadeia (fechada, insaturada, homogênea, ramificada) são iguais, mas com
+        <b>diferentes posições para os grupos substituintes</b>
+        . A posição
+        <i>orto</i>
+        representa grupos substituintes na posição 1 e 2 do anel benzênico, a posição
+        <i>meta</i>
+        representa grupos substituintes na posição 1 e 3 do anel benzênico, e a posição
+        <i>para</i>
+        representa grupos substituintes na posição 1 e 4 do anel benzênico.
+      </p>
+      <imagem_inline>01_titulo_1 </imagem_inline>
+      <titulo1>Isomeria constitucional de compensação ou metameria</titulo1>
+      <glossario>Metameria</glossario>
+      <p class="general-text"> é um caso especial de isomeria de posição, no qual os isômeros diferem quanto à posição do heteroátomo, logo só ocorrem com cadeias heterogêneas.</p>
+      <p class="general-text">Veja o exemplo:</p>
+      <imagem>ID021-I017-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <p class="general-text">
+        Observe que as duas substâncias são éteres de mesma fórmula molecular, o mesmo tipo de cadeia (aberta, saturada,
+        <b>heterogênea</b>
+        e normal), mas
+        <b>diferentes posições do heteroátomo</b>
+        .
+      </p>
+    </p>
+    <boxe_03>
+      <imagem_inline> 06_BOXE_03 </imagem_inline>
+      <boxe_03_titulo1>Discussão em sala </boxe_03_titulo1>
+      <boxe_03_titulo2>A isomeria em laboratórios</boxe_03_titulo2>
+      <boxe_03_texto>Um químico recebeu um novo carregamento de reagentes. A etiqueta de um dos frascos apresentava somente uma informação: a fórmula molecular C2H6O. </boxe_03_texto>
+      <boxe_03_texto>Reflita em sala de aula: quais compostos orgânicos poderiam estar no frasco?</boxe_03_texto>
+      <boxe_03_texto>Na isomeria, os compostos de mesma fórmula molecular apresentam diferentes fórmulas estruturais e, por isso, têm propriedades químicas diferentes. Sabendo disso, discuta com seus colegas sobre os dados que deveriam estar complementando o rótulo do reagente.</boxe_03_texto>
+    </boxe_03>
+    <glossario>
+      <b>Metameria:</b>
+      do grego
+      <i>meta</i>
+      e
+      <i>meros</i>
+      que significam, respectivamente, “mudança” e “parte”.
+    </glossario>
+    <boxe_02>
+      <imagem_inline>06_BOXE_02</imagem_inline>
+      <boxe_02_titulo1>Mais</boxe_02_titulo1>
+      <boxe_02_titulo2>
+        “Aí tem Química –
+        <b_italico>Química Orgânica – Episódio: Isomeria”, Recursos educacionais digitais.</b_italico>
+      </boxe_02_titulo2>
+      <boxe_02_texto>Para saber mais sobre isomeria do dia a dia e aplicação em medicamentos, assista ao vídeo do programa “Aí tem química”, realizado pela PUC-Rio.</boxe_02_texto>
+      <boxe_02_texto>Disponível em:</boxe_02_texto>
+      <fonte>&lt;http://p.p4ed.com/RTDTM&gt; Acesso em: 2 set. 2021.</fonte>
+    </boxe_02>
+  </pg145-149>
+  <pg150-152>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01>Questão resolvida</secao_01>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>FAG-PR 2016</b>
+        Para que os carros tenham melhor desempenho, adiciona-se um antidetonante na gasolina e, atualmente, usa-se um composto, cuja fórmula estrutural é:
+      </exercicio_enunciado>
+      <imagem>ESQUEMA_001_QUIMICA_V5_FB_C7</imagem>
+      <texto_geral_exercicio>Com essa mesma fórmula molecular são representados os seguintes pares:</texto_geral_exercicio>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        metóxi-butano e etóxi-propano.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        3-metil-butan-2-ol e etóxi-isopropano.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>Os pares I e II são, respectivamente:</texto_geral_exercicio>
+      <texto_geral_exercicio>isômeros de cadeia e tautômeros.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        tautômeros e isômeros funcionais.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        isômeros de posição e isômeros de compensação (ou metâmeros).
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        isômeros de compensação (ou metâmeros) e isômeros funcionais.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Nenhuma das alternativas anteriores.
+      </exercicio_lista_letra>
+      <titulo_resolucao>Resolução</titulo_resolucao>
+      <texto_resolucao>Alternativa D</texto_resolucao>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        Metóxi-butano e etóxi-propano são isômeros metâmeros, ou seja, diferem entre si pela posição do heteroátomo (no caso, o oxigênio).
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        3-metilbutan-2-ol e etóxi-isopropano são isômeros funcionais, sendo, respectivamente, um álcool e um éter.
+      </exercicio_lista_romano>
+    </secao_01>
+    <secao_02>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        O que são isômeros?
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>2</b>
+        Quais são os tipos de isomeria constitucional?
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>3</b>
+        O éter etílico e metílico (metoxietano) é isômero de função de dois álcoois. Escreva as fórmulas estruturais dos três compostos envolvidos e dê nome aos álcoois.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>4</b>
+        Os compostos 2-metilpenta-1,4-dieno e 3-metilpenta-1,4-dieno são isômeros constitucionais? Desenhe as fórmulas estruturais de cada composto para justificar e, em caso positivo de isomeria, classifique-a quanto ao tipo.
+      </exercicio_enunciado>
+    </secao_02>
+    <secao_02>
+      <exercicio_enunciado>
+        <b>1</b>
+        Existem dois isômeros planos para a fórmula C4H10.
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Escreva a fórmula estrutural e o nome de cada isômero.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Classifique os isômeros quanto ao tipo de isomeria
+      </exercicio_lista_letra>
+      .
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Qual isômero apresentará menor temperatura de ebulição?
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>Uece 2018</b>
+        O éter dietílico (etoxietano) é uma substância líquida volátil e altamente inflamável. Utilizado inicialmente como anestésico, seu uso foi descontinuado pelo risco de explosão. Atualmente serve como ótimo solvente para experiências químicas em laboratórios. Este composto orgânico é isômero de um álcool primário de cadeia não ramificada, cujo nome é:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        butan-2-ol.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        metilpropan-2-ol.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        butan-1-ol.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        pentan-1-ol.
+      </exercicio_lista_letra>
+    </secao_02>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Mackenzie-SP</b>
+        Considere a nomenclatura IUPAC dos seguintes hidrocarbonetos:
+      </exercicio_enunciado>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        metil-ciclobutano.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        3-metil-pentano.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        pentano.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+        ciclo-hexano.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>V.</b>
+        pent-2-eno.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>A alternativa que relaciona corretamente compostos isoméricos é:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        I e III
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        III e V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        I e V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        II e IV
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        II e III
+      </exercicio_lista_letra>
+      <exercicio_lista_romano>
+        <b>2</b>
+        <b>Uerj</b>
+        Em uma das etapas do ciclo de Krebs, a enzima aconitase catalisa a isomerização de citrato em isocitrato, de acordo com a seguinte equação química:
+      </exercicio_lista_romano>
+      <imagem>ID029-Q001-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+      <texto_geral_exercicio>A isomeria plana que ocorre entre o citrato e o isoci-trato é denominada de: </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        cadeia.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        função.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        posição.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        compensação.
+      </exercicio_lista_letra>
+      <exercicio_citado>
+        <b>3</b>
+        <b>UFU-MG 2018</b>
+        Dentre os estimulantes do chá, a teofilina e a teobromina pertencem a uma classe de compostos orgânicos, chamada xantina. Ambas têm vários efeitos fisiológicos no corpo. A teofilina relaxa a musculatura lisa das vias aéreas, tornando a respiração mais fácil. Já a teobromina pode estimular o coração e tem um leve efeito diurético, melhorando o fluxo sanguíneo ao redor do corpo.
+      </exercicio_citado>
+      <fonte>Disponível em: &lt;https://www.dicasnutricao.com.br/estimulantes-do-cha/&gt;.Acesso em: 25 mar. 2018</fonte>
+      .
+      <texto_geral_exercicio>As substâncias citadas possuem as seguintes fórmulas moleculares</texto_geral_exercicio>
+      <imagem>ID030-Q009-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+    </secao_03>
+    <secao_03>
+      <texto_geral_exercicio>Essas substâncias são:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        alótropos com fórmulas e com massas moleculares diferentes.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        alcaloides de massas moleculares diferentes e fórmulas estruturais distintas.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        amidas de mesma fórmula molecular e massas molares iguais.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        isômeros (C7H8N4O2) e possuem a mesma massa molecular.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Uece</b>
+        As cetonas, amplamente usadas na indústria alimentícia para a extração de óleos e gorduras de sementes de plantas, e os aldeídos, utilizados como produtos intermediários na obtenção de resinas sintéticas, solventes, corantes, perfumes e curtimento de peles, podem ser isômeros.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>Assinale a opção que apresenta a estrutura do isômero do hexanal.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <imagem>ID031-Q010-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <imagem>ID032-Q011-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <imagem>ID033-Q012-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <imagem>ID034-Q013-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>IFSul-RS 2017</b>
+        Os nitritos são usados como conservantes químicos em alimentos enlatados e em presuntos, salsichas, salames, linguiças e frios em geral. Servem para manter a cor desses alimentos e proteger contra a contaminação bacteriana. Seu uso é discutido, pois essas substâncias, no organismo, podem converter-se em perigosos agentes cancerígenos, as nitrosaminas. A seguir, temos a representação de duas nitrosaminas:
+      </exercicio_enunciado>
+      <imagem>ID035-Q014-2020-EM-QUI-2S-L1-FB-U5-C13.PNG</imagem>
+    </secao_03>
+    <secao_03>
+      <imagem>ID035-Q014-2020-EM-QUI-2S-L1-FB-U5-C13_pg152.png</imagem>
+      <texto_geral_exercicio>Essas nitrosaminas são isômeras de:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        cadeia.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        função.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        posição.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        tautomeria.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Uece 2016</b>
+        O ácido pentanoico (conhecido como ácido valérico) é um líquido oleoso, com cheiro de queijo velho, tem aplicações como sedativo e hipnótico. Se aplicado diretamente na pele, tem uma efetiva ação sobre a acne.
+      </exercicio_enunciado>
+      <imagem>ID044-Q015-2020-EM-QUI-2S-L1-FB-U5-C13.png</imagem>
+      <texto_geral_exercicio>De acordo com sua fórmula estrutural, seu isômero correto é o:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        propanoato de etila.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        etóxi-propano.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        3-metil-butanal.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        pentan-2-ona.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>2</b>
+        <b>Unicamp-SP 2016</b>
+        Atualmente, parece que a Química vem seduzindo as pessoas e tem-se observado um número cada vez maior de pessoas portando tatuagens que remetem ao conhecimento químico. As figuras a seguir mostram duas tatuagens muito parecidas, com as correspondentes imagens tatuadas mais bem definidas abaixo.
+      </exercicio_lista_letra>
+      <imagem>em_disciplinar_5v_qui_u3_fb_cap7_q8_unicamp_sp_2016.png</imagem>
+      <texto_geral_exercicio>As imagens representam duas fórmulas estruturais, que correspondem a dois: </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        compostos que são isômeros entre si.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        modos de representar o mesmo composto.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        compostos que não são isômeros.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        compostos que diferem nas posições das ligações duplas.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Cefet-MG</b>
+        O ácido butanoico é um composto orgânico que apresenta vários isômeros, entre eles substâncias de funções orgânicas diferentes. Considerando ésteres e ácidos carboxílicos, o número de isômeros que esse ácido possui é:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        3
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        4
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        5
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        7
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        8
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_04>
+      <secao_04_titulo1>superação</secao_04_titulo1>
+      <texto_geral_exercicio>
+        <b>Uece 2017</b>
+        Isomeria é o fenômeno pelo qual duas substâncias compartilham a mesma fórmula molecular, mas apresentam estruturas diferentes, ou seja, o rearranjo dos átomos difere em cada caso.Observe as estruturas apresentadas a seguir, com a mesma fórmula molecular C4H10O:
+      </texto_geral_exercicio>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        ID036-Q002-2020-EM-QUI-2S-L1-FB-U5-C13.png
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        ID037-Q003-2020-EM-QUI-2S-L1-FB-U5-C13.png
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        ID038-Q004-2020-EM-QUI-2S-L1-FB-U5-C13.png
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        ID039-Q005-2020-EM-QUI-2S-L1-FB-U5-C13.png
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        ID040-Q006-2020-EM-QUI-2S-L1-FB-U5-C13.png
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>Assinale a opção em que as estruturas estão corretamente associadas ao tipo de isomeria.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Isomeria de função – II e III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Isomeria de cadeia – III e IV.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Isomeria de compensação – I e V.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Isomeria de posição – II e IV.
+      </exercicio_lista_letra>
+    </secao_04>
+  </pg150-152>
+</Root>
